@@ -1,0 +1,229 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/1/s/lv-LV",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/payment_messages/faq.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/payment_messages/faq.html",
+          "hash": "m8QXVg1ipxJXseak3P+AcFUmRyqJ3PcMk0Fdzjq+nf8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "include-not-found"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/payment_messages/overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/payment_messages/overview.html",
+          "hash": "3hXji7ZTdsndet5D+J5T6971fC8iiXoWFMG10DOWxRo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/payment_messages/payment_message.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/payment_messages/payment_message.html",
+          "hash": "cFc8ubZ73gtkdszKw1RyylV2LvtHiTZbLDScOXlheqI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/payment_messages/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/payment_messages/toc.html",
+          "hash": "mcpvD5qrHMr0VETe1bFcY7qqVAaDu+kN2n89Ibs0CqM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/payment_messages/usage_scenarios.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/payment_messages/usage_scenarios.html",
+          "hash": "bEQVZWa+RoFIN5HSTYIMWNehYIn6FGFn3UTFWTHE7pY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/support/customer_terms.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/support/customer_terms.html",
+          "hash": "ymNgW9lhUvIVKFUYBzolTjjiVqhrNOg2o0KsELritlk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/support/privacy_statement.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/support/privacy_statement.html",
+          "hash": "3AN3dtznug458a4L2ozQ4WjZXjogUhKhljHcBPlxYb0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/support/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/support/toc.html",
+          "hash": "4KRXG2P6Hsmwzps3uwNMoXYJTm/6t6/5LOOXsD5BsXM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elva_logo.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/elva_logo.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elva_logo_big.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elva_logo_big.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "AtL+GY67xB7UukEbju8NQwpj7mo3h2ObYM/XRxum+88="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "readme.md",
+      "output": {
+        ".html": {
+          "relative_path": "readme.html",
+          "hash": "0K+4Ej9d0q0iU74T0DuqqN7I31Lw2VePGx/r3omEhxo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "w+o8UTdlKHPasIrJki4/eHSyCJjdkC0uvSpKzgCnNp8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 8,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
