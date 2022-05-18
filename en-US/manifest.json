@@ -14,11 +14,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/payment_messages/faq.md",
+      "source_relative_path": "articles/payment_message/faq.md",
       "output": {
         ".html": {
-          "relative_path": "articles/payment_messages/faq.html",
-          "hash": "zSVhyH48jo0+fF8jRqsSTjsWV/u/NsF6pcnBKx+BTcA="
+          "relative_path": "articles/payment_message/faq.html",
+          "hash": "0Xkqi1WWUG4XqMXzA5JPs4JhibzZgDf/pyKUVTPVFUg="
         }
       },
       "is_incremental": false,
@@ -29,11 +29,11 @@
         "include-not-found"
       ],
       "type": "Conceptual",
-      "source_relative_path": "articles/payment_messages/overview.md",
+      "source_relative_path": "articles/payment_message/overview.md",
       "output": {
         ".html": {
-          "relative_path": "articles/payment_messages/overview.html",
-          "hash": "E8Oddvl/ZpqqUaHm8DWJftVHV2XezgC6IS4V6QHZpDE="
+          "relative_path": "articles/payment_message/overview.html",
+          "hash": "jzM/+73dubN3dmaDTHSPAY5rZeAI+wX/P7VaPydPWB4="
         }
       },
       "is_incremental": false,
@@ -44,11 +44,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "articles/payment_messages/payment_message.md",
+      "source_relative_path": "articles/payment_message/payment_message.md",
       "output": {
         ".html": {
-          "relative_path": "articles/payment_messages/payment_message.html",
-          "hash": "wZq9oTkkhzPcCV2i3OebR+mf/QThTDRtspMgUBhaM9k="
+          "relative_path": "articles/payment_message/payment_message.html",
+          "hash": "M7hDwteTeqWTck6aHtqGv5DkZ4CIPHAQQlxSTW95NyY="
         }
       },
       "is_incremental": false,
@@ -56,10 +56,10 @@
     },
     {
       "type": "Toc",
-      "source_relative_path": "articles/payment_messages/toc.md",
+      "source_relative_path": "articles/payment_message/toc.md",
       "output": {
         ".html": {
-          "relative_path": "articles/payment_messages/toc.html",
+          "relative_path": "articles/payment_message/toc.html",
           "hash": "mcpvD5qrHMr0VETe1bFcY7qqVAaDu+kN2n89Ibs0CqM="
         }
       },
@@ -68,11 +68,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/payment_messages/usage_scenarios.md",
+      "source_relative_path": "articles/payment_message/usage_scenarios.md",
       "output": {
         ".html": {
-          "relative_path": "articles/payment_messages/usage_scenarios.html",
-          "hash": "LrJpMvqu3kFuKqSZJeFCD++73dn5/ic6oU4TpIzVzjY="
+          "relative_path": "articles/payment_message/usage_scenarios.html",
+          "hash": "yW26vKvPQ1MLbd1p4ZnLAMemc8gjA8iheRYQqNCeAjs="
         }
       },
       "is_incremental": false,
@@ -137,12 +137,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "7zKWSXy8Y4QJ4GdRpuVtMf2twOrJVyRpQBSEl59ml14="
+          "hash": "1yG9kdIs4tJf2c545X8IY4nlKlGNyqkbBKbr3bZjFvE="
         }
       },
       "is_incremental": false,
@@ -166,7 +169,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "9OnlDse+OXehmpirp2OeRt49j+zCkHRF8iMjkiQNJkw="
+          "hash": "zHhJ8P1XCEs9ZH6zj7gTKuSRvdmSUBKBHQS8u/ABXwQ="
         }
       },
       "is_incremental": false,
