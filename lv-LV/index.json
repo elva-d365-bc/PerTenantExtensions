@@ -1,21 +1,21 @@
 {
-  "articles/payment_messages/faq.html": {
-    "href": "articles/payment_messages/faq.html",
+  "articles/payment_message/faq.html": {
+    "href": "articles/payment_message/faq.html",
     "title": "BUJ | Payment Message",
     "keywords": "BUJ Overview Payment Message is a business software solution developed by ELVA"
   },
-  "articles/payment_messages/overview.html": {
-    "href": "articles/payment_messages/overview.html",
+  "articles/payment_message/overview.html": {
+    "href": "articles/payment_message/overview.html",
     "title": "Overview | Payment Message",
     "keywords": "Overview Payment Message is a business software solution developed by Elva Baltic for companies that carry out business transactions in Republic of Latvia. ELVA. [!include[nav_name](../includes/app_payment_message)] is fully integrated with Dynamics 365 Business Central, by extending its functionality and tailoring it to meet the requirements of local legislation and local business requirements. The Application enables the user to: *"
   },
-  "articles/payment_messages/payment_message.html": {
-    "href": "articles/payment_messages/payment_message.html",
+  "articles/payment_message/payment_message.html": {
+    "href": "articles/payment_message/payment_message.html",
     "title": "How to get started | Payment Message",
     "keywords": "How to get started Role Center In order to use Payment Message no specific role center is required, because the functionality can be accessed via search pane Configuration Basic Permissions Sets Use of Payment Message How to set up Payment Message Click on the button Search for Page or Report... How to use In order to perform the transfer of the fixed assets,the fixed asset transfer document need to be created. Click on the button Search for Page or Report..."
   },
-  "articles/payment_messages/usage_scenarios.html": {
-    "href": "articles/payment_messages/usage_scenarios.html",
+  "articles/payment_message/usage_scenarios.html": {
+    "href": "articles/payment_message/usage_scenarios.html",
     "title": "Key Usage Scenarios | Payment Message",
     "keywords": "Key Usage Scenarios"
   },
