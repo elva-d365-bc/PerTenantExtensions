@@ -2,22 +2,22 @@
   "articles/payment_message/faq.html": {
     "href": "articles/payment_message/faq.html",
     "title": "BUJ | Payment Message",
-    "keywords": "BUJ Overview Payment Message is a business software solution developed by ELVA"
+    "keywords": "BUJ"
   },
   "articles/payment_message/overview.html": {
     "href": "articles/payment_message/overview.html",
-    "title": "Overview | Payment Message",
-    "keywords": "Overview Payment Message is a business software solution developed by Elva Baltic for companies that carry out business transactions in Republic of Latvia. ELVA. Payment Message is fully integrated with Dynamics 365 Business Central, by extending its functionality and tailoring it to meet the requirements of local legislation and local business requirements. The Application enables the user to: *"
+    "title": "Apskats | Payment Message",
+    "keywords": "Apskats Payment Message ir ELVA pielāgojums, kas integrēts ar Dynamics 365 Business Central. Payment Message ir pielāgojums, kurš automatizē Ziņojuma saņēmējam aizpildīšanu Maksājuma žurnālā arī gadījumos, kad maksājums attiecināts pret vairāk kā vienu dokumentu. Apraksts Funkcija apstrādās lietotāja atfiltrētos ierakstus, kam Konta tips ir Piegādātājs, un aizpildīs lauku Ziņojums saņēmējam ar tekstu Rēķ. A, B, C , kur A, B, C attiecināto Piegādātāju grāmatas ierakstu Ārējais dokumenta Nr. Ieraksti, kas nebūs attiecināti, tiks izlaisti. Ja Ziņojums saņēmējam pārsniegs maksimālo lauka garumu (140 zīmes), tas tiks nogriezts. Maksājuma žurnāla ierakstiem tiks kontrolēta vērtība laukā Eksportēts uz maksājuma failu . Ja vērtība būs Jā, tiks parādīts brīdinājums. Ja būs vairākas rindas ar šādu atzīmi, tiks parādīts viens brīdinājums. Ja lietotājs to apstiprinās, lauks Ziņojums saņēmējam tiks aizpildīts kā aprakstīts iepriekš. Ja nē – laukā tiks atstāta esošā vērtība. Ieguvumi Automātiski aizpildot lauku Ziņojums saņēmējam ar attiecināto piegādātāju grāmatas ierakstu Ārējo dokumentu Nr., tiek samazināts maksājumu uzdevumu sagatavošanai nepieciešamais laiks un samazināta kļūdu iespēja, manuāli norādot nekorektus dokumentus. Pieņēmumi un ierobežojumi Tiks apstrādāti tikai piegādātāju grāmatas ieraksti, maksājumiem klientiem un darbiniekiem Ziņojums saņēmējam jāaizpilda manuāli."
   },
   "articles/payment_message/payment_message.html": {
     "href": "articles/payment_message/payment_message.html",
-    "title": "How to get started | Payment Message",
-    "keywords": "How to get started Role Center In order to use Payment Message no specific role center is required, because the functionality can be accessed via search pane Configuration Basic Permissions Sets Use of Payment Message How to set up Payment Message Click on the button Search for Page or Report... How to use In order to perform the transfer of the fixed assets,the fixed asset transfer document need to be created. Click on the button Search for Page or Report..."
+    "title": "Kā atrast | Payment Message",
+    "keywords": "Kā atrast Funkcija Izveidot maksājuma ziņojumu pieejama lapā Maksājumu žurnāls zem Sagatavot un zem Saistītās – Maksājumi . Noskaņojumi Nekādi papildus noskaņojumi nav nepieciešami. Kā lietot Jāsagatavo maksājumu ziņojumi un jāpalaiž funkcija Izveidot maksājuma ziņojumu ."
   },
   "articles/payment_message/usage_scenarios.html": {
     "href": "articles/payment_message/usage_scenarios.html",
-    "title": "Key Usage Scenarios | Payment Message",
-    "keywords": "Key Usage Scenarios"
+    "title": "Lietošanas scenāriji | Payment Message",
+    "keywords": "Lietošanas scenāriji"
   },
   "articles/support/customer_terms.html": {
     "href": "articles/support/customer_terms.html",

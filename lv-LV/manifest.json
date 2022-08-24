@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/payment_message/faq.html",
-          "hash": "bJW9JhaT1DSw+cwObXSgVxB5SQ3hdF4tpGD4pwQQBuw="
+          "hash": "9Pc2RxYuTXy082n4dkuwlFwe9JBxinsOBI7UDObiJuw="
         }
       },
       "is_incremental": false,
@@ -30,22 +30,19 @@
       "output": {
         ".html": {
           "relative_path": "articles/payment_message/overview.html",
-          "hash": "UeRrWhIjt4x7hR2VHorKRnLcDc7twzWJlRDUH8Lf7C0="
+          "hash": "qF3Ra8MNDxIBZSyF51RKW4eiQcAiiqX39XQJSZmYxIQ="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "articles/payment_message/payment_message.md",
       "output": {
         ".html": {
           "relative_path": "articles/payment_message/payment_message.html",
-          "hash": "MQudOruuoL0UDqkqQkN7Tc1NoeHOX3pTf5qhFOCyNRQ="
+          "hash": "iLwH3zdHPqoVHMjkczrJkhE/LKORl4tOZlqtzNxHwQE="
         }
       },
       "is_incremental": false,
@@ -57,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/payment_message/toc.html",
-          "hash": "mcpvD5qrHMr0VETe1bFcY7qqVAaDu+kN2n89Ibs0CqM="
+          "hash": "wAlGZsBZUsB8l08WjEngl6vxxZ7FTOUAkvF4k/8V5UE="
         }
       },
       "is_incremental": false,
@@ -69,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/payment_message/usage_scenarios.html",
-          "hash": "fWFX0PpbdUvpcdw5lMTJaB1VvXPeH/PA7a4w7j3o9aU="
+          "hash": "SJbJgVjor+Vy+1MvGpEGhj8HvYIDrNj3xo2HB9VTHhM="
         }
       },
       "is_incremental": false,
@@ -81,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/support/customer_terms.html",
-          "hash": "ymNgW9lhUvIVKFUYBzolTjjiVqhrNOg2o0KsELritlk="
+          "hash": "Jxt5Ew7DA1r5xnxR3HDL4aGdADzcWI36Wq/g0uKNqZA="
         }
       },
       "is_incremental": false,
@@ -93,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/support/privacy_statement.html",
-          "hash": "3AN3dtznug458a4L2ozQ4WjZXjogUhKhljHcBPlxYb0="
+          "hash": "bD6GvD4y/j3JxOUrmG1JYnIJqgvSOOkZqc+Vak9DezI="
         }
       },
       "is_incremental": false,
@@ -139,7 +136,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "1vy1DCHa4dkCAeGBBtSDhx5A94C029/U13cK3lJqJXI="
+          "hash": "UplLZn6P6AN58/j/1OuNr6oTK71sAoVjX0Gg7RtZ908="
         }
       },
       "is_incremental": false,
@@ -151,7 +148,7 @@
       "output": {
         ".html": {
           "relative_path": "readme.html",
-          "hash": "ahUhj4u/o/agHgkeKKMqWYPJzgRTrQq3fZLHi1guq4Y="
+          "hash": "EFyZGdTU1eH+2ak0Q2CpnbSn+W2PlI4kxgjjqLU/ll4="
         }
       },
       "is_incremental": false,
