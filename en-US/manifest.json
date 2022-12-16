@@ -25,27 +25,57 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "articles/payment_message/overview.md",
+      "type": "Resource",
+      "source_relative_path": "articles/payment_message/images/pm_001.png",
       "output": {
-        ".html": {
-          "relative_path": "articles/payment_message/overview.html",
-          "hash": "McoLoI9EP5KzpH+h5m9Bu8aMrEe7IAb0hCM17yZT0jM="
+        "resource": {
+          "relative_path": "articles/payment_message/images/pm_001.png"
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
+      "type": "Resource",
+      "source_relative_path": "articles/payment_message/images/pm_002.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/payment_message/images/pm_002.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/payment_message/images/pm_003.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/payment_message/images/pm_003.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/payment_message/overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/payment_message/overview.html",
+          "hash": "p86OXouDta63Vxfpittp4pXZiOzTSfDV+aR+MkJQMdc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "articles/payment_message/payment_message.md",
       "output": {
         ".html": {
           "relative_path": "articles/payment_message/payment_message.html",
-          "hash": "TVee5WFPfpYctT9mwGXFKxvSIs75WJ9Ee+Ag8eQagy0="
+          "hash": "w9jAWA4mKtdLoK/rnL7NvCoVFU3O0iJ2/b3J+RaAffI="
         }
       },
       "is_incremental": false,
