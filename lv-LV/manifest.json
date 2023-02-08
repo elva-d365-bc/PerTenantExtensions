@@ -14,6 +14,66 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/billing/billing.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/billing/billing.html",
+          "hash": "ftQkKtYSa8if9jWVQ69qWtRLlXRtzCVbOhBrJEbTCe4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/billing/faq.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/billing/faq.html",
+          "hash": "o+bpimJzloFGxYi7F3hiO5bXHWjE0oyo/no+rLDnBh8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/billing/overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/billing/overview.html",
+          "hash": "VIh8V6WK+wV+I2HMWGb9Eqj97aEMIloNkDKriWwxWbw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/billing/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/billing/toc.html",
+          "hash": "6mFprKMZA3+nTMxYnLW3YavyuY6Fqe/B2+4RJtDeXRg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/billing/usage_scenarios.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/billing/usage_scenarios.html",
+          "hash": "7KspamqL8pw9/3zP5YjP8quoqHdZBoesMBW+I65KfJo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/payment_message/faq.md",
       "output": {
         ".html": {
@@ -107,6 +167,77 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/reports/faq.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/reports/faq.html",
+          "hash": "71PvD5uA1xTzlbvFuEIRKPaFM3UsfUuyYcJyaYZETww="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/reports/images/report_001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/reports/images/report_001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/reports/overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/reports/overview.html",
+          "hash": "k+tXEN7RI8zxrAFWBK2TgvY4w7ZBIuLXGZsoUx7GJ0Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/reports/reports.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/reports/reports.html",
+          "hash": "nAp+uCvgMSWu4lVnjP3ExrG9uWfr3kPF4A51PceSEuQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/reports/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/reports/toc.html",
+          "hash": "F7r3BYn17Z8hpETBKbuYDSAbVf/1ZP6U0XStfiQPNlA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/reports/usage_scenarios.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/reports/usage_scenarios.html",
+          "hash": "KH5dSQJ+P4G0D94fy43EuZTUcbV7yvUPoMUeJ/r90Fk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/support/customer_terms.md",
       "output": {
         ".html": {
@@ -169,7 +300,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "RbkeDF7zcdXRPJETkafwt7r25A3eUypzBiO1eXHAMd4="
+          "hash": "ieE9AA6qfNmsGe1dbmPV6JsVaqgi0+uFNu+lXEN3Da8="
         }
       },
       "is_incremental": false,
@@ -193,7 +324,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "pNEJXrLa6o7s/YbxjU+HhLEse6bLmPuGibRjNZwpIDs="
+          "hash": "uOpOw8+cMTquVVLHgHUf9JrTo9D2U94ZiAyPWrK6dB8="
         }
       },
       "is_incremental": false,
@@ -214,7 +345,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 8,
+          "total_file_count": 16,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

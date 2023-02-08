@@ -1,4 +1,24 @@
 {
+  "articles/billing/billing.html": {
+    "href": "articles/billing/billing.html",
+    "title": "Kā atrast | Payment Message",
+    "keywords": "Kā atrast Drīzumā Noskaņojumi Kā lietot"
+  },
+  "articles/billing/faq.html": {
+    "href": "articles/billing/faq.html",
+    "title": "BUJ | Payment Message",
+    "keywords": "BUJ"
+  },
+  "articles/billing/overview.html": {
+    "href": "articles/billing/overview.html",
+    "title": "Apskats | Payment Message",
+    "keywords": "Apskats Billing ir ELVA pielāgojums, kas integrēts ar Dynamics 365 Business Central. Billing Apraksts Drīzumā Ieguvumi Pieņēmumi un ierobežojumi"
+  },
+  "articles/billing/usage_scenarios.html": {
+    "href": "articles/billing/usage_scenarios.html",
+    "title": "Lietošanas scenāriji | Payment Message",
+    "keywords": "Lietošanas scenāriji"
+  },
   "articles/payment_message/faq.html": {
     "href": "articles/payment_message/faq.html",
     "title": "BUJ | Payment Message",
@@ -19,6 +39,26 @@
     "title": "Lietošanas scenāriji | Payment Message",
     "keywords": "Lietošanas scenāriji"
   },
+  "articles/reports/faq.html": {
+    "href": "articles/reports/faq.html",
+    "title": "BUJ | Payment Message",
+    "keywords": "BUJ"
+  },
+  "articles/reports/overview.html": {
+    "href": "articles/reports/overview.html",
+    "title": "Apskats | Payment Message",
+    "keywords": "Apskats Papildus Atskaites Report Customer - G/L Account Trial Balance ir ELVA pielāgota atskaite, kas integrēta ar Dynamics 365 Business Central. Report Vendor - G/L Account Trial Balance ir ELVA pielāgota atskaite, kas integrēta ar Dynamics 365 Business Central. Ieguvumi Iespēja iegūt V/G konta apgrozījuma atskaiti pa Klientiem vai Piegādātājiem atbilstoši. Pieņēmumi un ierobežojumi Jābūt instalētai Latvijas Lokalizācijai Latvian Localization ."
+  },
+  "articles/reports/reports.html": {
+    "href": "articles/reports/reports.html",
+    "title": "Kā atrast | Payment Message",
+    "keywords": "Kā atrast Atskaite V/G konta apgrozījums pa klientiem pieejama meklētājā rakstot V/G konta apgrozījums pa klientiem Atskaite V/G konta apgrozījums pa piegādātājiem pieejama meklētājā rakstot V/G konta apgrozījums pa piegādātājiem Noskaņojumi Nekādi papildus noskaņojumi nav nepieciešami. Kā lietot Sadaļā Opcijas jāizvēlas Perioda sākums, Perioda beigas. Sadaļā Filtrs ja nepieciešams, jāuzstāda filtri."
+  },
+  "articles/reports/usage_scenarios.html": {
+    "href": "articles/reports/usage_scenarios.html",
+    "title": "Lietošanas scenāriji | Payment Message",
+    "keywords": "Lietošanas scenāriji"
+  },
   "articles/support/customer_terms.html": {
     "href": "articles/support/customer_terms.html",
     "title": "Elva Baltic App Customer Terms | Payment Message",
@@ -32,7 +72,7 @@
   "index.html": {
     "href": "index.html",
     "title": "Per tenant Extensions contains following apps: | Payment Message",
-    "keywords": "Per tenant Extensions contains following apps: Payment Message"
+    "keywords": "Per tenant Extensions contains following apps: Payment Message Reports Billing"
   },
   "readme.html": {
     "href": "readme.html",
