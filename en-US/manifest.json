@@ -14,11 +14,71 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/billing/billing.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/billing/billing.html",
+          "hash": "H0Dz1WWsGZT8O7UygqC2809zi50lWoomDswrS5jiRls="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/billing/faq.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/billing/faq.html",
+          "hash": "6d0baOslH4BviQsDzvZ6Kt9ako3LJcpvV3wsu3WOpJg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/billing/overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/billing/overview.html",
+          "hash": "y5YvjLVTQRR2A0bBp28lzUiLmaDaENIA+IJ16eybEEI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/billing/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/billing/toc.html",
+          "hash": "grbk8VHCWCMGZkU6ndA4Ce0eTj8TtDz7GbSk8ch2UGI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/billing/usage_scenarios.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/billing/usage_scenarios.html",
+          "hash": "4c4ptCrGKBegYiuVegwsmbYAp+BZQtxvPk/UQq8Fo1s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/payment_message/faq.md",
       "output": {
         ".html": {
           "relative_path": "articles/payment_message/faq.html",
-          "hash": "5cDPOzJRbKjVlUuGF3skyjbbK7AZ4vcORoQ5dMmwPXY="
+          "hash": "SL7PnJspySNokfpvuAm+arfrPw+n+N7nqV3FxazgSYg="
         }
       },
       "is_incremental": false,
@@ -100,6 +160,77 @@
         ".html": {
           "relative_path": "articles/payment_message/usage_scenarios.html",
           "hash": "Xg/42HPJJQ5AQ5zkfeF42uUClz4PuslgpLMDEbf9rT8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/reports/faq.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/reports/faq.html",
+          "hash": "El8CCBKikzc2nV7zVHGZoSeQZJ9CU+nNsQrV7qDu/Mw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/reports/images/report_001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/reports/images/report_001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/reports/overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/reports/overview.html",
+          "hash": "d7KrQn1jz7CLEAGqwOVmghFhLvcKeF/S0beypPs1nq4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/reports/reports.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/reports/reports.html",
+          "hash": "KjNi4dHJy6GXZuFbTW2+pCnDQgtKataNU4cHBdHDKUY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/reports/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/reports/toc.html",
+          "hash": "bzoMREeiaJLbJ49plpKiu0nEEPZt/QIPH9Jbv4wDj+s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/reports/usage_scenarios.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/reports/usage_scenarios.html",
+          "hash": "GB4yjQpQ9PMQ74jdmVPt5zI7Zp7IxFonvttsaIhNhmU="
         }
       },
       "is_incremental": false,
@@ -193,7 +324,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "/TB0oU09vl3vzc6h8wNM7K5mX6fzjwmjsdzVKz7oNo0="
+          "hash": "hccsKt6PUjgsUCU/2Z1RA3wR5fetxdwcLfBxB0Mitkg="
         }
       },
       "is_incremental": false,
@@ -214,7 +345,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 8,
+          "total_file_count": 16,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

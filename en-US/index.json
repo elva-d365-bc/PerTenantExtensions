@@ -1,8 +1,28 @@
 {
+  "articles/billing/billing.html": {
+    "href": "articles/billing/billing.html",
+    "title": "How to get started | Payment Message",
+    "keywords": "How to get started Coming soon How to set up How to use"
+  },
+  "articles/billing/faq.html": {
+    "href": "articles/billing/faq.html",
+    "title": "FAQ | Payment Message",
+    "keywords": "FAQ"
+  },
+  "articles/billing/overview.html": {
+    "href": "articles/billing/overview.html",
+    "title": "Overview | Payment Message",
+    "keywords": "Overview Billing is a customization integrated with Dynamics 365 Business Central developed by ELVA. Billing Description Coming soon Benefits Assumptions and limitations"
+  },
+  "articles/billing/usage_scenarios.html": {
+    "href": "articles/billing/usage_scenarios.html",
+    "title": "Key Usage Scenarios | Payment Message",
+    "keywords": "Key Usage Scenarios"
+  },
   "articles/payment_message/faq.html": {
     "href": "articles/payment_message/faq.html",
     "title": "FAQ | Payment Message",
-    "keywords": "FAQ Overview Payment Message is a business software solution developed by ELVA"
+    "keywords": "FAQ"
   },
   "articles/payment_message/overview.html": {
     "href": "articles/payment_message/overview.html",
@@ -18,6 +38,26 @@
     "href": "articles/payment_message/usage_scenarios.html",
     "title": "Key Usage Scenarios | Payment Message",
     "keywords": "Key Usage Scenarios"
+  },
+  "articles/reports/faq.html": {
+    "href": "articles/reports/faq.html",
+    "title": "FAQ | Payment Message",
+    "keywords": "FAQ"
+  },
+  "articles/reports/overview.html": {
+    "href": "articles/reports/overview.html",
+    "title": "Overview | Payment Message",
+    "keywords": "Overview Additional Reports Report Customer - G/L Account Trial Balance is a ELVA custom report, integrated with Dynamics 365 Business Central. Report Vendor - G/L Account Trial Balance ir ELVA custom report, integrated with Dynamics 365 Business Central. Benefits Possibility to obtain a Report Customer - G/L Account Trial Balance or Report Vendor - G/L Account Trial Balance Assumptions and limitations Latvian Localization must be installed Latvian Localization ."
+  },
+  "articles/reports/reports.html": {
+    "href": "articles/reports/reports.html",
+    "title": "How to get started | Payment Message",
+    "keywords": "How to get started Report Report Customer - G/L Account Trial Balance available by typing in the search Customer - G/L Account Trial Balance Report Report Vendor - G/L Account Trial Balance available by typing in the search Vendor - G/L Account Trial Balance How to set up No specific settings is required. How to use In the section Options must be selected Start Date, End Date. In the section Filter filters should be set up if necessary."
+  },
+  "articles/reports/usage_scenarios.html": {
+    "href": "articles/reports/usage_scenarios.html",
+    "title": "Lietošanas scenāriji | Payment Message",
+    "keywords": "Lietošanas scenāriji"
   },
   "articles/support/customer_terms.html": {
     "href": "articles/support/customer_terms.html",
