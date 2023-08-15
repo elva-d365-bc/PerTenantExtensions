@@ -19,6 +19,26 @@
     "title": "Key Usage Scenarios | Payment Message",
     "keywords": "Key Usage Scenarios"
   },
+  "articles/citadele_payment_export/citadele_payment_export.html": {
+    "href": "articles/citadele_payment_export/citadele_payment_export.html",
+    "title": "How to get started | Payment Message",
+    "keywords": "How to get started Coming soon How to set up How to use"
+  },
+  "articles/citadele_payment_export/faq.html": {
+    "href": "articles/citadele_payment_export/faq.html",
+    "title": "| Payment Message",
+    "keywords": "# BUJ"
+  },
+  "articles/citadele_payment_export/overview.html": {
+    "href": "articles/citadele_payment_export/overview.html",
+    "title": "Overview | Payment Message",
+    "keywords": "Overview Citadele Payment Export is a customization integrated with Dynamics 365 Business Central developed by ELVA. Citadele Payment Export Description Coming soon Benefits Assumptions and limitations"
+  },
+  "articles/citadele_payment_export/usage_scenarios.html": {
+    "href": "articles/citadele_payment_export/usage_scenarios.html",
+    "title": "Key Usage Scenarios | Payment Message",
+    "keywords": "Key Usage Scenarios"
+  },
   "articles/payment_message/faq.html": {
     "href": "articles/payment_message/faq.html",
     "title": "FAQ | Payment Message",
@@ -71,8 +91,8 @@
   },
   "index.html": {
     "href": "index.html",
-    "title": "Per tenant Extensions contains following apps: | Payment Message",
-    "keywords": "Per tenant Extensions contains following apps: Payment Message"
+    "title": "Per Tenant Extensions contains following apps: | Payment Message",
+    "keywords": "Per Tenant Extensions contains following apps: Payment Message Reports Billing Citadele Payment Export LV"
   },
   "readme.html": {
     "href": "readme.html",
