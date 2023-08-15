@@ -74,6 +74,66 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/citadele_payment_export/citadele_payment_export.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/citadele_payment_export/citadele_payment_export.html",
+          "hash": "U/2ucbGyW9dSgKDZ6hj5NjOcmOpUukrHQqHJSYd5kxg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/citadele_payment_export/faq.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/citadele_payment_export/faq.html",
+          "hash": "QY/+l3U1V4MvHKWmA3Cm3M2jCiqRCB/0ng25eVgSTM0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/citadele_payment_export/overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/citadele_payment_export/overview.html",
+          "hash": "VhctUR1Z/lE3I/F754ZxqbDIJrIxhuPvCSCM6hm4I2M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/citadele_payment_export/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/citadele_payment_export/toc.html",
+          "hash": "+FPrZ4vdtkVLZy9GBcHZRAyZmECNikRRwz+2q5TY0i8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/citadele_payment_export/usage_scenarios.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/citadele_payment_export/usage_scenarios.html",
+          "hash": "Hp3Rklhf0+uH7s3Q6iiKPMRZpNtHw6N1cvQWuCoF9is="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/payment_message/faq.md",
       "output": {
         ".html": {
@@ -206,7 +266,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/reports/reports.html",
-          "hash": "nAp+uCvgMSWu4lVnjP3ExrG9uWfr3kPF4A51PceSEuQ="
+          "hash": "R5n7Y5PNL4dsvPCyaemdXXl+aF0QsrxS5sn3biID8Oo="
         }
       },
       "is_incremental": false,
@@ -300,7 +360,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "ieE9AA6qfNmsGe1dbmPV6JsVaqgi0+uFNu+lXEN3Da8="
+          "hash": "UEWa9bwndnlVFFJFOhst1DAQBc6zLm/cA3a/w4AbzSo="
         }
       },
       "is_incremental": false,
@@ -312,7 +372,7 @@
       "output": {
         ".html": {
           "relative_path": "readme.html",
-          "hash": "gMunpPfWElHH/yn9VBcl7fbRDXjaRJ2CJ2Db4STMWKo="
+          "hash": "Qw4CMYoa9rx+z68a2xkLJv1yg3hW/7+eG8e0s1mrCGo="
         }
       },
       "is_incremental": false,
@@ -324,7 +384,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "uOpOw8+cMTquVVLHgHUf9JrTo9D2U94ZiAyPWrK6dB8="
+          "hash": "hHQpYNZDJoK4AcqwH0tZpHjyCz5jvHi/yAkYVtQT9yA="
         }
       },
       "is_incremental": false,
@@ -345,7 +405,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 16,
+          "total_file_count": 20,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
