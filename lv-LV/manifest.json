@@ -234,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/reports/GL_Account_Trial_balance_by_partners.html",
-          "hash": "fw8jlUzCMq8qgMwNK2VTsoQuY+w94wWtDyLANxJwwzI="
+          "hash": "LA2C2kgDfpvDwMcj+TtaDeDGz1rQDwi46Dh9cKzxOlI="
         }
       },
       "is_incremental": false,
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/reports/Setoff_statement_printout.html",
-          "hash": "N+d8pFzskAp9wsoWWXt9uPwkUjnEGoRm7s19sdmHqcg="
+          "hash": "rpeTos0a1+ya2wm4Iiyc00NRYqHYaCf8h26T416PWk4="
         }
       },
       "is_incremental": false,
@@ -273,6 +273,50 @@
       "output": {
         "resource": {
           "relative_path": "articles/reports/images/report_001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/reports/images/setoffstatement_003.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/reports/images/setoffstatement_003.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/reports/images/setoffstatement_005.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/reports/images/setoffstatement_005.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/reports/images/setoffstatement_006.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/reports/images/setoffstatement_006.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/reports/images/setoffstatement_008.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/reports/images/setoffstatement_008.png"
         }
       },
       "is_incremental": false,
