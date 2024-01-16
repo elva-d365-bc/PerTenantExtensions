@@ -227,6 +227,30 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/reports/GL_Account_Trial_balance_by_partners.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/reports/GL_Account_Trial_balance_by_partners.html",
+          "hash": "LOjGoFmvv1jOLgRDR2eLCQeV/YGxPpjj6AetxGVo6Xk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/reports/Setoff_statement_printout.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/reports/Setoff_statement_printout.html",
+          "hash": "mZwFnvEH6wwV7yM3fDJllH8CrUmk4WpD+nxzD2b0EK4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/reports/faq.md",
       "output": {
         ".html": {
@@ -239,10 +263,98 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/reports/images/report_001.png",
+      "source_relative_path": "articles/reports/images/GL_Account_Trial_balance_by_partners_001.png",
       "output": {
         "resource": {
-          "relative_path": "articles/reports/images/report_001.png"
+          "relative_path": "articles/reports/images/GL_Account_Trial_balance_by_partners_001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/reports/images/setoffstatement_001.emf",
+      "output": {
+        "resource": {
+          "relative_path": "articles/reports/images/setoffstatement_001.emf"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/reports/images/setoffstatement_002.wmf",
+      "output": {
+        "resource": {
+          "relative_path": "articles/reports/images/setoffstatement_002.wmf"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/reports/images/setoffstatement_003.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/reports/images/setoffstatement_003.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/reports/images/setoffstatement_004.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/reports/images/setoffstatement_004.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/reports/images/setoffstatement_005.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/reports/images/setoffstatement_005.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/reports/images/setoffstatement_006.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/reports/images/setoffstatement_006.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/reports/images/setoffstatement_007.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/reports/images/setoffstatement_007.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/reports/images/setoffstatement_008.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/reports/images/setoffstatement_008.png"
         }
       },
       "is_incremental": false,
@@ -254,19 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/reports/overview.html",
-          "hash": "d7KrQn1jz7CLEAGqwOVmghFhLvcKeF/S0beypPs1nq4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/reports/reports.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/reports/reports.html",
-          "hash": "2qLEtdp91kA3ZpiY8B94woNi1cZMQKH/4d7/NYIb2ic="
+          "hash": "iAQLS0Y21ec9zIwJzAEvS9QUejkFRELKRnBV+8TM6pw="
         }
       },
       "is_incremental": false,
@@ -278,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/reports/toc.html",
-          "hash": "bzoMREeiaJLbJ49plpKiu0nEEPZt/QIPH9Jbv4wDj+s="
+          "hash": "b3lUrA1p+SeG9fpmulYJJRvd8UhJKODLHu3h4n1iGpU="
         }
       },
       "is_incremental": false,
@@ -290,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/reports/usage_scenarios.html",
-          "hash": "GB4yjQpQ9PMQ74jdmVPt5zI7Zp7IxFonvttsaIhNhmU="
+          "hash": "ZgkzY/Sr5U2pqWu5adFHo2KnLf7XPU/qaUm0HhX5FgY="
         }
       },
       "is_incremental": false,
@@ -360,7 +460,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "t7HzpdFcYIJslj9RI0J/ii+f8n4/0O45ZmiwxqgkhKU="
+          "hash": "b1K5g0mbnIlDCXAeya2gRjvPjmo5k4EyBaGxq6RcQtg="
         }
       },
       "is_incremental": false,
@@ -405,7 +505,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 20,
+          "total_file_count": 21,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
