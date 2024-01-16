@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Apskats | Payment Message </title>
+    <title>Set-off statement printout | Payment Message </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Apskats | Payment Message ">
+    <meta name="title" content="Set-off statement printout | Payment Message ">
     <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -77,9 +77,92 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="apskats">Apskats</h1>
+<h1 id="set-off-statement-printout">Set-off statement printout</h1>
 
-<p><strong>Papildus Atskaites</strong></p>
+<h1 id="apskats">Apskats</h1>
+<p><a href="https://learn.microsoft.com/en-us/dynamics365/business-central/finance-consolidate-customer-vendor-balances">System standard functionality</a> ensures <strong>Net Customer/Vendor balances</strong> function in Payment Journal. As a result 2 journal lines are created:</p>
+<blockquote>
+<p>Vendor unpaid invoices amount</p>
+</blockquote>
+<blockquote>
+<p>Customer unpaid invoices amount</p>
+</blockquote>
+<p>System standard function does not involve any printout possibilities for the transaction.</p>
+<p>The customization adds a button to <strong>Payment Journal</strong> <strong>Print Set-off Statement</strong> under section <strong>Reports</strong>. Printout is used before posting
+the Payment Journal Lines. Therefore the printout is not available after the lines are posted.</p>
+<p>It is advised to use separate Payment Journal batch for processing of such transactions (Copy VAT Posting Setup should be disabled for this batch Copy to Posted Journals can be enabled, in case to prepare the printout by copying posted journal lines).</p>
+<p><img src="./images/setoffstatement_003.png" alt="alt"></p>
+<h1 id="pre-requisites">Pre-requisites</h1>
+<p>Before creating set-off transaction, it is required to ensure:</p>
+<blockquote>
+<p>Vendor card and Customer card is linked via Contacts (Business Relations)</p>
+</blockquote>
+<blockquote>
+<p>Both Vendor and Customer have non paid invoices</p>
+</blockquote>
+<blockquote>
+<p>Set-off date should be with a date that is after the latest vendor/cusotmer invoice.</p>
+</blockquote>
+<p><img src="./images/setoffstatement_004.png" alt="alt"></p>
+<blockquote>
+<p>Payment Journal Select Specific Batch. In Ribbon press <strong>Net Customer/Vendor Balances</strong></p>
+</blockquote>
+<p><img src="./images/setoffstatement_005.png" alt="alt"></p>
+<blockquote>
+<p>The following information should be completed</p>
+</blockquote>
+<ul>
+<li><p>Posting Date [1] - date for the set-off transaction</p>
+</li>
+<li><p>Document No. [2]- entered manually, if no numbering series assigned to Payment Journal Batch.</p>
+</li>
+<li><p>Description [3]- system generated description that contains the following parameters:</p>
+<ul>
+<li><p>%1 - document number</p>
+</li>
+<li><p>%2 - document date</p>
+</li>
+</ul>
+</li>
+<li><p>Order of suggestion [4]</p>
+<ul>
+<li><p>Finance Charge Memos First - Finance Charge Memos are suggested first for the sett-off, other document types are taken into consideration afterwards</p>
+</li>
+<li><p>Invoice First - Invoices are suggested first for the sett-off, other document types are taken into consideration afterwards</p>
+</li>
+<li><p>By Entry No. - documents are suggested by Entry No.</p>
+</li>
+</ul>
+</li>
+<li><p>Vendor No. [5]- set-off can be suggested for definite Vendor; if this filter is blank, then Set-off is suggested for all Vendors and their linked Customers.</p>
+</li>
+</ul>
+<p><img src="./images/setoffstatement_006.png" alt="alt"></p>
+<blockquote>
+<p>After the Payment Journal lines are created, prepare the printout</p>
+</blockquote>
+<p><img src="./images/setoffstatement_007.png" alt="alt"></p>
+<ul>
+<li><p>In report request page</p>
+<ul>
+<li><p>Journal Template Name - filled automatically</p>
+</li>
+<li><p>Journal Batch Name - filled automatically</p>
+</li>
+<li><p>Document No. - use Document No. as filter, otherwise leave blank</p>
+</li>
+<li><p>Posting Date - use Posting Date as filter, otherwise leave blank</p>
+</li>
+</ul>
+</li>
+</ul>
+<p><img src="./images/setoffstatement_008.png" alt="alt"></p>
+<blockquote>
+<p>Set-off statement printout is prepared in accordance to Language Code
+that is set in Vendor Card.</p>
+</blockquote>
+<h1 id="nosacījumi-un-ierobežojumi">Nosacījumi un ierobežojumi</h1>
+<p>Jābūt instalētai <strong>Latvijas Lokalizācijai</strong> <a href="https://elva-d365-bc.github.io/localization/lv-LV/">Latvian Localization</a>.</p>
 </article>
           </div>
           
@@ -88,7 +171,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/elva-bc-projects/Per-Tenant-Extensions/_git/Per-Tenant-Extensions-Help?path=lv-LV/articles/reports/overview.md&amp;version=GBmaster&amp;line=1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://dev.azure.com/elva-bc-projects/Per-Tenant-Extensions/_git/Per-Tenant-Extensions-Help?path=lv-LV/articles/reports/Setoff_statement_printout.md&amp;version=GBmaster&amp;line=1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

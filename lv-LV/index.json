@@ -64,15 +64,20 @@
     "title": "BUJ | Payment Message",
     "keywords": "BUJ"
   },
+  "articles/reports/GL_Account_Trial_balance_by_partners.html": {
+    "href": "articles/reports/GL_Account_Trial_balance_by_partners.html",
+    "title": "Apskats | Payment Message",
+    "keywords": "Apskats V/G konta apgrozījums pa klientiem V/G konta apgrozījums pa piegādātājiem Report Customer - G/L Account Trial Balance ir ELVA pielāgota atskaite, kas integrēta Dynamics 365 Business Central. Report Vendor - G/L Account Trial Balance ir ELVA pielāgota atskaite, kas integrēta Dynamics 365 Business Central. Ieguvumi Iespēja iegūt atskaites V/G konta apgrozījums pa klientiem vai V/G konta apgrozījums pa piegādātājiem Nosacījumi un ierobežojumi Jābūt instalētai Latvijas Lokalizācijai Latvian Localization . Kā atrast Atskaite V/G konta apgrozījums pa klientiem pieejama meklētājā rakstot V/G konta apgrozījums pa klientiem Atskaite V/G konta apgrozījums pa piegādātājiem pieejama meklētājā rakstot V/G konta apgrozījums pa piegādātājiem Noskaņojumi Nekādi papildus noskaņojumi nav nepieciešami. Kā lietot Sadaļā Opcijas jāizvēlas Perioda sākums, Perioda beigas. Sadaļā Filtrs ja nepieciešams, jāuzstāda filtri."
+  },
   "articles/reports/overview.html": {
     "href": "articles/reports/overview.html",
     "title": "Apskats | Payment Message",
-    "keywords": "Apskats Papildus Atskaites Report Customer - G/L Account Trial Balance ir ELVA pielāgota atskaite, kas integrēta ar Dynamics 365 Business Central. Report Vendor - G/L Account Trial Balance ir ELVA pielāgota atskaite, kas integrēta ar Dynamics 365 Business Central. Ieguvumi Iespēja iegūt V/G konta apgrozījuma atskaiti pa Klientiem vai Piegādātājiem atbilstoši. Pieņēmumi un ierobežojumi Jābūt instalētai Latvijas Lokalizācijai Latvian Localization ."
+    "keywords": "Apskats Papildus Atskaites"
   },
-  "articles/reports/reports.html": {
-    "href": "articles/reports/reports.html",
-    "title": "Kā atrast | Payment Message",
-    "keywords": "Kā atrast Atskaite V/G konta apgrozījums pa klientiem pieejama meklētājā rakstot V/G konta apgrozījums pa klientiem Atskaite V/G konta apgrozījums pa piegādātājiem pieejama meklētājā rakstot V/G konta apgrozījums pa piegādātājiem Noskaņojumi Nekādi papildus noskaņojumi nav nepieciešami. Kā lietot Sadaļā Opcijas jāizvēlas Perioda sākums, Perioda beigas. Sadaļā Filtrs ja nepieciešams, jāuzstāda filtri."
+  "articles/reports/Setoff_statement_printout.html": {
+    "href": "articles/reports/Setoff_statement_printout.html",
+    "title": "Set-off statement printout | Payment Message",
+    "keywords": "Set-off statement printout Apskats System standard functionality ensures Net Customer/Vendor balances function in Payment Journal. As a result 2 journal lines are created: Vendor unpaid invoices amount Customer unpaid invoices amount System standard function does not involve any printout possibilities for the transaction. The customization adds a button to Payment Journal Print Set-off Statement under section Reports . Printout is used before posting the Payment Journal Lines. Therefore the printout is not available after the lines are posted. It is advised to use separate Payment Journal batch for processing of such transactions (Copy VAT Posting Setup should be disabled for this batch Copy to Posted Journals can be enabled, in case to prepare the printout by copying posted journal lines). Pre-requisites Before creating set-off transaction, it is required to ensure: Vendor card and Customer card is linked via Contacts (Business Relations) Both Vendor and Customer have non paid invoices Set-off date should be with a date that is after the latest vendor/cusotmer invoice. Payment Journal Select Specific Batch. In Ribbon press Net Customer/Vendor Balances The following information should be completed Posting Date [1] - date for the set-off transaction Document No. [2]- entered manually, if no numbering series assigned to Payment Journal Batch. Description [3]- system generated description that contains the following parameters: %1 - document number %2 - document date Order of suggestion [4] Finance Charge Memos First - Finance Charge Memos are suggested first for the sett-off, other document types are taken into consideration afterwards Invoice First - Invoices are suggested first for the sett-off, other document types are taken into consideration afterwards By Entry No. - documents are suggested by Entry No. Vendor No. [5]- set-off can be suggested for definite Vendor; if this filter is blank, then Set-off is suggested for all Vendors and their linked Customers. After the Payment Journal lines are created, prepare the printout In report request page Journal Template Name - filled automatically Journal Batch Name - filled automatically Document No. - use Document No. as filter, otherwise leave blank Posting Date - use Posting Date as filter, otherwise leave blank Set-off statement printout is prepared in accordance to Language Code that is set in Vendor Card. Nosacījumi un ierobežojumi Jābūt instalētai Latvijas Lokalizācijai Latvian Localization ."
   },
   "articles/reports/usage_scenarios.html": {
     "href": "articles/reports/usage_scenarios.html",
@@ -91,8 +96,8 @@
   },
   "index.html": {
     "href": "index.html",
-    "title": "Per tenant Extensions contains following apps: | Payment Message",
-    "keywords": "Per tenant Extensions contains following apps: Payment Message Reports Billing Citadele Payment Export EN"
+    "title": "Per Tenant Extensions ietvaros izstrādāti sekojoši appi: | Payment Message",
+    "keywords": "Per Tenant Extensions ietvaros izstrādāti sekojoši appi: Payment Message !INCLUDE[(app_app_Report_Customer-GL_Account_Trial_Balance.md)] !INCLUDE[(app_Report_Vendor-GL_Account_Trial_Balance.md)] !INCLUDE[(app_Report_Setoff_statement_printout.md)] Billing Citadele Payment Export EN"
   },
   "readme.html": {
     "href": "readme.html",
