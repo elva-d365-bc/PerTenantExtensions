@@ -97,7 +97,7 @@
   "index.html": {
     "href": "index.html",
     "title": "Per Tenant Extensions contains following apps: | Payment Message",
-    "keywords": "Per Tenant Extensions contains following apps: Payment Message !INCLUDE[(app_app_Report_Customer-GL_Account_Trial_Balance.md)] !INCLUDE[(app_Report_Vendor-GL_Account_Trial_Balance.md)] !INCLUDE[(app_Report_Setoff_statement_printout.md)] Billing Citadele Payment Export LV"
+    "keywords": "Per Tenant Extensions contains following apps: Payment Message !INCLUDE[app_Report_Customer-GL_Account_Trial_Balance] !INCLUDE[app_Report_Vendor-GL_Account_Trial_Balance] !INCLUDE[app_Report_Setoff_statement_printout] Billing Citadele Payment Export LV"
   },
   "readme.html": {
     "href": "readme.html",
