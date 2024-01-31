@@ -1,0 +1,293 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>K&#257; atrast | Payment Message </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="K&#257; atrast | Payment Message ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../.././images/elva_logo.jpg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="kā-atrast">Kā atrast</h1>
+
+<p>Drīzumā</p>
+<h1 id="noskaņojumi">Noskaņojumi</h1>
+<h1 id="kā-lietot">Kā lietot</h1>
+<ul>
+<li><strong>Customers API</strong><br>
+Request URL: <a href="https://api.businesscentral.dynamics.com/v2.0/%7Btenant_id%7D/%7Benvironment_name%7D/api/elva/bi/v1.0/companies(%7Bid%7D)/customers">https://api.businesscentral.dynamics.com/v2.0/{tenant_id}/{environment_name}/api/elva/bi/v1.0/companies({id})/customers</a>
+Response example:</li>
+</ul>
+<pre><code>&quot;value&quot;: [  
+        {  
+            &quot;@odata.etag&quot;: &quot;W/\&quot;JzIwOzE3NzQzNzMyNjE0Mzc0OTI3ODM5MTswMDsn\&quot;&quot;,  
+            &quot;id&quot;: &quot;c84358fe-266c-ee11-8def-000d3ab4710e&quot;,  
+            &quot;number&quot;: &quot;10000&quot;,  
+            &quot;displayName&quot;: &quot;Adatum Corporation&quot;,  
+            &quot;type&quot;: &quot;Company&quot;,  
+            &quot;addressLine1&quot;: &quot;Station Road,   21&quot;,  
+            &quot;addressLine2&quot;: &quot;&quot;,  
+            &quot;city&quot;: &quot;Cambridge&quot;,  
+            &quot;state&quot;: &quot;&quot;,  
+            &quot;countryCode&quot;: &quot;GB&quot;,  
+            &quot;postalCode&quot;: &quot;CB1 2FB&quot;,  
+            &quot;phoneNumber&quot;: &quot;&quot;,  
+            &quot;email&quot;: &quot;adatum.corporation@contoso.com&quot;,  
+            &quot;website&quot;: &quot;&quot;,  
+            &quot;salespersonCode&quot;: &quot;JO&quot;,  
+            &quot;balanceDue&quot;: 100,  
+            &quot;creditLimit&quot;: 0,  
+            &quot;vatRegistrationNumber&quot;: &quot;&quot;,  
+            &quot;currencyCode&quot;: &quot;&quot;,  
+            &quot;paymentTermsCode&quot;: &quot;1M(8D)&quot;,  
+            &quot;shipmentMethodCode&quot;: &quot;&quot;,  
+            &quot;paymentMethodCode&quot;: &quot;&quot;,  
+            &quot;blocked&quot;: &quot; &quot;,  
+            &quot;genBusPostingGroupCode&quot;: &quot;DOMESTIC&quot;,  
+            &quot;customerPostingGroupCode&quot;: &quot;DOMESTIC&quot;,  
+            &quot;customerPriceGroupCode&quot;: &quot;&quot;,  
+            &quot;customerDiscGroupCode&quot;: &quot;&quot;,  
+            &quot;lastModifiedDateTime&quot;: &quot;2024-01-03T10:13:10.9Z&quot;  
+        }  
+]  
+</code></pre>
+<ul>
+<li><strong>Value Entries API</strong><br>
+Request URL: <a href="https://api.businesscentral.dynamics.com/v2.0/%7Btenant_id%7D/%7Benvironment_name%7D/api/elva/bi/v1.0/companies(%7Bid%7D)/valueEntries">https://api.businesscentral.dynamics.com/v2.0/{tenant_id}/{environment_name}/api/elva/bi/v1.0/companies({id})/valueEntries</a>
+Response example:</li>
+</ul>
+<pre><code>&quot;value&quot;: [  
+        {  
+            &quot;@odata.etag&quot;: &quot;W/\&quot;JzE5OzcxMjY3MTkyNjQyODU2MjYxMjAxOzAwOyc=\&quot;&quot;,  
+            &quot;id&quot;: &quot;2c871891-276c-ee11-8def-000d3ab4710e&quot;,  
+            &quot;entryNumber&quot;: 1,  
+            &quot;itemNumber&quot;: &quot;1928-S&quot;,  
+            &quot;postingDate&quot;: &quot;2022-01-18&quot;,  
+            &quot;itemLedgerEntryType&quot;: &quot;Sale&quot;,  
+            &quot;itemLedgerEntryNumber&quot;: 1,  
+            &quot;sourceNumber&quot;: &quot;20000&quot;,  
+            &quot;documentNumber&quot;: &quot;103001&quot;,  
+            &quot;description&quot;: &quot;&quot;,  
+            &quot;locationCode&quot;: &quot;&quot;,  
+            &quot;inventoryPostingGroupCode&quot;: &quot;RESALE&quot;,  
+            &quot;valuedQuantity&quot;: -3,  
+            &quot;invoicedQuantity&quot;: -3,  
+            &quot;salesAmountActual&quot;: 106.8,  
+            &quot;salespersPurchCode&quot;: &quot;JO&quot;,  
+            &quot;costAmountActual&quot;: -83.4,  
+            &quot;documentDate&quot;: &quot;2022-01-18&quot;,  
+            &quot;externalDocumentNumber&quot;: &quot;&quot;,  
+            &quot;entryType&quot;: &quot;Direct Cost&quot;,  
+            &quot;purchaseAmountActual&quot;: 0,  
+            &quot;lastModifiedDateTime&quot;: &quot;2023-10-16T13:26:13.157Z&quot;
+        }  
+]  
+</code></pre>
+<ul>
+<li><strong>Items API</strong><br>
+Request URL: <a href="https://api.businesscentral.dynamics.com/v2.0/%7Btenant_id%7D/%7Benvironment_name%7D/api/elva/bi/v1.0/companies(%7Bid%7D)/items">https://api.businesscentral.dynamics.com/v2.0/{tenant_id}/{environment_name}/api/elva/bi/v1.0/companies({id})/items</a>
+Response example:</li>
+</ul>
+<pre><code>    &quot;value&quot;: [  
+        {  
+            &quot;@odata.etag&quot;: &quot;W/\&quot;JzE5Ozg0NDY0MTM4MDI3NzUyMDI2NzUxOzAwOyc=\&quot;&quot;,  
+            &quot;id&quot;: &quot;d24358fe-266c-ee11-8def-000d3ab4710e&quot;,  
+            &quot;number&quot;: &quot;1896-S&quot;,  
+            &quot;displayName&quot;: &quot;ATHENS Desk&quot;,  
+            &quot;displayName2&quot;: &quot;&quot;,  
+            &quot;type&quot;: &quot;Inventory&quot;,  
+            &quot;itemCategoryId&quot;: &quot;f6385004-276c-ee11-8def-000d3ab4710e&quot;,  
+            &quot;itemCategoryCode&quot;: &quot;DESK&quot;,  
+            &quot;blocked&quot;: false,  
+            &quot;gtin&quot;: &quot;&quot;,  
+            &quot;inventory&quot;: 7,  
+            &quot;unitPrice&quot;: 649.4,  
+            &quot;priceIncludesTax&quot;: false,  
+            &quot;unitCost&quot;: 506.6,  
+            &quot;baseUnitOfMeasureId&quot;: &quot;444458fe-266c-ee11-8def-000d3ab4710e&quot;,  
+            &quot;baseUnitOfMeasureCode&quot;: &quot;PCS&quot;,  
+            &quot;genProdPostingGroupId&quot;: &quot;fe365004-276c-ee11-8def-000d3ab4710e&quot;,  
+            &quot;genProdPostingGroupCode&quot;: &quot;RETAIL&quot;,  
+            &quot;inventoryPostingGroupId&quot;: &quot;334458fe-266c-ee11-8def-000d3ab4710e&quot;,  
+            &quot;inventoryPostingGroupCode&quot;: &quot;RESALE&quot;,  
+            &quot;vatProdPostingGroupCode&quot;: &quot;STANDARD&quot;,  
+            &quot;itemDiscGroupCode&quot;: &quot;&quot;,  
+            &quot;vendorNumber&quot;: &quot;30000&quot;,  
+            &quot;grossWeight&quot;: 39.79,  
+            &quot;netWeight&quot;: 34.6,  
+            &quot;tariffNumber&quot;: &quot;12345&quot;,  
+            &quot;countryOfOriginCode&quot;: &quot;AT&quot;,  
+            &quot;lastModifiedDateTime&quot;: &quot;2024-01-15T11:58:43.303Z&quot;
+        }  
+]  
+</code></pre>
+<ul>
+<li><strong>Locations API</strong>
+Request URL: <a href="https://api.businesscentral.dynamics.com/v2.0/%7Btenant_id%7D/%7Benvironment_name%7D/api/elva/bi/v1.0/companies(%7Bid%7D)/locations">https://api.businesscentral.dynamics.com/v2.0/{tenant_id}/{environment_name}/api/elva/bi/v1.0/companies({id})/locations</a>
+Response example:</li>
+</ul>
+<pre><code>&quot;value&quot;: [
+        {
+            &quot;@odata.etag&quot;: &quot;W/\&quot;JzIwOzEzMDI4OTA4MzU4MzIxMTYwNjU2MTswMDsn\&quot;&quot;,  
+            &quot;id&quot;: &quot;b94258fe-266c-ee11-8def-000d3ab4710e&quot;,  
+            &quot;code&quot;: &quot;EAST&quot;,  
+            &quot;displayName&quot;: &quot;East Warehouse&quot;,  
+            &quot;contact&quot;: &quot;Jack Potter&quot;,  
+            &quot;addressLine1&quot;: &quot;Great Eastern Street,   80&quot;,  
+            &quot;addressLine2&quot;: &quot;&quot;,  
+            &quot;city&quot;: &quot;London&quot;,  
+            &quot;state&quot;: &quot;&quot;,  
+            &quot;countryCode&quot;: &quot;GB&quot;,  
+            &quot;postalCode&quot;: &quot;EC2A 3JL&quot;,  
+            &quot;phoneNumber&quot;: &quot;+44-(0)30 9874 1299&quot;,  
+            &quot;phoneNumber2&quot;: &quot;&quot;,  
+            &quot;telexNumber&quot;: &quot;&quot;,  
+            &quot;faxNumber&quot;: &quot;+44-(0)30 9874 1200&quot;,  
+            &quot;email&quot;: &quot;&quot;,  
+            &quot;website&quot;: &quot;&quot;,  
+            &quot;globalDimension1Code&quot;: &quot;ADM&quot;,  
+            &quot;lastModifiedDateTime&quot;: &quot;2023-10-16T13:23:10.79Z&quot;
+        }
+]
+</code></pre>
+<ul>
+<li><strong>Vendors API</strong>
+Request URL: <a href="https://api.businesscentral.dynamics.com/v2.0/%7Btenant_id%7D/%7Benvironment_name%7D/api/elva/bi/v1.0/companies(%7Bid%7D)/vendors">https://api.businesscentral.dynamics.com/v2.0/{tenant_id}/{environment_name}/api/elva/bi/v1.0/companies({id})/vendors</a>
+Response example:</li>
+</ul>
+<pre><code>&quot;value&quot;: [
+        {
+            &quot;@odata.etag&quot;: &quot;W/\&quot;JzIwOzEyMzQ4NzAxOTMyODAwMjM4Mjc1MTswMDsn\&quot;&quot;,  
+            &quot;id&quot;: &quot;cd4358fe-266c-ee11-8def-000d3ab4710e&quot;,  
+            &quot;number&quot;: &quot;10000&quot;,  
+            &quot;displayName&quot;: &quot;Fabrikam,   Inc.&quot;,  
+            &quot;addressLine1&quot;: &quot;10 North Lake Avenue&quot;,  
+            &quot;addressLine2&quot;: &quot;&quot;,  
+            &quot;city&quot;: &quot;Atlanta&quot;,  
+            &quot;state&quot;: &quot;GA&quot;,  
+            &quot;countryCode&quot;: &quot;US&quot;,  
+            &quot;postalCode&quot;: &quot;US-GA 31772&quot;,  
+            &quot;phoneNumber&quot;: &quot;&quot;,  
+            &quot;email&quot;: &quot;krystal.york@contoso.com&quot;,  
+            &quot;website&quot;: &quot;&quot;,  
+            &quot;currencyCode&quot;: &quot;&quot;,  
+            &quot;paymentTermsCode&quot;: &quot;CM&quot;,  
+            &quot;paymentMethodCode&quot;: &quot;&quot;,  
+            &quot;blocked&quot;: &quot; &quot;,  
+            &quot;balance&quot;: 1267.5,  
+            &quot;genBusPostingGroupCode&quot;: &quot;EXPORT&quot;,  
+            &quot;vendorPostingGroupCode&quot;: &quot;FOREIGN&quot;,  
+            &quot;purchaserCode&quot;: &quot;&quot;,  
+            &quot;lastModifiedDateTime&quot;: &quot;2023-10-16T13:23:27.297Z&quot;
+        }
+]
+</code></pre>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/elva-bc-projects/Per-Tenant-Extensions/_git/Per-Tenant-Extensions-Help?path=lv-LV/articles/api_for_power_bi/api_for_power_bi.md&amp;version=GBmaster&amp;line=1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © ELVA BALTIC
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

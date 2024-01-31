@@ -14,6 +14,69 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/api_for_power_bi/api_for_power_bi.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/api_for_power_bi/api_for_power_bi.html",
+          "hash": "1hc5gryTBjlGDQMN+2yMQ4TfJDbdZaRmtFacF3peSSk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/api_for_power_bi/faq.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/api_for_power_bi/faq.html",
+          "hash": "g+H8y4vdsejKbQVTBYeVzS8lDKhY5b7LcAsFDMjcPKk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "include-not-found"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/api_for_power_bi/overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/api_for_power_bi/overview.html",
+          "hash": "gbLgbNA7Fzhzz1IFk6BWp6wsy/Cqd1WSSCMuN+/y39s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/api_for_power_bi/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/api_for_power_bi/toc.html",
+          "hash": "XSJM5GZ6JO7Ggu2HRaPLITYXMPzntYfiD0RZgyL1C/g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/api_for_power_bi/usage_scenarios.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/api_for_power_bi/usage_scenarios.html",
+          "hash": "1P8g3Yx3XIKh0UkxsMtaaGZdOsDWFXFPOCRf0aGRg+0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/billing/billing.md",
       "output": {
         ".html": {
@@ -436,12 +499,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "include-not-found"
+      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "Wze3zETQCiSpJZPsJ6xKrQeSfyonVF0nXUVtJDy7uYs="
+          "hash": "+HpP2HQ4U9xX4WB829LbLhlfsSNUk8CctfNUB11q+PY="
         }
       },
       "is_incremental": false,
@@ -465,7 +531,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "hHQpYNZDJoK4AcqwH0tZpHjyCz5jvHi/yAkYVtQT9yA="
+          "hash": "MywDGpfTwavOcHMSEJznXid7reNyVDXVJpdeIp1dmwY="
         }
       },
       "is_incremental": false,
@@ -486,7 +552,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 21,
+          "total_file_count": 25,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
