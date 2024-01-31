@@ -14,6 +14,66 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/api_for_power_bi/api_for_power_bi.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/api_for_power_bi/api_for_power_bi.html",
+          "hash": "JKTX0hG0H0W5/igu+zozKcqlYWu2Lg7790HNvagq0QI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/api_for_power_bi/faq.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/api_for_power_bi/faq.html",
+          "hash": "6gpxJjLug7X/lrYY0+WfhUX3zhqQ95sr2fPyEWhcWNQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/api_for_power_bi/overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/api_for_power_bi/overview.html",
+          "hash": "ZYxD9LTc9pRDUEDcazWoDjQsaJ2PEMbU7ZVuHsAUqgE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/api_for_power_bi/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/api_for_power_bi/toc.html",
+          "hash": "XSJM5GZ6JO7Ggu2HRaPLITYXMPzntYfiD0RZgyL1C/g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/api_for_power_bi/usage_scenarios.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/api_for_power_bi/usage_scenarios.html",
+          "hash": "0uHq2J8EvgYYJf/6a0plWPtXNcDrbDMVWa6uyfTfnBs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/billing/billing.md",
       "output": {
         ".html": {
@@ -460,7 +520,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "Db1JIXKV3Peujb5+TqKJmcpXmp23Nm77YScyK2DuQIU="
+          "hash": "Jhx6EKtPe6YMlykisOKZILi5Q1DLdD0huYl/mAt58jY="
         }
       },
       "is_incremental": false,
@@ -484,7 +544,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "HAoJqdXRKejh2PGPtdSgxgBZWMjEyFbSg5ru6Ue9FM8="
+          "hash": "C/Z7CFn2ppb7eyn63y8JE4E8P4DFehxXv2rl1yBEFSo="
         }
       },
       "is_incremental": false,
@@ -505,7 +565,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 21,
+          "total_file_count": 25,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

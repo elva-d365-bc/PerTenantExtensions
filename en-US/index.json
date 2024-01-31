@@ -1,4 +1,24 @@
 {
+  "articles/api_for_power_bi/api_for_power_bi.html": {
+    "href": "articles/api_for_power_bi/api_for_power_bi.html",
+    "title": "How to get started | Payment Message",
+    "keywords": "How to get started Coming soon How to set up How to use Customers API Request URL: https://api.businesscentral.dynamics.com/v2.0/{tenant_id}/{environment_name}/api/elva/bi/v1.0/companies({id})/customers Response example: \"value\": [ { \"@odata.etag\": \"W/\\\"JzIwOzE3NzQzNzMyNjE0Mzc0OTI3ODM5MTswMDsn\\\"\", \"id\": \"c84358fe-266c-ee11-8def-000d3ab4710e\", \"number\": \"10000\", \"displayName\": \"Adatum Corporation\", \"type\": \"Company\", \"addressLine1\": \"Station Road, 21\", \"addressLine2\": \"\", \"city\": \"Cambridge\", \"state\": \"\", \"countryCode\": \"GB\", \"postalCode\": \"CB1 2FB\", \"phoneNumber\": \"\", \"email\": \"adatum.corporation@contoso.com\", \"website\": \"\", \"salespersonCode\": \"JO\", \"balanceDue\": 100, \"creditLimit\": 0, \"vatRegistrationNumber\": \"\", \"currencyCode\": \"\", \"paymentTermsCode\": \"1M(8D)\", \"shipmentMethodCode\": \"\", \"paymentMethodCode\": \"\", \"blocked\": \" \", \"genBusPostingGroupCode\": \"DOMESTIC\", \"customerPostingGroupCode\": \"DOMESTIC\", \"customerPriceGroupCode\": \"\", \"customerDiscGroupCode\": \"\", \"lastModifiedDateTime\": \"2024-01-03T10:13:10.9Z\" } ] Value Entries API Request URL: https://api.businesscentral.dynamics.com/v2.0/{tenant_id}/{environment_name}/api/elva/bi/v1.0/companies({id})/valueEntries Response example: \"value\": [ { \"@odata.etag\": \"W/\\\"JzE5OzcxMjY3MTkyNjQyODU2MjYxMjAxOzAwOyc=\\\"\", \"id\": \"2c871891-276c-ee11-8def-000d3ab4710e\", \"entryNumber\": 1, \"itemNumber\": \"1928-S\", \"postingDate\": \"2022-01-18\", \"itemLedgerEntryType\": \"Sale\", \"itemLedgerEntryNumber\": 1, \"sourceNumber\": \"20000\", \"documentNumber\": \"103001\", \"description\": \"\", \"locationCode\": \"\", \"inventoryPostingGroupCode\": \"RESALE\", \"valuedQuantity\": -3, \"invoicedQuantity\": -3, \"salesAmountActual\": 106.8, \"salespersPurchCode\": \"JO\", \"costAmountActual\": -83.4, \"documentDate\": \"2022-01-18\", \"externalDocumentNumber\": \"\", \"entryType\": \"Direct Cost\", \"purchaseAmountActual\": 0, \"lastModifiedDateTime\": \"2023-10-16T13:26:13.157Z\" } ] Items API Request URL: https://api.businesscentral.dynamics.com/v2.0/{tenant_id}/{environment_name}/api/elva/bi/v1.0/companies({id})/items Response example: \"value\": [ { \"@odata.etag\": \"W/\\\"JzE5Ozg0NDY0MTM4MDI3NzUyMDI2NzUxOzAwOyc=\\\"\", \"id\": \"d24358fe-266c-ee11-8def-000d3ab4710e\", \"number\": \"1896-S\", \"displayName\": \"ATHENS Desk\", \"displayName2\": \"\", \"type\": \"Inventory\", \"itemCategoryId\": \"f6385004-276c-ee11-8def-000d3ab4710e\", \"itemCategoryCode\": \"DESK\", \"blocked\": false, \"gtin\": \"\", \"inventory\": 7, \"unitPrice\": 649.4, \"priceIncludesTax\": false, \"unitCost\": 506.6, \"baseUnitOfMeasureId\": \"444458fe-266c-ee11-8def-000d3ab4710e\", \"baseUnitOfMeasureCode\": \"PCS\", \"genProdPostingGroupId\": \"fe365004-276c-ee11-8def-000d3ab4710e\", \"genProdPostingGroupCode\": \"RETAIL\", \"inventoryPostingGroupId\": \"334458fe-266c-ee11-8def-000d3ab4710e\", \"inventoryPostingGroupCode\": \"RESALE\", \"vatProdPostingGroupCode\": \"STANDARD\", \"itemDiscGroupCode\": \"\", \"vendorNumber\": \"30000\", \"grossWeight\": 39.79, \"netWeight\": 34.6, \"tariffNumber\": \"12345\", \"countryOfOriginCode\": \"AT\", \"lastModifiedDateTime\": \"2024-01-15T11:58:43.303Z\" } ] Locations API Request URL: https://api.businesscentral.dynamics.com/v2.0/{tenant_id}/{environment_name}/api/elva/bi/v1.0/companies({id})/locations Response example: \"value\": [ { \"@odata.etag\": \"W/\\\"JzIwOzEzMDI4OTA4MzU4MzIxMTYwNjU2MTswMDsn\\\"\", \"id\": \"b94258fe-266c-ee11-8def-000d3ab4710e\", \"code\": \"EAST\", \"displayName\": \"East Warehouse\", \"contact\": \"Jack Potter\", \"addressLine1\": \"Great Eastern Street, 80\", \"addressLine2\": \"\", \"city\": \"London\", \"state\": \"\", \"countryCode\": \"GB\", \"postalCode\": \"EC2A 3JL\", \"phoneNumber\": \"+44-(0)30 9874 1299\", \"phoneNumber2\": \"\", \"telexNumber\": \"\", \"faxNumber\": \"+44-(0)30 9874 1200\", \"email\": \"\", \"website\": \"\", \"globalDimension1Code\": \"ADM\", \"lastModifiedDateTime\": \"2023-10-16T13:23:10.79Z\" } ] Vendors API Request URL: https://api.businesscentral.dynamics.com/v2.0/{tenant_id}/{environment_name}/api/elva/bi/v1.0/companies({id})/vendors Response example: \"value\": [ { \"@odata.etag\": \"W/\\\"JzIwOzEyMzQ4NzAxOTMyODAwMjM4Mjc1MTswMDsn\\\"\", \"id\": \"cd4358fe-266c-ee11-8def-000d3ab4710e\", \"number\": \"10000\", \"displayName\": \"Fabrikam, Inc.\", \"addressLine1\": \"10 North Lake Avenue\", \"addressLine2\": \"\", \"city\": \"Atlanta\", \"state\": \"GA\", \"countryCode\": \"US\", \"postalCode\": \"US-GA 31772\", \"phoneNumber\": \"\", \"email\": \"krystal.york@contoso.com\", \"website\": \"\", \"currencyCode\": \"\", \"paymentTermsCode\": \"CM\", \"paymentMethodCode\": \"\", \"blocked\": \" \", \"balance\": 1267.5, \"genBusPostingGroupCode\": \"EXPORT\", \"vendorPostingGroupCode\": \"FOREIGN\", \"purchaserCode\": \"\", \"lastModifiedDateTime\": \"2023-10-16T13:23:27.297Z\" } ]"
+  },
+  "articles/api_for_power_bi/faq.html": {
+    "href": "articles/api_for_power_bi/faq.html",
+    "title": "FAQ | Payment Message",
+    "keywords": "FAQ"
+  },
+  "articles/api_for_power_bi/overview.html": {
+    "href": "articles/api_for_power_bi/overview.html",
+    "title": "Overview | Payment Message",
+    "keywords": "Overview API for Power BI is a customization integrated with Dynamics 365 Business Central developed by ELVA. API for Power BI Description Coming soon Benefits Assumptions and limitations"
+  },
+  "articles/api_for_power_bi/usage_scenarios.html": {
+    "href": "articles/api_for_power_bi/usage_scenarios.html",
+    "title": "Key Usage Scenarios | Payment Message",
+    "keywords": "Key Usage Scenarios"
+  },
   "articles/billing/billing.html": {
     "href": "articles/billing/billing.html",
     "title": "How to get started | Payment Message",
@@ -97,7 +117,7 @@
   "index.html": {
     "href": "index.html",
     "title": "Per Tenant Extensions contains following apps: | Payment Message",
-    "keywords": "Per Tenant Extensions contains following apps: Payment Message Report Customer - G/L Account Trial Balance Report Vendor - G/L Account Trial Balance Report Set-Off Statement Billing Citadele Payment Export LV"
+    "keywords": "Per Tenant Extensions contains following apps: Payment Message Report Customer - G/L Account Trial Balance Report Vendor - G/L Account Trial Balance Report Set-Off Statement Billing Citadele Payment Export API for Power BI LV"
   },
   "readme.html": {
     "href": "readme.html",
