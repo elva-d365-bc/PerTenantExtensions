@@ -311,6 +311,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/reports/Trial_balance_by_accounts.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/reports/Trial_balance_by_accounts.html",
+          "hash": "yzc5y09nkIrU2NioTL4848hF6wr67+z0eZ5tQTXwjxE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/reports/faq.md",
       "output": {
         ".html": {
@@ -327,6 +339,50 @@
       "output": {
         "resource": {
           "relative_path": "articles/reports/images/GL_Account_Trial_balance_by_partners_001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/reports/images/Trial_balance_by_accounts_001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/reports/images/Trial_balance_by_accounts_001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/reports/images/Trial_balance_by_accounts_002.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/reports/images/Trial_balance_by_accounts_002.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/reports/images/Trial_balance_by_accounts_003.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/reports/images/Trial_balance_by_accounts_003.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/reports/images/Trial_balance_by_accounts_004.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/reports/images/Trial_balance_by_accounts_004.png"
         }
       },
       "is_incremental": false,
@@ -438,7 +494,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/reports/toc.html",
-          "hash": "b3lUrA1p+SeG9fpmulYJJRvd8UhJKODLHu3h4n1iGpU="
+          "hash": "x3WasSeU1zs7b2F1GspMpinxxzHkUUSmuACNcQINO+E="
         }
       },
       "is_incremental": false,
@@ -565,7 +621,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 25,
+          "total_file_count": 26,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
