@@ -37,15 +37,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "include-not-found"
-      ],
       "type": "Conceptual",
       "source_relative_path": "articles/api_for_power_bi/overview.md",
       "output": {
         ".html": {
           "relative_path": "articles/api_for_power_bi/overview.html",
-          "hash": "gbLgbNA7Fzhzz1IFk6BWp6wsy/Cqd1WSSCMuN+/y39s="
+          "hash": "/Uw8CMZguqBQW3I5O1IcEHtVeNZC+J8mtYqHq8VuZxU="
         }
       },
       "is_incremental": false,
@@ -57,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/api_for_power_bi/toc.html",
-          "hash": "XSJM5GZ6JO7Ggu2HRaPLITYXMPzntYfiD0RZgyL1C/g="
+          "hash": "u8Rlb7ZPBJd0BIRcXte4zuAR8sasJFw7oWVAH16TfOI="
         }
       },
       "is_incremental": false,
@@ -552,15 +549,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "include-not-found"
-      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "+HpP2HQ4U9xX4WB829LbLhlfsSNUk8CctfNUB11q+PY="
+          "hash": "N4Tf2FbjRdl00jXd1IE0AZ/12GQwNK9eVboS4AYzd/E="
         }
       },
       "is_incremental": false,
