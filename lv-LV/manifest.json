@@ -291,7 +291,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/reports/GL_Account_Trial_balance_by_partners.html",
-          "hash": "LA2C2kgDfpvDwMcj+TtaDeDGz1rQDwi46Dh9cKzxOlI="
+          "hash": "IXaLJAO0KOx0217dOYH/HjZbv+ZQ3PXVWKAP2+mXkPU="
         }
       },
       "is_incremental": false,
@@ -339,6 +339,39 @@
       "output": {
         "resource": {
           "relative_path": "articles/reports/images/GL_Account_Trial_balance_by_partners_001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/reports/images/GL_Account_Trial_balance_by_partners_002.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/reports/images/GL_Account_Trial_balance_by_partners_002.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/reports/images/GL_Account_Trial_balance_by_partners_003.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/reports/images/GL_Account_Trial_balance_by_partners_003.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/reports/images/GL_Account_Trial_balance_by_partners_004.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/reports/images/GL_Account_Trial_balance_by_partners_004.png"
         }
       },
       "is_incremental": false,
