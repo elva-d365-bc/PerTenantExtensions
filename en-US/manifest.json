@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/api_for_power_bi/api_for_power_bi.html",
-          "hash": "JKTX0hG0H0W5/igu+zozKcqlYWu2Lg7790HNvagq0QI="
+          "hash": "4vlqNiLahBRHepjVIoKr7QarJT3XVkc2PDP2klEqR34="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/api_for_power_bi/faq.html",
-          "hash": "6gpxJjLug7X/lrYY0+WfhUX3zhqQ95sr2fPyEWhcWNQ="
+          "hash": "Q+1wcDYqxPnRtQC1cwTgVzd43ZWkHAOkw2+9E2Pzhis="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/api_for_power_bi/overview.html",
-          "hash": "ZYxD9LTc9pRDUEDcazWoDjQsaJ2PEMbU7ZVuHsAUqgE="
+          "hash": "TwDcMkCtfIt1dE0rICYDt+v3IAysszKN9rfg/uunm7I="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/api_for_power_bi/usage_scenarios.html",
-          "hash": "0uHq2J8EvgYYJf/6a0plWPtXNcDrbDMVWa6uyfTfnBs="
+          "hash": "HqIXNTzJNMyuuOLXAMBAb2ljlAvamLBrAEn6X184L2w="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/billing/billing.html",
-          "hash": "H0Dz1WWsGZT8O7UygqC2809zi50lWoomDswrS5jiRls="
+          "hash": "YbVgP6CQLZRwuO6e9VlFuQRSIowacUZx1GGI3Lju7QQ="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/billing/faq.html",
-          "hash": "6d0baOslH4BviQsDzvZ6Kt9ako3LJcpvV3wsu3WOpJg="
+          "hash": "WyTOi7tlCSck0f+TS9+X3UIzcTWY+XtX6sIgb0QYHvk="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/billing/overview.html",
-          "hash": "y5YvjLVTQRR2A0bBp28lzUiLmaDaENIA+IJ16eybEEI="
+          "hash": "r/aUU5r0/6842fl2JOv/OU63tKd6uWWRVRR+wfvrwJY="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/billing/usage_scenarios.html",
-          "hash": "4c4ptCrGKBegYiuVegwsmbYAp+BZQtxvPk/UQq8Fo1s="
+          "hash": "fBlVj/knF1kkjB9i6C6GMedFGFdZ3cTvlxluwmasW70="
         }
       },
       "is_incremental": false,
@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/citadele_payment_export/citadele_payment_export.html",
-          "hash": "WWhg3iMbXBrnwYJma04j+bpIaYO2yAm7cITOiUA1Ozc="
+          "hash": "xxZ8J5dwY/ljfRUDQuU3lMfMgWN3dH9rYcgOiOhMM4U="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/citadele_payment_export/faq.html",
-          "hash": "mERzVDv/5b85sdHA9ZVQMasC6CxfK1NHqdieQ5ByxIc="
+          "hash": "eqN6YCHsqrDT5CuttbE9l8ZXLVGNpJEUirv7F50tPvs="
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/citadele_payment_export/overview.html",
-          "hash": "VN+ZBKZEb7KKYUhJE7rx5CkyCquhGIv0Pz2v378N/wE="
+          "hash": "3BmjEss8xNS8oYuFu+raAkC7nmpnpqQZiK9Ld8PXPXs="
         }
       },
       "is_incremental": false,
@@ -186,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/citadele_payment_export/usage_scenarios.html",
-          "hash": "1j4kbMkKq8QZkjQDkoqtvdijyMM8xGE4ifi9t+nC1N4="
+          "hash": "hye9Dn2OxGVtt7P2K9gjspGMISJFSQqLXr+jt8lqYBk="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/payment_message/faq.html",
-          "hash": "SL7PnJspySNokfpvuAm+arfrPw+n+N7nqV3FxazgSYg="
+          "hash": "v2+Gi3p0gz6MvHCOdNefsuJcWg6TDCILTqKn4R+59Gs="
         }
       },
       "is_incremental": false,
@@ -243,7 +243,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/payment_message/overview.html",
-          "hash": "p86OXouDta63Vxfpittp4pXZiOzTSfDV+aR+MkJQMdc="
+          "hash": "46xIFM+URCw7vOQ6pgGMaObc9RjQN//+97538hR3GME="
         }
       },
       "is_incremental": false,
@@ -255,7 +255,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/payment_message/payment_message.html",
-          "hash": "w9jAWA4mKtdLoK/rnL7NvCoVFU3O0iJ2/b3J+RaAffI="
+          "hash": "3VpAgorA4b6Rhnfe0OhRlws8PMu1DpEz3SVeqNYPy4Y="
         }
       },
       "is_incremental": false,
@@ -279,7 +279,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/payment_message/usage_scenarios.html",
-          "hash": "Xg/42HPJJQ5AQ5zkfeF42uUClz4PuslgpLMDEbf9rT8="
+          "hash": "bl2cNeiK+z8ex8rAdOe501Rx9qv37jdOgIJu5+Qg38A="
         }
       },
       "is_incremental": false,
@@ -291,7 +291,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/reports/GL_Account_Trial_balance_by_partners.html",
-          "hash": "I4YWUQwzQiSuv1Hrzg1b4UhKnNK1qUcyCKdCYFBINEY="
+          "hash": "RaR2BE12K1hlJi8EDZSMBi8QydL9kLVbzUHkjzQnxtA="
         }
       },
       "is_incremental": false,
@@ -303,7 +303,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/reports/Setoff_statement_printout.html",
-          "hash": "crhx0b4CaVftp1ajKc9Qak73OuTpoglDAKc9sTkpOH4="
+          "hash": "NP42Z5xT07I/Rr659i5Qcfe2tAenhGdyGnB0n6rV7TU="
         }
       },
       "is_incremental": false,
@@ -315,7 +315,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/reports/Trial_balance_by_accounts.html",
-          "hash": "elDg/gHXEfyK6DPR2igkD3aBIY+H+dcjSkGzRiunfiU="
+          "hash": "IihWh29jLHvoJi/hUIQPVScdShtmWvxgaJ1oFiV8TYw="
         }
       },
       "is_incremental": false,
@@ -327,7 +327,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/reports/faq.html",
-          "hash": "El8CCBKikzc2nV7zVHGZoSeQZJ9CU+nNsQrV7qDu/Mw="
+          "hash": "CAPbrcEld7UubOXtzo7R58mpA32XUUp4tFG7Y0XN/l8="
         }
       },
       "is_incremental": false,
@@ -339,6 +339,39 @@
       "output": {
         "resource": {
           "relative_path": "articles/reports/images/GL_Account_Trial_balance_by_partners_001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/reports/images/GL_Account_Trial_balance_by_partners_002.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/reports/images/GL_Account_Trial_balance_by_partners_002.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/reports/images/GL_Account_Trial_balance_by_partners_003.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/reports/images/GL_Account_Trial_balance_by_partners_003.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/reports/images/GL_Account_Trial_balance_by_partners_004.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/reports/images/GL_Account_Trial_balance_by_partners_004.png"
         }
       },
       "is_incremental": false,
@@ -482,7 +515,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/reports/overview.html",
-          "hash": "iAQLS0Y21ec9zIwJzAEvS9QUejkFRELKRnBV+8TM6pw="
+          "hash": "8My38bC2LqxW1+TGBNTgM/KFZ5HSFC0I6bbj62o7ae0="
         }
       },
       "is_incremental": false,
@@ -506,7 +539,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/reports/usage_scenarios.html",
-          "hash": "ZgkzY/Sr5U2pqWu5adFHo2KnLf7XPU/qaUm0HhX5FgY="
+          "hash": "Ox3zWTgVAFgAw5LcIZRYIeM5lH+Zpo8Loed8QyZH/Ns="
         }
       },
       "is_incremental": false,
@@ -518,7 +551,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/support/customer_terms.html",
-          "hash": "eIwzKVVpSr2EK7I+ZoJcjSNuhP+NZvCye9AuJqog/OY="
+          "hash": "nh2BN0g2D4UYwiUMqYi1aAh05zumOXSO4yrxZz2Ujck="
         }
       },
       "is_incremental": false,
@@ -530,7 +563,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/support/privacy_statement.html",
-          "hash": "XGcgo5B3a93HxBKU44KPHaVDaD6U1M0jZE8usAKRrh0="
+          "hash": "TAZpBzDhkOyO5q+5RZeR1T36Gi4mxyHKueB/xt+LyFs="
         }
       },
       "is_incremental": false,
@@ -576,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "+yOzWNRjlvwqKfiIwa099EEX5SqpB6cwGWvRoG9P2JA="
+          "hash": "J1fVbeMtnTlkB+GTUUJsJF3BumhTRANHGxAv/dLsA0w="
         }
       },
       "is_incremental": false,
@@ -588,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "readme.html",
-          "hash": "bwulnCt9FBEBAZg2gaC69GybYGE1H6qMaCppxgmyYEE="
+          "hash": "p60zvZAokSzkhcT6hrVbigrBHXe7ruNb6iNx4bzt1dc="
         }
       },
       "is_incremental": false,
