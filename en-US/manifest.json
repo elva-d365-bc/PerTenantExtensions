@@ -570,12 +570,24 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "articles/support/support.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/support/support.html",
+          "hash": "5eQtR9ww17fAYD1E1rx8Z52RNoKYdEPw3xfHuNKqXvA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "articles/support/toc.md",
       "output": {
         ".html": {
           "relative_path": "articles/support/toc.html",
-          "hash": "miDON6usIyRaz25odPgYT3mOZXcu4cnUe8dTUVGrb6I="
+          "hash": "JsRklt/cgW2lVCq2D3XXOWHfIycUVZDr7/DVWzskczU="
         }
       },
       "is_incremental": false,
@@ -633,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "C/Z7CFn2ppb7eyn63y8JE4E8P4DFehxXv2rl1yBEFSo="
+          "hash": "Lg97EkPmUpUd8Dcr+t/8gAOwRyIBwKLbTvL/NTSBwzU="
         }
       },
       "is_incremental": false,
@@ -654,7 +666,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 26,
+          "total_file_count": 27,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
