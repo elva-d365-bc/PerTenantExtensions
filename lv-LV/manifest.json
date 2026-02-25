@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/billing/billing.html",
-          "hash": "3fJtgJkIQRuqn+HcGixHJy2cP1n3Tkdt3rKxYi6W6wU="
+          "hash": "1aBxkKT4Hwvps4ztzruNhUxSw/U0FPTM6uYclYqCp/Q="
         }
       },
       "is_incremental": false,
@@ -91,18 +91,6 @@
         ".html": {
           "relative_path": "articles/billing/faq.html",
           "hash": "9ozSYKzrGXz1YsYnW3nZG/y5lHBX5CMZJe5k1cMXTyg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/billing/glossary.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/billing/glossary.html",
-          "hash": "lKOD/uB3e5qUKbXxfA3ir+R6mpHZw6kJRhKBmbo6gCI="
         }
       },
       "is_incremental": false,
@@ -165,10 +153,33 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "articles/billing/images/Biling_Structur_000.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/billing/images/Biling_Structur_000.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "articles/billing/images/Biling_Structur_001.png",
       "output": {
         "resource": {
           "relative_path": "articles/billing/images/Biling_Structur_001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/billing/main-modules.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/billing/main-modules.html",
+          "hash": "MqfVga+O9GQJDqzv8FL9u7HCk0k/OMkDMoSYNQnzsUs="
         }
       },
       "is_incremental": false,
@@ -187,12 +198,39 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "articles/billing/structure.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/billing/structure.html",
+          "hash": "hTz9u5O/uhtc0W+GdgpGSXm5CJwQMj6Rlq4XLeEm3xE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/billing/terminology.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/billing/terminology.html",
+          "hash": "gzosta6y+hativ68uevOXDxfv0kT4G26qMp1tJJn+KI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Toc",
       "source_relative_path": "articles/billing/toc.md",
       "output": {
         ".html": {
           "relative_path": "articles/billing/toc.html",
-          "hash": "bIdh7y7GFYpZeufAbWe5I268mfoT+y/2T9IHYbAKX9o="
+          "hash": "7pez5p8o5g/Bh6Dshpc/n3+n3DJ1OtvGTZ1txjkYsOs="
         }
       },
       "is_incremental": false,
@@ -205,6 +243,21 @@
         ".html": {
           "relative_path": "articles/billing/usage_scenarios.html",
           "hash": "tjkyhZzM54+t9O6PmkDTpDV1FWd7uHYjX9P6/GH0Hus="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/billing/workflows.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/billing/workflows.html",
+          "hash": "j8dmW+CFQsD+Uzzg9sVTCkAtSBCuEUYiKjqeoDowT04="
         }
       },
       "is_incremental": false,
@@ -722,7 +775,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 28,
+          "total_file_count": 31,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

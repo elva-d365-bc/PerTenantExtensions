@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Galven&#257; funkcionalit&#257;te | Per Tenant Extensions </title>
+    <title>Sist&#275;mas strukt&#363;ra | Per Tenant Extensions </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Galven&#257; funkcionalit&#257;te | Per Tenant Extensions ">
+    <meta name="title" content="Sist&#275;mas strukt&#363;ra | Per Tenant Extensions ">
     <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -77,130 +77,19 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="galvenā-funkcionalitāte">Galvenā funkcionalitāte</h1>
+<h1 id="sistēmas-struktūra">Sistēmas struktūra</h1>
 
-<ul>
-<li><strong>Līgumu pārvaldība</strong> - līgumu uzskaite ar pilnu dokumentāciju un statusu kontroli</li>
-<li><strong>Pakalpojumu katalogs</strong> - pakalpojumu, pakalpojumu variantu un cenu pārvaldība</li>
-<li><strong>Objektu uzskaite</strong> - objektu (piemēram, nekustamie īpašumi, aprīkojums) reģistrācija un saistīšana ar līgumiem</li>
-<li><strong>Aprēķinu darblapa</strong> - automatizēta pakalpojumu aprēķināšana pēc dažādiem kritērijiem</li>
-<li><strong>Žurnāla grāmatošana</strong> - bilinga ierakstu grāmatošana un integrācija ar galveno sistēmu</li>
-</ul>
 <hr>
-<h2 id="galvenie-darbību-soļi">Galvenie darbību soļi</h2>
-<h3 id="sākotnējā-konfigurācija">Sākotnējā konfigurācija</h3>
-<h4 id="1-bilinga-iestatījumi">1. Bilinga iestatījumi</h4>
-<ul>
-<li>Atvērt &quot;Bilinga iestatījumi&quot;</li>
-<li>Iestatīt numuru sērijas:
-<ul>
-<li>Līgumu numuru sērija</li>
-<li>Objektu numuru sērija</li>
-<li>Bilinga ierakstu numuru sērija</li>
-</ul>
-</li>
-<li>Iestatīt noklusējuma vērtības</li>
-</ul>
-<h4 id="2-periodu-definēšana">2. Periodu definēšana</h4>
-<ul>
-<li>Atvērt &quot;Periodi&quot;</li>
-<li>Izveidot nepieciešamos periodus:
-<ul>
-<li>Mēnesis</li>
-<li>Ceturksnis</li>
-<li>Gads</li>
-<li>Pielāgoti periodi</li>
-</ul>
-</li>
-<li>Katram periodam norādīt:
-<ul>
-<li>Perioda sākuma formulu</li>
-<li>Perioda garuma formulu</li>
-</ul>
-</li>
-</ul>
-<h4 id="3-pakalpojumu-kataloga-izveide">3. Pakalpojumu kataloga izveide</h4>
-<ul>
-<li>Izveidot pakalpojumu grupas</li>
-<li>Izveidot pakalpojumus:
-<ul>
-<li>Norādīt daudzuma avotu</li>
-<li>Iestatīt noklusējuma cenas</li>
-<li>Definēt pakalpojumu variantus</li>
-</ul>
-</li>
-<li>Izveidot pakalpojumu cenas:
-<ul>
-<li>Pēc klientu grupām</li>
-<li>Pēc laika periodiem</li>
-</ul>
-</li>
-</ul>
-<h4 id="4-objektu-kategoriju-definēšana">4. Objektu kategoriju definēšana</h4>
-<ul>
-<li>Izveidot objektu kategorijas</li>
-<li>Definēt objektu parametrus:
-<ul>
-<li>Kopējā platība</li>
-<li>Dzīvojamā platība</li>
-<li>Citi specifiski parametri</li>
-</ul>
-</li>
-</ul>
-<h3 id="ikdienas-darbības">Ikdienas darbības</h3>
-<h4 id="1-jaunu-līgumu-izveidošana">1. Jaunu līgumu izveidošana</h4>
+<p><strong>Detalizēta procesa soļu secība:</strong></p>
 <ol>
-<li>Atvērt līgumu sarakstu</li>
-<li>Izveidot jaunu līgumu</li>
-<li>Aizpildīt līguma galveni</li>
-<li>Pievienot līguma pakalpojumus</li>
-<li>Pievienot atlaides (ja nepieciešams)</li>
-<li>Pievienot dokumentus</li>
-<li>Aktivizēt līgumu</li>
+<li><strong>Iestatīšana</strong> → Definēt pakalpojumus, objektus un periodus</li>
+<li><strong>Līgumu izveidošana</strong> → Izveidot līgumu, pievienot pakalpojumus, aktivizēt</li>
+<li><strong>Aprēķināšana</strong> → Ģenerēt aprēķinu rindas, aprēķināt cenas un atlaides, pārskatīt</li>
+<li><strong>Grāmatošana</strong> → Pārnest uz žurnālu, testēt, grāmatot</li>
+<li><strong>Rezultāti</strong> → Bilinga ieraksti un rēķini izveidoti</li>
+<li><strong>Cikls</strong> → Atkārtot aprēķinus nākamajam periodam
+<img src="images/Biling_Structur_000.png" alt="alt"></li>
 </ol>
-<h4 id="2-objektu-reģistrācija">2. Objektu reģistrācija</h4>
-<ol>
-<li>Atvērt objektu sarakstu</li>
-<li>Izveidot jaunu objektu</li>
-<li>Norādīt objekta kategoriju</li>
-<li>Ievadīt objekta parametrus</li>
-<li>Pievienot saistītos partnerus</li>
-</ol>
-<h4 id="3-periodiskā-aprēķināšana">3. Periodiskā aprēķināšana</h4>
-<ol>
-<li>Izvēlēties aprēķinu periodu</li>
-<li>Atvērt aprēķinu darblapu</li>
-<li>Ģenerēt aprēķinu rindas</li>
-<li>Pārskatīt un koriģēt</li>
-<li>Grāmatot aprēķinu ierakstos</li>
-</ol>
-<h4 id="4-žurnālu-grāmatošana">4. Žurnālu grāmatošana</h4>
-<ol>
-<li>Pārnest aprēķinus uz žurnālu</li>
-<li>Pārbaudīt žurnāla rindas</li>
-<li>Izpildīt testa pārskatu</li>
-<li>Grāmatot žurnālu</li>
-<li>Pārbaudīt bilinga ierakstus</li>
-</ol>
-<h3 id="periodiskie-uzdevumi">Periodiskie uzdevumi</h3>
-<h4 id="mēneša-noslēgums">Mēneša noslēgums</h4>
-<ol>
-<li>Pārbaudīt visu aktīvo līgumu statusu</li>
-<li>Veikt mēneša aprēķināšanu</li>
-<li>Pārskatīt un apstiprināt aprēķinus</li>
-<li>Grāmatot žurnālus</li>
-<li>Izveidot rēķinus</li>
-<li>Pārbaudīt bilinga ierakstus</li>
-</ol>
-<h4 id="gada-noslēgums">Gada noslēgums</h4>
-<ol>
-<li>Pārskatīt visus līgumus</li>
-<li>Slēgt beidzušos līgumus</li>
-<li>Atjaunināt līgumu datus jaunajam gadam</li>
-<li>Pārbaudīt cenrāžus</li>
-<li>Atjaunināt pakalpojumu cenas</li>
-</ol>
-<hr>
 </article>
           </div>
           
@@ -209,7 +98,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/elva-bc-projects/Per-Tenant-Extensions/_git/Per-Tenant-Extensions-Help?path=lv-LV/articles/billing/billing.md&amp;version=GBmaster&amp;line=1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://dev.azure.com/elva-bc-projects/Per-Tenant-Extensions/_git/Per-Tenant-Extensions-Help?path=lv-LV/articles/billing/structure.md&amp;version=GBmaster&amp;line=1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
