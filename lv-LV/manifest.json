@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/billing/billing.html",
-          "hash": "urmDqG3F7htTaH0RuBJdFSFSdRUCScLExyIhpnQaNls="
+          "hash": "3fJtgJkIQRuqn+HcGixHJy2cP1n3Tkdt3rKxYi6W6wU="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,85 @@
       "output": {
         ".html": {
           "relative_path": "articles/billing/faq.html",
-          "hash": "FNtbRmXwqwviUvGyvU0NHAYutFLA1kHRSmmowYX5EUU="
+          "hash": "9ozSYKzrGXz1YsYnW3nZG/y5lHBX5CMZJe5k1cMXTyg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/billing/glossary.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/billing/glossary.html",
+          "hash": "lKOD/uB3e5qUKbXxfA3ir+R6mpHZw6kJRhKBmbo6gCI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/billing/images/Biling_CalcWorksheet_003.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/billing/images/Biling_CalcWorksheet_003.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/billing/images/Biling_LifeCicle_002.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/billing/images/Biling_LifeCicle_002.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/billing/images/Biling_PriceDiscountCalc_004.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/billing/images/Biling_PriceDiscountCalc_004.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/billing/images/Biling_Process_001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/billing/images/Biling_Process_001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/billing/images/Biling_QuantityLogic_005.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/billing/images/Biling_QuantityLogic_005.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/billing/images/Biling_Structur_001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/billing/images/Biling_Structur_001.png"
         }
       },
       "is_incremental": false,
@@ -102,7 +180,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/billing/overview.html",
-          "hash": "sd7Rped8exWBer3ttzrTKP7xH+wf9k83y5xJhSKlF40="
+          "hash": "Ti2w95VHmIn99p5RmRe1MRq2kMvsTPq67BbBNQoLKfY="
         }
       },
       "is_incremental": false,
@@ -114,7 +192,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/billing/toc.html",
-          "hash": "6mFprKMZA3+nTMxYnLW3YavyuY6Fqe/B2+4RJtDeXRg="
+          "hash": "bIdh7y7GFYpZeufAbWe5I268mfoT+y/2T9IHYbAKX9o="
         }
       },
       "is_incremental": false,
@@ -126,7 +204,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/billing/usage_scenarios.html",
-          "hash": "w3ngMsMyPVpVxS2WWpwkeB2xYbsx83Ac1ioLN9v4T1E="
+          "hash": "tjkyhZzM54+t9O6PmkDTpDV1FWd7uHYjX9P6/GH0Hus="
         }
       },
       "is_incremental": false,
@@ -644,7 +722,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 27,
+          "total_file_count": 28,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
