@@ -1,0 +1,388 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Usage Scenarios | Per Tenant Extensions </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Usage Scenarios | Per Tenant Extensions ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../.././images/elva_logo.jpg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h2 id="usage-scenarios">Usage Scenarios</h2>
+
+<h3 id="scenario-1-creating-a-new-contract-and-adding-services">Scenario 1: Creating a New Contract and Adding Services</h3>
+<p><strong>Goal</strong>: Create a new contract with a customer for premises rental services.</p>
+<p><strong>Participants</strong>: Contract Manager, Accountant</p>
+<p><strong>Prerequisites</strong>:</p>
+<ul>
+<li>Customer is registered in the system</li>
+<li>Services are created in the service catalog</li>
+<li>Objects (premises) are registered</li>
+</ul>
+<p><strong>Steps</strong>:</p>
+<ol>
+<li><p><strong>Open Contract List</strong></p>
+<ul>
+<li>Search for &quot;ELVA BLS Contracts&quot; or &quot;Contracts&quot;</li>
+</ul>
+</li>
+<li><p><strong>Create New Contract</strong></p>
+<ul>
+<li>Press &quot;New&quot;</li>
+<li>Enter or let the system generate the contract number</li>
+<li>Enter contract date and approval date</li>
+</ul>
+</li>
+<li><p><strong>Specify Contract Partner</strong></p>
+<ul>
+<li>Choose partner source: Customer</li>
+<li>Enter partner number</li>
+<li>System automatically fills in partner name and other information</li>
+</ul>
+</li>
+<li><p><strong>Set Contract Validity Period</strong></p>
+<ul>
+<li>Enter &quot;From Date&quot;</li>
+<li>Enter &quot;To Date&quot; or leave blank for indefinite contract</li>
+</ul>
+</li>
+<li><p><strong>Add Contract Services</strong></p>
+<ul>
+<li>Go to &quot;Contract Services&quot; subpage</li>
+<li>Add new line</li>
+<li>Choose service code</li>
+<li>Choose object (if needed)</li>
+<li>Specify service period</li>
+<li>Set quantity and price</li>
+<li>Specify calculation period</li>
+</ul>
+</li>
+<li><p><strong>Activate Contract</strong></p>
+<ul>
+<li>Verify all data</li>
+<li>Change status to &quot;Active&quot;</li>
+</ul>
+</li>
+</ol>
+<p><strong>Result</strong>: Contract is created and ready for calculation.</p>
+<hr>
+<h3 id="scenario-2-using-calculation-worksheet-for-service-calculation">Scenario 2: Using Calculation Worksheet for Service Calculation</h3>
+<p><strong>Goal</strong>: Calculate all active contract services for the specified period.</p>
+<p><strong>Participants</strong>: Accountant</p>
+<p><strong>Prerequisites</strong>:</p>
+<ul>
+<li>Active contracts with services created</li>
+<li>Calculation worksheet template defined</li>
+<li>Periods defined</li>
+</ul>
+<p><strong>Steps</strong>:</p>
+<ol>
+<li><p><strong>Open Calculation Worksheet</strong></p>
+<ul>
+<li>Search for &quot;ELVA BLS Calculation Worksheet&quot;</li>
+</ul>
+</li>
+<li><p><strong>Select or Create Worksheet Batch</strong></p>
+<ul>
+<li>Choose worksheet template</li>
+<li>Select or create batch</li>
+</ul>
+</li>
+<li><p><strong>Generate Calculation Lines</strong></p>
+<ul>
+<li>Execute &quot;Generate Calculation Lines&quot; function</li>
+<li>Specify period filters (from date - to date)</li>
+<li>Choose calculation period code (if needed)</li>
+<li>Specify other filters (contract, service, object)</li>
+<li>Confirm generation</li>
+</ul>
+</li>
+<li><p><strong>Review Generated Lines</strong></p>
+<ul>
+<li>Check created calculation lines</li>
+<li>Verify quantities and prices are correct</li>
+<li>Make necessary manual corrections</li>
+</ul>
+</li>
+<li><p><strong>Calculate Prices and Discounts</strong></p>
+<ul>
+<li>System automatically calculates prices from price lists</li>
+<li>System applies discounts from contract or service discounts</li>
+</ul>
+</li>
+<li><p><strong>Transfer to Calculation Entries</strong></p>
+<ul>
+<li>Execute &quot;Post Calculation Lines&quot; function</li>
+<li>Calculations are transferred to calculation entry table</li>
+<li>Worksheet lines are deleted or marked as processed</li>
+</ul>
+</li>
+</ol>
+<p><strong>Result</strong>: Services are calculated and prepared for journal posting.</p>
+<hr>
+<h3 id="scenario-3-posting-calculations-in-journal">Scenario 3: Posting Calculations in Journal</h3>
+<p><strong>Goal</strong>: Transfer calculated services to billing journal and post.</p>
+<p><strong>Participants</strong>: Accountant</p>
+<p><strong>Prerequisites</strong>:</p>
+<ul>
+<li>Calculated services in calculation worksheet or calculation entries</li>
+</ul>
+<p><strong>Steps</strong>:</p>
+<ol>
+<li><p><strong>Open Billing Journal</strong></p>
+<ul>
+<li>Search for &quot;ELVA BLS Journal&quot;</li>
+</ul>
+</li>
+<li><p><strong>Select Journal Template and Batch</strong></p>
+<ul>
+<li>Choose appropriate journal template</li>
+<li>Select or create batch</li>
+</ul>
+</li>
+<li><p><strong>Transfer Calculations from Worksheet</strong></p>
+<ul>
+<li>Execute &quot;Transfer from Calculation Entries&quot; function</li>
+<li>Specify filters (period, partner, contract)</li>
+<li>Confirm transfer</li>
+</ul>
+</li>
+<li><p><strong>Check Journal Lines</strong></p>
+<ul>
+<li>Review created journal lines</li>
+<li>Check partners, services, amounts</li>
+<li>Make corrections if needed</li>
+</ul>
+</li>
+<li><p><strong>Execute Journal Check</strong></p>
+<ul>
+<li>Execute &quot;Test Report&quot; function</li>
+<li>Verify there are no errors</li>
+</ul>
+</li>
+<li><p><strong>Post Journal</strong></p>
+<ul>
+<li>Execute &quot;Post&quot; function</li>
+<li>Choose posting method:
+<ul>
+<li>Only post in billing entries</li>
+<li>Create sales/purchase invoices</li>
+<li>Prepare export to external system</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Check Billing Entries</strong></p>
+<ul>
+<li>Open &quot;Billing Ledger Entries&quot;</li>
+<li>Verify created entries</li>
+</ul>
+</li>
+</ol>
+<p><strong>Result</strong>: Services are posted and invoices created or prepared for further processing.</p>
+<hr>
+<h3 id="scenario-4-object-registration-and-linking-to-contract">Scenario 4: Object Registration and Linking to Contract</h3>
+<p><strong>Goal</strong>: Register new object (e.g., apartment) and link it to rental contract.</p>
+<p><strong>Participants</strong>: Object Manager, Contract Manager</p>
+<p><strong>Prerequisites</strong>:</p>
+<ul>
+<li>Object categories defined</li>
+<li>Customer is registered in the system</li>
+</ul>
+<p><strong>Steps</strong>:</p>
+<ol>
+<li><p><strong>Open Object List</strong></p>
+<ul>
+<li>Search for &quot;ELVA BLS Objects&quot;</li>
+</ul>
+</li>
+<li><p><strong>Create New Object</strong></p>
+<ul>
+<li>Press &quot;New&quot;</li>
+<li>Enter or let generate object code</li>
+<li>Enter object name (e.g., &quot;Apartment No. 12&quot;)</li>
+</ul>
+</li>
+<li><p><strong>Specify Object Category</strong></p>
+<ul>
+<li>Choose object category (e.g., &quot;Apartments&quot;)</li>
+</ul>
+</li>
+<li><p><strong>Enter Object Parameters</strong></p>
+<ul>
+<li>Enter object parameters (total area, living area, etc.)</li>
+<li>These parameters can be used in quantity calculation</li>
+</ul>
+</li>
+<li><p><strong>Enter Address and Contact Information</strong></p>
+<ul>
+<li>Enter address</li>
+<li>Enter contact information</li>
+</ul>
+</li>
+<li><p><strong>Add Related Partners</strong></p>
+<ul>
+<li>Go to &quot;Related Partners&quot; subpage</li>
+<li>Add owner or tenant</li>
+</ul>
+</li>
+<li><p><strong>Link Object to Contract</strong></p>
+<ul>
+<li>Open contract</li>
+<li>Go to &quot;Contract Services&quot;</li>
+<li>Choose object code in service line</li>
+</ul>
+</li>
+</ol>
+<p><strong>Result</strong>: Object is registered and linked to contract, now services can be calculated for this object.</p>
+<hr>
+<h3 id="scenario-5-period-recalculation-and-corrections">Scenario 5: Period Recalculation and Corrections</h3>
+<p><strong>Goal</strong>: Recalculate previous period calculations if errors or changes are found.</p>
+<p><strong>Participants</strong>: Accountant</p>
+<p><strong>Prerequisites</strong>:</p>
+<ul>
+<li>Previous period calculations are done</li>
+<li>Errors or changes identified</li>
+</ul>
+<p><strong>Steps</strong>:</p>
+<ol>
+<li><p><strong>Identify Necessary Changes</strong></p>
+<ul>
+<li>Review billing entries</li>
+<li>Identify errors or changes</li>
+</ul>
+</li>
+<li><p><strong>Create Corrections in Journal</strong></p>
+<ul>
+<li>Open billing journal</li>
+<li>Create new correction lines</li>
+<li>Specify negative amounts to cancel erroneous entries</li>
+<li>Add new lines with correct amounts</li>
+</ul>
+</li>
+<li><p><strong>Or Repeat in Calculation Worksheet</strong></p>
+<ul>
+<li>Open calculation worksheet</li>
+<li>Generate calculation lines with &quot;Recalculate&quot; option</li>
+<li>Specify period to recalculate</li>
+<li>System will create correction lines</li>
+</ul>
+</li>
+<li><p><strong>Post Corrections</strong></p>
+<ul>
+<li>Post journal with corrections</li>
+<li>Check billing entries</li>
+</ul>
+</li>
+</ol>
+<p><strong>Result</strong>: Previous period calculations are corrected, correction entries created.</p>
+<hr>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/elva-bc-projects/Per-Tenant-Extensions/_git/Per-Tenant-Extensions-Help?path=en-US/articles/billing/usage_scenarios copy.md&amp;version=GBmaster&amp;line=1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © ELVA BALTIC
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

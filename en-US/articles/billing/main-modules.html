@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Main Functionality | Per Tenant Extensions </title>
+    <title>Main Modules | Per Tenant Extensions </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Main Functionality | Per Tenant Extensions ">
+    <meta name="title" content="Main Modules | Per Tenant Extensions ">
     <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -77,129 +77,76 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h3 id="main-functionality">Main Functionality</h3>
+<h2 id="main-modules">Main Modules</h2>
 
+<h3 id="1-contracts">1. Contracts</h3>
+<p>The contract module is the core element of the system, providing:</p>
 <ul>
-<li><strong>Contract Management</strong> - contract tracking with full documentation and status control</li>
-<li><strong>Service Catalog</strong> - service, service variant and pricing management</li>
-<li><strong>Object Tracking</strong> - registration and linking of objects (e.g., real estate, equipment) to contracts</li>
-<li><strong>Calculation Worksheet</strong> - automated service calculation based on various criteria</li>
-<li><strong>Journal Posting</strong> - billing entry posting and integration with the main system</li>
+<li>Contract registration with numbering</li>
+<li>Contract status management (Active, Closed, Interrupted, Inactive)</li>
+<li>Partner (customer/vendor) linking</li>
+<li>Contract service definition</li>
+<li>Contract document attachment</li>
+<li>Discount setup</li>
 </ul>
-<hr>
-<h2 id="main-action-steps">Main Action Steps</h2>
-<h3 id="initial-configuration">Initial Configuration</h3>
-<h4 id="1-billing-setup">1. Billing Setup</h4>
+<h4 id="main-contract-data-groups">Main contract data groups:</h4>
 <ul>
-<li>Open &quot;BLS Setup&quot;</li>
-<li>Set up number series:
+<li><strong>Basic Information</strong>: contract number, date, approval date, external contract number</li>
+<li><strong>Contract Partners</strong>: supplier/customer, bill-to recipient, contact persons</li>
+<li><strong>Contract Period</strong>: valid from date, valid to date, actual closing date</li>
+<li><strong>Financial Information</strong>: base amount, amount incl. VAT, currency</li>
+<li><strong>Responsible Persons</strong>: responsible person, responsible accountant</li>
+<li><strong>Contract Services</strong>: list of services with periods, quantities, and prices</li>
+</ul>
+<h3 id="2-services">2. Services</h3>
+<p>The service catalog defines what can be included in contracts:</p>
 <ul>
-<li>Contract number series</li>
-<li>Object number series</li>
-<li>Billing entry number series</li>
+<li><strong>Service Code and Description</strong> - unique identifier and description</li>
+<li><strong>Service Groups</strong> - logical grouping</li>
+<li><strong>Service Variants</strong> - service variations (e.g., different volumes, quality levels)</li>
+<li><strong>Unit of Measure</strong> - quantity unit of measure</li>
+<li><strong>Quantity Source</strong> - how quantity is determined (manually, from calendar, from object value)</li>
+<li><strong>Pricing</strong> - default price, price coefficients</li>
+<li><strong>Automatic Dimension Assignment</strong> - accounting dimensions</li>
 </ul>
-</li>
-<li>Set default values</li>
-</ul>
-<h4 id="2-period-definition">2. Period Definition</h4>
+<h3 id="3-objects">3. Objects</h3>
+<p>The object module allows registration of physical or logical objects for which services are provided:</p>
 <ul>
-<li>Open &quot;BLS Periods&quot;</li>
-<li>Create necessary periods:
+<li><strong>Object Code and Name</strong></li>
+<li><strong>Object Category</strong> - object classification</li>
+<li><strong>Object Parameters</strong> - numeric parameters (total area, living area, etc.)</li>
+<li><strong>Object Address and Contact Information</strong></li>
+<li><strong>Related Partners</strong> - owners, tenants, etc.</li>
+<li><strong>Dimensions</strong> - accounting dimension values</li>
+</ul>
+<h3 id="4-calculation-worksheet">4. Calculation Worksheet</h3>
+<p>The calculation worksheet is the main tool for service calculation:</p>
 <ul>
-<li>Month</li>
-<li>Quarter</li>
-<li>Year</li>
-<li>Custom periods</li>
+<li><strong>Worksheet Templates</strong> - different types of calculation templates</li>
+<li><strong>Worksheet Batches</strong> - work with specific calculations</li>
+<li><strong>Calculation Line Generation</strong> - automatic line creation from contracts</li>
+<li><strong>Price and Discount Calculation</strong> - pricing based on price lists and discount application</li>
+<li><strong>Calculation Review and Correction</strong> - manual editing</li>
+<li><strong>Transfer to Journal</strong> - sending prepared calculations for posting</li>
 </ul>
-</li>
-<li>For each period specify:
+<h3 id="5-journals">5. Journals</h3>
+<p>Journals are used for posting approved calculations:</p>
 <ul>
-<li>Period starting date formula</li>
-<li>Period length formula</li>
+<li><strong>Journal Templates</strong> - different journal types</li>
+<li><strong>Journal Batches</strong> - work sessions for specific calculations</li>
+<li><strong>Journal Lines</strong> - individual entries</li>
+<li><strong>Recurring Journals</strong> - automation of repeated entries</li>
+<li><strong>Posting</strong> - conversion of billing entries to invoices or preparation for export</li>
 </ul>
-</li>
-</ul>
-<h4 id="3-service-catalog-creation">3. Service Catalog Creation</h4>
+<h3 id="6-periods">6. Periods</h3>
+<p>Period definitions determine calculation periodicity:</p>
 <ul>
-<li>Create service groups</li>
-<li>Create services:
-<ul>
-<li>Specify quantity source</li>
-<li>Set default prices</li>
-<li>Define service variants</li>
+<li><strong>Period Code and Description</strong></li>
+<li><strong>Period Start</strong> - month/quarter/year start or end</li>
+<li><strong>Period Starting Date Formula</strong> - automatic calculation</li>
+<li><strong>Period Length Formula</strong> - month, quarter, year, etc.</li>
+<li><strong>Recalculate Previous Period</strong> - ability to recalculate previous period</li>
 </ul>
-</li>
-<li>Create service prices:
-<ul>
-<li>By customer groups</li>
-<li>By time periods</li>
-</ul>
-</li>
-</ul>
-<h4 id="4-object-category-definition">4. Object Category Definition</h4>
-<ul>
-<li>Create object categories</li>
-<li>Define object parameters:
-<ul>
-<li>Total area</li>
-<li>Living area</li>
-<li>Other specific parameters</li>
-</ul>
-</li>
-</ul>
-<h3 id="daily-operations">Daily Operations</h3>
-<h4 id="1-creating-new-contracts">1. Creating New Contracts</h4>
-<ol>
-<li>Open contract list</li>
-<li>Create new contract</li>
-<li>Fill in contract header</li>
-<li>Add contract services</li>
-<li>Add discounts (if needed)</li>
-<li>Add documents</li>
-<li>Activate contract</li>
-</ol>
-<h4 id="2-object-registration">2. Object Registration</h4>
-<ol>
-<li>Open object list</li>
-<li>Create new object</li>
-<li>Specify object category</li>
-<li>Enter object parameters</li>
-<li>Add related partners</li>
-</ol>
-<h4 id="3-periodic-calculation">3. Periodic Calculation</h4>
-<ol>
-<li>Select calculation period</li>
-<li>Open calculation worksheet</li>
-<li>Generate calculation lines</li>
-<li>Review and correct</li>
-<li>Post to calculation entries</li>
-</ol>
-<h4 id="4-journal-posting">4. Journal Posting</h4>
-<ol>
-<li>Transfer calculations to journal</li>
-<li>Check journal lines</li>
-<li>Execute test report</li>
-<li>Post journal</li>
-<li>Check billing entries</li>
-</ol>
-<h3 id="periodic-tasks">Periodic Tasks</h3>
-<h4 id="month-end">Month End</h4>
-<ol>
-<li>Check status of all active contracts</li>
-<li>Perform monthly calculation</li>
-<li>Review and approve calculations</li>
-<li>Post journals</li>
-<li>Create invoices</li>
-<li>Check billing entries</li>
-</ol>
-<h4 id="year-end">Year End</h4>
-<ol>
-<li>Review all contracts</li>
-<li>Close expired contracts</li>
-<li>Update contract data for new year</li>
-<li>Check price lists</li>
-<li>Update service prices</li>
-</ol>
 <hr>
 </article>
           </div>
@@ -209,7 +156,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/elva-bc-projects/Per-Tenant-Extensions/_git/Per-Tenant-Extensions-Help?path=en-US/articles/billing/billing.md&amp;version=GBmaster&amp;line=1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://dev.azure.com/elva-bc-projects/Per-Tenant-Extensions/_git/Per-Tenant-Extensions-Help?path=en-US/articles/billing/main-modules.md&amp;version=GBmaster&amp;line=1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

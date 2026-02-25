@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Overview | Per Tenant Extensions </title>
+    <title>System Structure | Per Tenant Extensions </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Overview | Per Tenant Extensions ">
+    <meta name="title" content="System Structure | Per Tenant Extensions ">
     <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -77,20 +77,19 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="overview">Overview</h1>
+<h2 id="system-structure">System Structure</h2>
 
-<p>Billing is a customization integrated with Dynamics 365 Business Central developed by ELVA designed for contract management and periodic service calculation and invoicing. The system provides complete business process support from contract signing to invoice posting.</p>
-<p>Billing provides:</p>
-<p>✅ <strong>Complete Contract Lifecycle Management</strong> - from creation to closing<br>
-✅ <strong>Flexible Service Catalog Management</strong> - with variants, prices and discounts<br>
-✅ <strong>Object Tracking</strong> - physical or logical object registration<br>
-✅ <strong>Automated Calculation System</strong> - with various quantity and price sources<br>
-✅ <strong>Convenient Journal Posting</strong> - with integration to sales/purchase processes<br>
-✅ <strong>Detailed Entry Tracking</strong> - with complete audit trail</p>
-<h1 id="description">Description</h1>
-<p>Coming soon</p>
-<h1 id="benefits">Benefits</h1>
-<h1 id="assumptions-and-limitations">Assumptions and limitations</h1>
+<hr>
+<p><strong>Detailed Process Step Sequence:</strong></p>
+<ol>
+<li><strong>Setup</strong> → Define services, objects, and periods</li>
+<li><strong>Contract Creation</strong> → Create contract, add services, activate</li>
+<li><strong>Calculation</strong> → Generate calculation lines, calculate prices and discounts, review</li>
+<li><strong>Posting</strong> → Transfer to journal, test, post</li>
+<li><strong>Results</strong> → Billing entries and invoices created</li>
+<li><strong>Cycle</strong> → Repeat calculations for next period
+<img src="images/Biling_Structur_000.png" alt="alt"></li>
+</ol>
 </article>
           </div>
           
@@ -99,7 +98,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/elva-bc-projects/Per-Tenant-Extensions/_git/Per-Tenant-Extensions-Help?path=en-US/articles/billing/overview.md&amp;version=GBmaster&amp;line=1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://dev.azure.com/elva-bc-projects/Per-Tenant-Extensions/_git/Per-Tenant-Extensions-Help?path=en-US/articles/billing/structure.md&amp;version=GBmaster&amp;line=1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

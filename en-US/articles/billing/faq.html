@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>FAQ | Per Tenant Extensions </title>
+    <title>Frequently Asked Questions (FAQ) | Per Tenant Extensions </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="FAQ | Per Tenant Extensions ">
+    <meta name="title" content="Frequently Asked Questions (FAQ) | Per Tenant Extensions ">
     <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -77,8 +77,68 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="faq">FAQ</h1>
+<h2 id="frequently-asked-questions-faq">Frequently Asked Questions (FAQ)</h2>
 
+<h3 id="general-questions">General Questions</h3>
+<p><strong>Q: What is the Billing application?</strong><br>
+A: Billing is a Business Central extension for contract management and periodic service calculation and invoicing.</p>
+<p><strong>Q: Can it be used with both customers and vendors?</strong><br>
+A: Yes, the system supports both customers (outgoing invoices) and vendors (incoming invoices).</p>
+<p><strong>Q: Can services be calculated automatically?</strong><br>
+A: Yes, the calculation worksheet can automatically generate calculations from active contracts.</p>
+<h3 id="contract-questions">Contract Questions</h3>
+<p><strong>Q: How to create a new contract?</strong><br>
+A: Open the contract list, press &quot;New&quot;, fill in required fields and add services.</p>
+<p><strong>Q: Can multiple services be added to a contract?</strong><br>
+A: Yes, unlimited number of service lines can be added to a contract.</p>
+<p><strong>Q: How to change contract status?</strong><br>
+A: Use the &quot;Status&quot; field menu in the contract card or the &quot;Change Status&quot; function.</p>
+<p><strong>Q: Can a contract be interrupted and later resumed?</strong><br>
+A: Yes, use the &quot;Interrupted&quot; status and later change back to &quot;Active&quot;.</p>
+<h3 id="calculation-questions">Calculation Questions</h3>
+<p><strong>Q: How often should calculations be performed?</strong><br>
+A: It depends on business needs - can be monthly, quarterly, or other period.</p>
+<p><strong>Q: Can calculation lines be corrected?</strong><br>
+A: Yes, quantities, prices, and discounts can be manually edited in the calculation worksheet.</p>
+<p><strong>Q: How to recalculate previous period?</strong><br>
+A: By generating new calculations or creating correction lines in journal with negative amounts.</p>
+<p><strong>Q: Can calculations be grouped in one invoice?</strong><br>
+A: Yes, use invoice groups and grouping ID.</p>
+<h3 id="price-and-discount-questions">Price and Discount Questions</h3>
+<p><strong>Q: Where are prices taken from?</strong><br>
+A: Prices can be from contract service, service card, or service price list.</p>
+<p><strong>Q: How to apply discounts?</strong><br>
+A: Discounts can be defined in contract discounts or service sales discounts.</p>
+<p><strong>Q: Can minimum or maximum amount be set?</strong><br>
+A: Yes, min and max amounts can be specified in contract service line.</p>
+<p><strong>Q: How do price and quantity coefficients work?</strong><br>
+A: Coefficients multiply base value, allowing proportional adjustment of prices or quantities.</p>
+<h3 id="object-questions">Object Questions</h3>
+<p><strong>Q: Are objects mandatory?</strong><br>
+A: No, objects are only needed when service is related to specific object.</p>
+<p><strong>Q: Can one contract have multiple objects?</strong><br>
+A: Yes, each contract service can have its own object.</p>
+<p><strong>Q: How do object parameters affect calculations?</strong><br>
+A: If quantity source is &quot;Object Value&quot;, then quantity is taken from object parameter.</p>
+<h3 id="posting-questions">Posting Questions</h3>
+<p><strong>Q: Does journal posting create invoices?</strong><br>
+A: It depends on journal settings - can create invoices or only billing entries.</p>
+<p><strong>Q: Can posted entry be cancelled?</strong><br>
+A: Cannot be directly cancelled, but correction entry with opposite sign can be created.</p>
+<p><strong>Q: What is a billing entry?</strong><br>
+A: Billing entry is a posted entry reflecting provided service.</p>
+<p><strong>Q: How to see if entry is already in invoice?</strong><br>
+A: Billing entry has &quot;Invoice Ledger Entry No.&quot; field indicating related invoice.</p>
+<h3 id="technical-questions">Technical Questions</h3>
+<p><strong>Q: What is system integration with Base Application?</strong><br>
+A: System integrates with customers, vendors, dimensions, number series and other standard functions.</p>
+<p><strong>Q: Can data be exported?</strong><br>
+A: Yes, all pages support standard Business Central export functions.</p>
+<p><strong>Q: Are reports available?</strong><br>
+A: Yes, system provides reports on contracts, calculations, billing entries.</p>
+<p><strong>Q: Does it support multiple currencies?</strong><br>
+A: Yes, different currencies can be used in contracts and calculations.</p>
+<hr>
 </article>
           </div>
           
