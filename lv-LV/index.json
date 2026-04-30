@@ -99,6 +99,26 @@
     "title": "Lietošanas scenāriji | Per Tenant Extensions",
     "keywords": "Lietošanas scenāriji"
   },
+  "articles/payroll/faq.html": {
+    "href": "articles/payroll/faq.html",
+    "title": "BUJ | Per Tenant Extensions",
+    "keywords": "BUJ"
+  },
+  "articles/payroll/overview.html": {
+    "href": "articles/payroll/overview.html",
+    "title": "Apskats | Per Tenant Extensions",
+    "keywords": "Apskats Payroll un Personnel Papildus Risinājumi"
+  },
+  "articles/payroll/personnel_custom_document_fields.html": {
+    "href": "articles/payroll/personnel_custom_document_fields.html",
+    "title": "Apskats | Per Tenant Extensions",
+    "keywords": "Apskats Personnel Custom Document Fields ir ELVA pielāgojums, kas integrēts ar Dynamics 365 Business Central. Mērķis: ļaut klientiem pašiem izveidot mainīgos, kas tiek izmantoti personāla dokumentu veidnēs. Nosacījumi un ierobežojumi Jābūt instalētai Latvijas Algām un Personālam Latvian Payroll . Kas ir Personnel Custom Document Fields? Drukātajos personāla dokumentos (rīkojumos, darba līgumos, iekšējos dokumentos) tiek izmantoti mainīgie jeb aizstājēji — piem., %EMPLOYEENAME% , %POSITION% . Sistēma tos automātiski aizstāj ar aktuālo darbinieka datu vērtībām. Šis risinājums ļauj patstāvīgi izveidot jaunus mainīgos , kuru vērtības nāk no laukiem uz darbinieka, amata, struktūrvienības vai darba līguma kartītes. Kā atrast Nospiediet Tell Me (meklēšana, Alt+Q ). Ierakstiet Pielāgotie dokumentu lauki vai Document Custom Fields . Atveriet lapas rezultātu. Lietošanas scenāriji 1. scenārijs — Amata nosaukums angliski Situācija: Klientam ir amatiem pievienots lauks Description ENG (angļu nosaukums). Drukājamajos rīkojumos vajag mainīgo %POSITIONNAMEENG% . Soļi: Atveriet Pielāgotie dokumentu lauki . Nospiediet Jauns (vai ievadiet jaunu rindu sarakstā). Aizpildiet laukus: Lauks Vērtība Kods POSITIONNAMEENG Apraksts Position Name ENG Atsauce Employee Avota ieraksts Position Avota lauks Description ENG Iespējots ✓ Atveriet dokumenta veidni un ievietojiet %POSITIONNAMEENG% vajadzīgajā vietā. Rezultāts: Kad tiek drukāts personāla rīkojums, sistēma aizstāj %POSITIONNAMEENG% ar angļu amata nosaukumu no darbinieka aktīvā amata kartītes. 2. scenārijs — Struktūrvienības nosaukums citā valodā Situācija: Struktūrvienībām pievienots lauks Description ENG (angļu nosaukums). Darba līgumā vajag mainīgo %DEPTNAMEENG% . Soļi: Atveriet Pielāgotie dokumentu lauki → Jauns . Aizpildiet: Lauks Vērtība Kods DEPTNAMEENG Apraksts Dept Name ENG Atsauce Labour Contract Avota ieraksts Department Avota lauks Description ENG Iespējots ✓ Veidnē ievietojiet %DEPTNAMEENG% . Rezultāts: Drukājot darba līgumu, sistēma meklē darbinieka pašreizējo amatu, no tā iegūst struktūrvienību un atgriež Description ENG lauka vērtību. 3. scenārijs — Tiešās darba līguma lauka vērtība Situācija: uz darba līguma kartītes ir jauks lauks Contract Language Code . Veidnē vajag mainīgo %LCLANGCODE% . Soļi: Atveriet Pielāgotie dokumentu lauki → Jauns . Aizpildiet: Lauks Vērtība Kods LCLANGCODE Apraksts Contract Language Atsauce Labour Contract Avota ieraksts Labour Contract Avota lauks Contract Language Code Iespējots ✓ Veidnē ievietojiet %LCLANGCODE% . 4. scenārijs — Darbinieka papildlauks Situācija: darbinieka kartītei pievienots lauks Tax ID (nodokļu maksātāja ID). Vizītkartē vai iekšējā paziņojumā vajag %TAXID% . Soļi: Atveriet Pielāgotie dokumentu lauki → Jauns . Aizpildiet: Lauks Vērtība Kods TAXID Apraksts Tax ID Atsauce Employee Avota ieraksts Employee Avota lauks Tax ID Iespējots ✓ 5. scenārijs — Mainīgā īslaicīga atspējošana Situācija: Mainīgais %POSITIONNAMEENG% uz laiku nav nepieciešams (piemēram, kamēr dati vēl netiek uzturēti), bet nevēlaties dzēst iestatījumu. Soļi: Atrodiet kodu POSITIONNAMEENG Pielāgotajos dokumentu laukos . Nodzēsiet atzīmi laukā Iespējots . Rezultāts: Dokuments tiks drukāts, bet aizstājējs paliks neaizvietots (tiks izdrukāts tukšs). Pēc datu sagatavošanas aizpildiet Iespējots atpakaļ. Teksta locījumi (papildu opcija) Ja veidnē nepieciešama vērtība dažādos gramatiskajos locījumos, aktivizējiet lauku Izmantot locījumi un norādiet Dzimumu . Pēc tam veidnē izmantojiet locījuma prefiksu pirms koda: Prefikss Locījums N_ Nominatīvs G_ Ģenitīvs D_ Datīvs A_ Akuzatīvs V_ Vokatīvs I_ Instrumentālis L_ Lokatīvs Piemērs: %D_POSITIONNAMEENG% — amata nosaukums datīvā. Biežāk uzdotie jautājumi Jautājums: Lauku izvēles saraksts Avota lauka kolonnā ir tukšs. Atbilde: Vispirms saglabājiet rindu, lai lauks Avota ieraksts tiktu reģistrēts. Uzmeklēšana paļaujas uz saglabāto Avota tabulas numuru . Jautājums: Mainīgais tiek drukāts kā %POSITIONNAMEENG% (neaizvietots). Atbilde: Pārbaudiet: Rinda pastāv un kolonna Iespējots ir atzīmēta. Avota lauka numurs ir aizpildīts (skatiet kolonnu Avota lauka nosaukums ). Atsauce atbilst dokumenta tipam, kurā tiek lietots mainīgais. Jautājums: Vai var izmantot laukus no citām tabulām (ne Employees/Position/Dept/LC)? Atbilde: Nē — šis PTE atbalsta tikai četras iepriekš minētās tabulas. Sarežģītākiem gadījumiem nepieciešams pielāgots notikumu abonents."
+  },
+  "articles/payroll/usage_scenarios.html": {
+    "href": "articles/payroll/usage_scenarios.html",
+    "title": "Lietošanas scenāriji | Per Tenant Extensions",
+    "keywords": "Lietošanas scenāriji"
+  },
   "articles/reports/faq.html": {
     "href": "articles/reports/faq.html",
     "title": "BUJ | Per Tenant Extensions",
@@ -147,7 +167,7 @@
   "index.html": {
     "href": "index.html",
     "title": "Per Tenant Extensions ietvaros izstrādāti sekojoši appi: | Per Tenant Extensions",
-    "keywords": "Per Tenant Extensions ietvaros izstrādāti sekojoši appi: Payment Message Report Customer - G/L Account Trial Balance Report Vendor - G/L Account Trial Balance Report Trial Balance by Accounts Report Set-Off Statement Billing Citadele Payment Export API for Power BI EN"
+    "keywords": "Per Tenant Extensions ietvaros izstrādāti sekojoši appi: Payment Message Report Customer - G/L Account Trial Balance Report Vendor - G/L Account Trial Balance Report Trial Balance by Accounts Report Set-Off Statement Billing Citadele Payment Export API for Power BI [!include[app_payroll](articles/includes/app_payroll.md)] EN"
   },
   "readme.html": {
     "href": "readme.html",
