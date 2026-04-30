@@ -85,7 +85,7 @@
 <h2 id="must-be-installed-latvian-payroll-and-personnel-latvian-payroll">Must be installed: <strong>Latvian Payroll and Personnel</strong> <a href="https://elva-d365-bc.github.io/payroll/en-US/">Latvian Payroll</a>.</h2>
 <h2 id="what-is-">What is Personnel Custom Document Fields?</h2>
 <p>In printed HR documents (orders, employment contracts, internal documents),
-<strong>variables</strong> or placeholders are used — e.g., <code>%EMPLOYEENAME%</code>, <code>%POSITION%</code>.
+<strong>variables</strong> or placeholders are used — e.g., <strong><code>%EMPLOYEENAME%</code></strong>, <strong><code>%POSITION%</code></strong>.
 The system automatically replaces them with the current employee data values.</p>
 <p>This solution allows you to independently create <strong>new variables</strong>, whose values come from
 fields on the employee, position, department, or employment contract card.</p>
@@ -93,14 +93,14 @@ fields on the employee, position, department, or employment contract card.</p>
 <h2 id="how-to-find">How to find</h2>
 <ol>
 <li>Press <strong>Tell Me</strong> (search, <kbd>Alt+Q</kbd>).</li>
-<li>Type <code>Document Custom Fields</code>.</li>
+<li>Type <strong><code>Document Custom Fields</code></strong>.</li>
 <li>Open the page result.</li>
 </ol>
 <hr>
 <h2 id="usage-scenarios">Usage Scenarios</h2>
 <h3 id="1-scenario--position-name-in-english">1. Scenario — Position Name in English</h3>
-<p><strong>Situation:</strong> The customer has added a field <code>Description ENG</code> (English name) to positions.
-The printed orders require the variable <code>%POSITIONNAMEENG%</code>.</p>
+<p><strong>Situation:</strong> The customer has added a field <strong><code>Description ENG</code></strong> (English name) to positions.
+The printed orders require the variable <strong><code>%POSITIONNAMEENG%</code></strong>.</p>
 <p><strong>Steps:</strong></p>
 <ol>
 <li><p>Open <strong>Document Custom Fields</strong>.</p>
@@ -118,23 +118,23 @@ The printed orders require the variable <code>%POSITIONNAMEENG%</code>.</p>
 <tbody>
 <tr>
 <td><strong>Code</strong></td>
-<td><code>POSITIONNAMEENG</code></td>
+<td><strong><code>POSITIONNAMEENG</code></strong></td>
 </tr>
 <tr>
 <td><strong>Description</strong></td>
-<td><code>Position Name ENG</code></td>
+<td><strong><code>Position Name ENG</code></strong></td>
 </tr>
 <tr>
 <td><strong>Reference</strong></td>
-<td><code>Employee</code></td>
+<td><strong><code>Employee</code></strong></td>
 </tr>
 <tr>
 <td><strong>Source Record</strong></td>
-<td><code>Position</code></td>
+<td><strong><code>Position</code></strong></td>
 </tr>
 <tr>
 <td><strong>Source Field</strong></td>
-<td><code>Description ENG</code></td>
+<td><strong><code>Description ENG</code></strong></td>
 </tr>
 <tr>
 <td><strong>Enabled</strong></td>
@@ -143,15 +143,15 @@ The printed orders require the variable <code>%POSITIONNAMEENG%</code>.</p>
 </tbody>
 </table>
 </li>
-<li><p>Open the document template and insert <code>%POSITIONNAMEENG%</code> in the desired location.</p>
+<li><p>Open the document template and insert <strong><code>%POSITIONNAMEENG%</code></strong> in the desired location.</p>
 </li>
 </ol>
 <p><strong>Result:</strong> When the personnel order is printed, the system replaces
-<code>%POSITIONNAMEENG%</code> with the English position name from the employee's active position card.</p>
+<code>%POSITIONNAMEENG%</code>** with the English position name from the employee's active position card.</p>
 <hr>
 <h3 id="2-scenario--name-of-the-department-in-another-language">2. Scenario — Name of the Department in another language</h3>
-<p><strong>Situation:</strong> The customer has added a field <code>Description ENG</code> (English name) to departments.
-The labour contract requires the variable <code>%DEPTNAMEENG%</code>.</p>
+<p><strong>Situation:</strong> The customer has added a field <strong><code>Description ENG</code></strong> (English name) to departments.
+The labour contract requires the variable <strong><code>%DEPTNAMEENG%</code></strong>.</p>
 <p><strong>Steps:</strong></p>
 <ol>
 <li><p>Open <strong>Document Custom Fields</strong> → <strong>New</strong>.</p>
@@ -167,23 +167,23 @@ The labour contract requires the variable <code>%DEPTNAMEENG%</code>.</p>
 <tbody>
 <tr>
 <td><strong>Code</strong></td>
-<td><code>DEPTNAMEENG</code></td>
+<td><strong><code>DEPTNAMEENG</code></strong></td>
 </tr>
 <tr>
 <td><strong>Description</strong></td>
-<td><code>Dept Name ENG</code></td>
+<td><strong><code>Dept Name ENG</code></strong></td>
 </tr>
 <tr>
 <td><strong>Reference</strong></td>
-<td><code>Labour Contract</code></td>
+<td><strong><code>Labour Contract</code></strong></td>
 </tr>
 <tr>
 <td><strong>Source Record</strong></td>
-<td><code>Department</code></td>
+<td><strong><code>Department</code></strong></td>
 </tr>
 <tr>
 <td><strong>Source Field</strong></td>
-<td><code>Description ENG</code></td>
+<td><strong><code>Description ENG</code></strong></td>
 </tr>
 <tr>
 <td><strong>Enabled</strong></td>
@@ -192,15 +192,15 @@ The labour contract requires the variable <code>%DEPTNAMEENG%</code>.</p>
 </tbody>
 </table>
 </li>
-<li><p>Insert <code>%DEPTNAMEENG%</code> in the template.</p>
+<li><p>Insert <strong><code>%DEPTNAMEENG%</code></strong> in the template.</p>
 </li>
 </ol>
 <p><strong>Result:</strong> When the labour contract is printed, the system looks up the employee's current position,
-retrieves the department from it, and returns the value of the <code>Description ENG</code> field.</p>
+retrieves the department from it, and returns the value of the <strong><code>Description ENG</code></strong> field.</p>
 <hr>
 <h3 id="3-scenario--direct-labour-contract-field-value">3. Scenario — Direct Labour Contract Field Value</h3>
-<p><strong>Situation:</strong> The labour contract card has a nice field <code>Contract Language Code</code>.
-The template requires the variable <code>%LCLANGCODE%</code>.</p>
+<p><strong>Situation:</strong> The labour contract card has a nice field <strong><code>Contract Language Code</code></strong>.
+The template requires the variable <strong><code>%LCLANGCODE%</code></strong>.</p>
 <p><strong>Steps:</strong></p>
 <ol>
 <li><p>Open <strong>Document Custom Fields</strong> → <strong>New</strong>.</p>
@@ -216,23 +216,23 @@ The template requires the variable <code>%LCLANGCODE%</code>.</p>
 <tbody>
 <tr>
 <td><strong>Code</strong></td>
-<td><code>LCLANGCODE</code></td>
+<td><strong><code>LCLANGCODE</code></strong></td>
 </tr>
 <tr>
 <td><strong>Description</strong></td>
-<td><code>Contract Language</code></td>
+<td><strong><code>Contract Language</code></strong></td>
 </tr>
 <tr>
 <td><strong>Reference</strong></td>
-<td><code>Labour Contract</code></td>
+<td><strong><code>Labour Contract</code></strong></td>
 </tr>
 <tr>
 <td><strong>Source Record</strong></td>
-<td><code>Labour Contract</code></td>
+<td><strong><code>Labour Contract</code></strong></td>
 </tr>
 <tr>
 <td><strong>Source Field</strong></td>
-<td><code>Contract Language Code</code></td>
+<td><strong><code>Contract Language Code</code></strong></td>
 </tr>
 <tr>
 <td><strong>Enabled</strong></td>
@@ -241,13 +241,13 @@ The template requires the variable <code>%LCLANGCODE%</code>.</p>
 </tbody>
 </table>
 </li>
-<li><p>Insert <code>%LCLANGCODE%</code> in the template.</p>
+<li><p>Insert <strong><code>%LCLANGCODE%</code></strong> in the template.</p>
 </li>
 </ol>
 <hr>
 <h3 id="4-scenario--employee-custom-field">4. Scenario — Employee Custom Field</h3>
-<p><strong>Situation:</strong> The employee card has a custom field <code>Tax ID</code>.
-The business card or internal notice requires the variable <code>%TAXID%</code>.</p>
+<p><strong>Situation:</strong> The employee card has a custom field <strong><code>Tax ID</code></strong>.
+The business card or internal notice requires the variable <strong><code>%TAXID%</code></strong>.</p>
 <p><strong>Steps:</strong></p>
 <ol>
 <li><p>Open <strong>Document Custom Fields</strong> → <strong>New</strong>.</p>
@@ -263,23 +263,23 @@ The business card or internal notice requires the variable <code>%TAXID%</code>.
 <tbody>
 <tr>
 <td><strong>Code</strong></td>
-<td><code>TAXID</code></td>
+<td><strong><code>TAXID</code></strong></td>
 </tr>
 <tr>
 <td><strong>Description</strong></td>
-<td><code>Tax ID</code></td>
+<td><strong><code>Tax ID</code></strong></td>
 </tr>
 <tr>
 <td><strong>Reference</strong></td>
-<td><code>Employee</code></td>
+<td><strong><code>Employee</code></strong></td>
 </tr>
 <tr>
 <td><strong>Source Record</strong></td>
-<td><code>Employee</code></td>
+<td><strong><code>Employee</code></strong></td>
 </tr>
 <tr>
 <td><strong>Source Field</strong></td>
-<td><code>Tax ID</code></td>
+<td><strong><code>Tax ID</code></strong></td>
 </tr>
 <tr>
 <td><strong>Enabled</strong></td>
@@ -291,11 +291,11 @@ The business card or internal notice requires the variable <code>%TAXID%</code>.
 </ol>
 <hr>
 <h3 id="5-scenario--temporary-disabling-of-a-variable">5. Scenario — Temporary Disabling of a Variable</h3>
-<p><strong>Situation:</strong> The variable <code>%POSITIONNAMEENG%</code> is temporarily not needed (for example,
+<p><strong>Situation:</strong> The variable <strong><code>%POSITIONNAMEENG%</code></strong> is temporarily not needed (for example,
 while the data is not yet maintained), but you do not want to delete the setting.</p>
 <p><strong>Steps:</strong></p>
 <ol>
-<li>Find the code <code>POSITIONNAMEENG</code> in <strong>Document Custom Fields</strong>.</li>
+<li>Find the code <strong><code>POSITIONNAMEENG</code></strong> in <strong>Document Custom Fields</strong>.</li>
 <li>Clear the checkmark in the <strong>Enabled</strong> field.</li>
 </ol>
 <p><strong>Result:</strong> The document will be printed, but the placeholder will remain unfilled
@@ -314,42 +314,42 @@ the <strong>Use Case Endings</strong> field and specify the <strong>Gender</stro
 </thead>
 <tbody>
 <tr>
-<td><code>N_</code></td>
+<td><strong><code>N_</code></strong></td>
 <td>Nominative</td>
 </tr>
 <tr>
-<td><code>G_</code></td>
+<td><strong><code>G_</code></strong></td>
 <td>Genitive</td>
 </tr>
 <tr>
-<td><code>D_</code></td>
+<td><strong><code>D_</code></strong></td>
 <td>Dative</td>
 </tr>
 <tr>
-<td><code>A_</code></td>
+<td><strong><code>A_</code></strong></td>
 <td>Accusative</td>
 </tr>
 <tr>
-<td><code>V_</code></td>
+<td><strong><code>V_</code></strong></td>
 <td>Vocative</td>
 </tr>
 <tr>
-<td><code>I_</code></td>
+<td><strong><code>I_</code></strong></td>
 <td>Instrumental</td>
 </tr>
 <tr>
-<td><code>L_</code></td>
+<td><strong><code>L_</code></strong></td>
 <td>Locative</td>
 </tr>
 </tbody>
 </table>
-<p>Example: <code>%D_POSITIONNAMEENG%</code> — position name in dative case.</p>
+<p>Example: <strong><code>%D_POSITIONNAMEENG%</code></strong> — position name in dative case.</p>
 <hr>
 <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
 <p><strong>Question:</strong> The field selection list in the <em>Source Field</em> column is empty.<br>
 <strong>Answer:</strong> First, save the row to register the <em>Source Record</em>.
 Lookup relies on the saved <em>Source Table Number</em>.</p>
-<p><strong>Question:</strong> The variable is printed as <code>%POSITIONNAMEENG%</code> (not replaced).<br>
+<p><strong>Question:</strong> The variable is printed as <strong><code>%POSITIONNAMEENG%</code></strong> (not replaced).<br>
 <strong>Answer:</strong> Check:</p>
 <ul>
 <li>The row exists and the <strong>Enabled</strong> column is checked.</li>
