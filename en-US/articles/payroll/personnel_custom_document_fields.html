@@ -1,0 +1,401 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Overview | Per Tenant Extensions </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Overview | Per Tenant Extensions ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../.././images/elva_logo.jpg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="overview">Overview</h1>
+
+<p>Personnel Custom Document Fields is a ELVA customization integrated with Dynamics 365 Business Central.</p>
+<p><strong>Purpose:</strong> To allow customers to create their own variables that are used in HR document templates.</p>
+<h2 id="assumptions-and-limitations">Assumptions and limitations</h2>
+<h2 id="must-be-installed-latvian-payroll-and-personnel-latvian-payroll">Must be installed: <strong>Latvian Payroll and Personnel</strong> <a href="https://elva-d365-bc.github.io/payroll/en-US/">Latvian Payroll</a>.</h2>
+<h2 id="what-is-">What is Personnel Custom Document Fields?</h2>
+<p>In printed HR documents (orders, employment contracts, internal documents),
+<strong>variables</strong> or placeholders are used — e.g., <code>%EMPLOYEENAME%</code>, <code>%POSITION%</code>.
+The system automatically replaces them with the current employee data values.</p>
+<p>This solution allows you to independently create <strong>new variables</strong>, whose values come from
+fields on the employee, position, department, or employment contract card.</p>
+<hr>
+<h2 id="how-to-find">How to find</h2>
+<ol>
+<li>Press <strong>Tell Me</strong> (search, <kbd>Alt+Q</kbd>).</li>
+<li>Type <code>Document Custom Fields</code>.</li>
+<li>Open the page result.</li>
+</ol>
+<hr>
+<h2 id="usage-scenarios">Usage Scenarios</h2>
+<h3 id="1-scenario--position-name-in-english">1. Scenario — Position Name in English</h3>
+<p><strong>Situation:</strong> The customer has added a field <code>Description ENG</code> (English name) to positions.
+The printed orders require the variable <code>%POSITIONNAMEENG%</code>.</p>
+<p><strong>Steps:</strong></p>
+<ol>
+<li><p>Open <strong>Document Custom Fields</strong>.</p>
+</li>
+<li><p>Click <strong>New</strong> (or enter a new row in the list).</p>
+</li>
+<li><p>Fill in the fields:</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Code</strong></td>
+<td><code>POSITIONNAMEENG</code></td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td><code>Position Name ENG</code></td>
+</tr>
+<tr>
+<td><strong>Reference</strong></td>
+<td><code>Employee</code></td>
+</tr>
+<tr>
+<td><strong>Source Record</strong></td>
+<td><code>Position</code></td>
+</tr>
+<tr>
+<td><strong>Source Field</strong></td>
+<td><code>Description ENG</code></td>
+</tr>
+<tr>
+<td><strong>Enabled</strong></td>
+<td>✓</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li><p>Open the document template and insert <code>%POSITIONNAMEENG%</code> in the desired location.</p>
+</li>
+</ol>
+<p><strong>Result:</strong> When the personnel order is printed, the system replaces
+<code>%POSITIONNAMEENG%</code> with the English position name from the employee's active position card.</p>
+<hr>
+<h3 id="2-scenario--name-of-the-department-in-another-language">2. Scenario — Name of the Department in another language</h3>
+<p><strong>Situation:</strong> The customer has added a field <code>Description ENG</code> (English name) to departments.
+The labour contract requires the variable <code>%DEPTNAMEENG%</code>.</p>
+<p><strong>Steps:</strong></p>
+<ol>
+<li><p>Open <strong>Document Custom Fields</strong> → <strong>New</strong>.</p>
+</li>
+<li><p>Fill in the fields:</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Code</strong></td>
+<td><code>DEPTNAMEENG</code></td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td><code>Dept Name ENG</code></td>
+</tr>
+<tr>
+<td><strong>Reference</strong></td>
+<td><code>Labour Contract</code></td>
+</tr>
+<tr>
+<td><strong>Source Record</strong></td>
+<td><code>Department</code></td>
+</tr>
+<tr>
+<td><strong>Source Field</strong></td>
+<td><code>Description ENG</code></td>
+</tr>
+<tr>
+<td><strong>Enabled</strong></td>
+<td>✓</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li><p>Insert <code>%DEPTNAMEENG%</code> in the template.</p>
+</li>
+</ol>
+<p><strong>Result:</strong> When the labour contract is printed, the system looks up the employee's current position,
+retrieves the department from it, and returns the value of the <code>Description ENG</code> field.</p>
+<hr>
+<h3 id="3-scenario--direct-labour-contract-field-value">3. Scenario — Direct Labour Contract Field Value</h3>
+<p><strong>Situation:</strong> The labour contract card has a nice field <code>Contract Language Code</code>.
+The template requires the variable <code>%LCLANGCODE%</code>.</p>
+<p><strong>Steps:</strong></p>
+<ol>
+<li><p>Open <strong>Document Custom Fields</strong> → <strong>New</strong>.</p>
+</li>
+<li><p>Fill in the fields:</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Code</strong></td>
+<td><code>LCLANGCODE</code></td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td><code>Contract Language</code></td>
+</tr>
+<tr>
+<td><strong>Reference</strong></td>
+<td><code>Labour Contract</code></td>
+</tr>
+<tr>
+<td><strong>Source Record</strong></td>
+<td><code>Labour Contract</code></td>
+</tr>
+<tr>
+<td><strong>Source Field</strong></td>
+<td><code>Contract Language Code</code></td>
+</tr>
+<tr>
+<td><strong>Enabled</strong></td>
+<td>✓</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li><p>Insert <code>%LCLANGCODE%</code> in the template.</p>
+</li>
+</ol>
+<hr>
+<h3 id="4-scenario--employee-custom-field">4. Scenario — Employee Custom Field</h3>
+<p><strong>Situation:</strong> The employee card has a custom field <code>Tax ID</code>.
+The business card or internal notice requires the variable <code>%TAXID%</code>.</p>
+<p><strong>Steps:</strong></p>
+<ol>
+<li><p>Open <strong>Document Custom Fields</strong> → <strong>New</strong>.</p>
+</li>
+<li><p>Fill in the fields:</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Code</strong></td>
+<td><code>TAXID</code></td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td><code>Tax ID</code></td>
+</tr>
+<tr>
+<td><strong>Reference</strong></td>
+<td><code>Employee</code></td>
+</tr>
+<tr>
+<td><strong>Source Record</strong></td>
+<td><code>Employee</code></td>
+</tr>
+<tr>
+<td><strong>Source Field</strong></td>
+<td><code>Tax ID</code></td>
+</tr>
+<tr>
+<td><strong>Enabled</strong></td>
+<td>✓</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<hr>
+<h3 id="5-scenario--temporary-disabling-of-a-variable">5. Scenario — Temporary Disabling of a Variable</h3>
+<p><strong>Situation:</strong> The variable <code>%POSITIONNAMEENG%</code> is temporarily not needed (for example,
+while the data is not yet maintained), but you do not want to delete the setting.</p>
+<p><strong>Steps:</strong></p>
+<ol>
+<li>Find the code <code>POSITIONNAMEENG</code> in <strong>Document Custom Fields</strong>.</li>
+<li>Clear the checkmark in the <strong>Enabled</strong> field.</li>
+</ol>
+<p><strong>Result:</strong> The document will be printed, but the placeholder will remain unfilled
+(it will be printed as blank). After the data is prepared, check <strong>Enabled</strong> again.</p>
+<hr>
+<h2 id="case-endings-additional-option">Case Endings (Additional Option)</h2>
+<p>If the template requires a value in different grammatical cases, activate
+the <strong>Use Case Endings</strong> field and specify the <strong>Gender</strong>.</p>
+<p>Then, use the case prefix before the code in the template:</p>
+<table>
+<thead>
+<tr>
+<th>Prefix</th>
+<th>Case</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>N_</code></td>
+<td>Nominative</td>
+</tr>
+<tr>
+<td><code>G_</code></td>
+<td>Genitive</td>
+</tr>
+<tr>
+<td><code>D_</code></td>
+<td>Dative</td>
+</tr>
+<tr>
+<td><code>A_</code></td>
+<td>Accusative</td>
+</tr>
+<tr>
+<td><code>V_</code></td>
+<td>Vocative</td>
+</tr>
+<tr>
+<td><code>I_</code></td>
+<td>Instrumental</td>
+</tr>
+<tr>
+<td><code>L_</code></td>
+<td>Locative</td>
+</tr>
+</tbody>
+</table>
+<p>Example: <code>%D_POSITIONNAMEENG%</code> — position name in dative case.</p>
+<hr>
+<h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+<p><strong>Question:</strong> The field selection list in the <em>Source Field</em> column is empty.<br>
+<strong>Answer:</strong> First, save the row to register the <em>Source Record</em>.
+Lookup relies on the saved <em>Source Table Number</em>.</p>
+<p><strong>Question:</strong> The variable is printed as <code>%POSITIONNAMEENG%</code> (not replaced).<br>
+<strong>Answer:</strong> Check:</p>
+<ul>
+<li>The row exists and the <strong>Enabled</strong> column is checked.</li>
+<li>The <strong>Source Field Number</strong> is filled (see the <em>Source Field Name</em> column).</li>
+<li>The <strong>Reference</strong> matches the document type where the variable is used.</li>
+</ul>
+<p><strong>Question:</strong> Can fields from other tables be used (not Employees/Position/Dept/LC)?<br>
+<strong>Answer:</strong> No — this PTE only supports the four tables mentioned above.
+For more complex cases, a custom event subscriber is required.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/elva-bc-projects/Per-Tenant-Extensions/_git/Per-Tenant-Extensions-Help?path=en-US/articles/payroll/personnel_custom_document_fields.md&amp;version=GBmaster&amp;line=1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © ELVA BALTIC
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
