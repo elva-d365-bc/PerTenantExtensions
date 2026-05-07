@@ -89,13 +89,21 @@
 tiek izmantoti <strong>mainīgie</strong> jeb aizstājēji — piem., <strong><code>%EMPLOYEENAME%</code></strong>, <strong><code>%POSITION%</code></strong>.
 Sistēma tos automātiski aizstāj ar aktuālo darbinieka datu vērtībām.</p>
 <p>Šis risinājums ļauj patstāvīgi izveidot <strong>jaunus mainīgos</strong>, kuru vērtības nāk no
-laukiem uz darbinieka, amata, struktūrvienības vai darba līguma kartītes.</p>
+laukiem uz uz šādām kartītēm: | Avota ieraksts       | Tabula                    |
+| -------------------- | ------------------------- |
+| <strong><code>Employee</code></strong>           | Darbinieks                |
+| <strong><code>Position</code></strong>           | Amats                     |
+| <strong><code>Department</code></strong>         | Nodaļa                    |
+| <strong><code>Labour Contract</code></strong>    | Darba līgums              |
+| <strong><code>Order Line</code></strong>         | Personāla rīkojuma rinda  |
+| <strong><code>Employee Position</code></strong>  | Darbinieka amata ieraksts |
+| <strong><code>Personnel Document</code></strong> | Personāla dokuments       |</p>
 <hr>
 <h2 id="kā-atrast">Kā atrast</h2>
 <ol>
 <li>Nospiediet <strong>Tell Me</strong> (meklēšana, <kbd>Alt+Q</kbd>).</li>
 <li>Ierakstiet <strong><code>Pielāgotie dokumentu lauki</code></strong> vai <strong><code>Document Custom Fields</code></strong>.</li>
-<li>Atveriet lapas rezultātu.</li>
+<li>Atveriet lapu.</li>
 </ol>
 <hr>
 <h2 id="lietošanas-scenāriji">Lietošanas scenāriji</h2>
@@ -135,7 +143,7 @@ Drukājamajos rīkojumos vajag mainīgo <strong><code>%POSITIONNAMEENG%</code></
 </tr>
 <tr>
 <td><strong>Avota lauks</strong></td>
-<td><strong><code>Description ENG</code></strong></td>
+<td><em>(izvēlieties ar lookup)</em> <strong><code>Description ENG</code></strong></td>
 </tr>
 <tr>
 <td><strong>Iespējots</strong></td>
@@ -184,7 +192,7 @@ Darba līgumā vajag mainīgo <strong><code>%DEPTNAMEENG%</code></strong>.</p>
 </tr>
 <tr>
 <td><strong>Avota lauks</strong></td>
-<td><strong><code>Description ENG</code></strong></td>
+<td><em>(izvēlieties ar lookup)</em> <strong><code>Description ENG</code></strong></td>
 </tr>
 <tr>
 <td><strong>Iespējots</strong></td>
@@ -200,7 +208,7 @@ Darba līgumā vajag mainīgo <strong><code>%DEPTNAMEENG%</code></strong>.</p>
 no tā iegūst struktūrvienību un atgriež <strong><code>Description ENG</code></strong> lauka vērtību.</p>
 <hr>
 <h3 id="3-scenārijs--tiešās-darba-līguma-lauka-vērtība">3. scenārijs — Tiešās darba līguma lauka vērtība</h3>
-<p><strong>Situācija:</strong> uz darba līguma kartītes ir jauks lauks <strong><code>Contract Language Code</code></strong>.
+<p><strong>Situācija:</strong> uz darba līguma kartītes ir jauns lauks <strong><code>Contract Language Code</code></strong>.
 Veidnē vajag mainīgo <strong><code>%LCLANGCODE%</code></strong>.</p>
 <p><strong>Soļi:</strong></p>
 <ol>
@@ -291,7 +299,108 @@ Vizītkartē vai iekšējā paziņojumā vajag <strong><code>%TAXID%</code></str
 </li>
 </ol>
 <hr>
-<h3 id="5-scenārijs--mainīgā-īslaicīga-atspējošana">5. scenārijs — Mainīgā īslaicīga atspējošana</h3>
+<h3 id="5-scenārijs--rīkojuma-rindas-lauks">5. scenārijs — Rīkojuma rindas lauks</h3>
+<p><strong>Situācija:</strong> Uz rīkojuma rindas ir lauks <strong><code>Notes</code></strong> (piezīmes), ko vajag drukāt
+rīkojuma dokumentā kā <strong><code>%ORDERLINENOTES%</code></strong>.</p>
+<p><strong>Soļi:</strong></p>
+<ol>
+<li><p>Atveriet <strong>Pielāgotie dokumentu lauki</strong> → <strong>Jauns</strong>.</p>
+</li>
+<li><p>Aizpildiet:</p>
+<table>
+<thead>
+<tr>
+<th>Lauks</th>
+<th>Vērtība</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Kods</strong></td>
+<td><strong><code>ORDERLINENOTES</code></strong></td>
+</tr>
+<tr>
+<td><strong>Apraksts</strong></td>
+<td><strong><code>Order Line Notes</code></strong></td>
+</tr>
+<tr>
+<td><strong>Atsauce</strong></td>
+<td><strong><code>Personnel Order</code></strong></td>
+</tr>
+<tr>
+<td><strong>Avota ieraksts</strong></td>
+<td><strong><code>Order Line</code></strong></td>
+</tr>
+<tr>
+<td><strong>Avota lauks</strong></td>
+<td><em>(lookup)</em> <strong><code>Notes</code></strong></td>
+</tr>
+<tr>
+<td><strong>Iespējots</strong></td>
+<td>✓</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<p><strong>Rezultāts:</strong> Drukājot personāla rīkojumu, sistēma iegūst <strong><code>Notes</code></strong> vērtību tieši
+no rīkojuma rindas (konteksts ir rīkojuma rinda, tāpēc citas tabulas meklēšana
+nav nepieciešama).</p>
+<blockquote>
+<p><strong>Svarīgi:</strong> <strong><code>Order Line</code></strong>, <strong><code>Employee Position</code></strong> un <strong><code>Personnel Document</code></strong> resolver
+darbojas tikai tad, ja dokuments tiek drukāts no atbilstošā avota ieraksta.
+Piemēram, <strong><code>Order Line</code></strong> neatgriež vērtību, ja dokuments tiek drukāts no darba
+līguma konteksta.</p>
+</blockquote>
+<hr>
+<h3 id="6-scenārijs--darbinieka-amata-ieraksta-lauks">6. scenārijs — Darbinieka amata ieraksta lauks</h3>
+<p><strong>Situācija:</strong> Uz <strong><code>Employee Position</code></strong> ieraksta ir datuma lauks <strong><code>Start Date</code></strong>.
+Vajag mainīgo <strong><code>%EMPLPOSSTART%</code></strong>.</p>
+<p><strong>Soļi:</strong></p>
+<ol>
+<li><p>Atveriet <strong>Pielāgotie dokumentu lauki</strong> → <strong>Jauns</strong>.</p>
+</li>
+<li><p>Aizpildiet:</p>
+<table>
+<thead>
+<tr>
+<th>Lauks</th>
+<th>Vērtība</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Kods</strong></td>
+<td><strong><code>EMPLPOSSTART</code></strong></td>
+</tr>
+<tr>
+<td><strong>Apraksts</strong></td>
+<td><strong><code>Empl. Position Start</code></strong></td>
+</tr>
+<tr>
+<td><strong>Atsauce</strong></td>
+<td><strong><code>Personnel Order</code></strong></td>
+</tr>
+<tr>
+<td><strong>Avota ieraksts</strong></td>
+<td><strong><code>Employee Position</code></strong></td>
+</tr>
+<tr>
+<td><strong>Avota lauks</strong></td>
+<td><em>(lookup)</em> <strong><code>Start Date</code></strong></td>
+</tr>
+<tr>
+<td><strong>Iespējots</strong></td>
+<td>✓</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<p><strong>Rezultāts:</strong> Sistēma no rīkojuma rindas vai personāla dokumenta konteksta
+nosaka saistīto <strong><code>Employee Position</code></strong> ierakstu un atgriež <strong><code>Start Date</code></strong> vērtību.</p>
+<hr>
+<h3 id="7-scenārijs--mainīgā-īslaicīga-atspējošana">7. scenārijs — Mainīgā īslaicīga atspējošana</h3>
 <p><strong>Situācija:</strong> Mainīgais <strong><code>%POSITIONNAMEENG%</code></strong> uz laiku nav nepieciešams (piemēram,
 kamēr dati vēl netiek uzturēti), bet nevēlaties dzēst iestatījumu.</p>
 <p><strong>Soļi:</strong></p>
@@ -347,19 +456,22 @@ lauku <strong>Izmantot locījumi</strong> un norādiet <strong>Dzimumu</strong>.
 <p>Piemērs: <strong><code>%D_POSITIONNAMEENG%</code></strong> — amata nosaukums datīvā.</p>
 <hr>
 <h2 id="biežāk-uzdotie-jautājumi">Biežāk uzdotie jautājumi</h2>
-<p><strong>Jautājums:</strong> Lauku izvēles saraksts <em>Avota lauka</em> kolonnā ir tukšs.<br>
-<strong>Atbilde:</strong> Vispirms saglabājiet rindu, lai lauks <em>Avota ieraksts</em> tiktu reģistrēts.
-Uzmeklēšana paļaujas uz saglabāto <em>Avota tabulas numuru</em>.</p>
+<p><strong>Jautājums:</strong> Avota lauka uzmeklēšana nedarbojas vai neuzrāda laukus.<br>
+<strong>Atbilde:</strong> Pārliecinieties, ka lauks <strong>Avota ieraksts</strong> ir izvēlēts <em>pirms</em>
+uzmeklēšanas — sistēma filtrē laukus pēc saglabātā avota tabulas numura.
+Ja tabula vēl nav saglabāta (jauna rinda), vispirms saglabājiet ierakstu.</p>
 <p><strong>Jautājums:</strong> Mainīgais tiek drukāts kā <strong><code>%POSITIONNAMEENG%</code></strong> (neaizvietots).<br>
 <strong>Atbilde:</strong> Pārbaudiet:</p>
 <ul>
 <li>Rinda pastāv un kolonna <strong>Iespējots</strong> ir atzīmēta.</li>
-<li><strong>Avota lauka numurs</strong> ir aizpildīts (skatiet kolonnu <em>Avota lauka nosaukums</em>).</li>
+<li><strong>Avota lauka numurs</strong> ir aizpildīts (skatiet kolonnu <em>Avota lauks</em> — tajā jābūt redzamam caption).</li>
 <li><strong>Atsauce</strong> atbilst dokumenta tipam, kurā tiek lietots mainīgais.</li>
 </ul>
 <p><strong>Jautājums:</strong> Vai var izmantot laukus no citām tabulām (ne Employees/Position/Dept/LC)?<br>
-<strong>Atbilde:</strong> Nē — šis PTE atbalsta tikai četras iepriekš minētās tabulas.
-Sarežģītākiem gadījumiem nepieciešams pielāgots notikumu abonents.</p>
+<strong>Atbilde:</strong> Šis risinājums atbalsta <strong>septiņas</strong> tabulas:
+<strong><code>Employee</code></strong>, <strong><code>Position</code></strong>, <strong><code>Department</code></strong>, <strong><code>Labour Contract</code></strong>, <strong><code>Order Line</code></strong>,
+<strong><code>Employee Position</code></strong>, <strong><code>Personnel Document</code></strong>.</p>
+<p>Citām tabulām var pievienot atbalstu ar paplašinājumu, abonējot eventu <strong><code>OnGetCustomDocumentFieldValue</code></strong>.</p>
 </article>
           </div>
           
