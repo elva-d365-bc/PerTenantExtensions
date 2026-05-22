@@ -81,14 +81,11 @@
 
 <p>Personnel Custom Document Fields ir ELVA pielāgojums, kas integrēts ar Dynamics 365 Business Central.</p>
 <p><strong>Mērķis:</strong> ļaut klientiem pašiem izveidot mainīgos, kas tiek izmantoti personāla dokumentu veidnēs.</p>
-<h2 id="nosacījumi-un-ierobežojumi">Nosacījumi un ierobežojumi</h2>
-<p>Jābūt instalētai <strong>Latvijas Algām</strong> un <strong>Personālam</strong> <a href="https://elva-d365-bc.github.io/payroll/lv-LV/">Latvian Payroll</a>.</p>
-<hr>
 <h2 id="kas-ir-">Kas ir Personnel Custom Document Fields?</h2>
 <p>Drukātajos personāla dokumentos (rīkojumos, darba līgumos, iekšējos dokumentos)
 tiek izmantoti <strong>mainīgie</strong> jeb aizstājēji — piem., <strong><code>%EMPLOYEENAME%</code></strong>, <strong><code>%POSITION%</code></strong>.
 Sistēma tos automātiski aizstāj ar aktuālo darbinieka datu vērtībām.</p>
-<p>Šis risinājums ļauj patstāvīgi izveidot <strong>jaunus mainīgos</strong>, kuru vērtības nāk no
+<p>Šis risinājums ļauj patstāvīgi izveidot <strong>jaunus mainīgos</strong>, kuru vērtības tiek iegūtas no
 laukiem uz uz šādām kartītēm:</p>
 <table>
 <thead>
@@ -128,12 +125,19 @@ laukiem uz uz šādām kartītēm:</p>
 </tr>
 </tbody>
 </table>
+<h2 id="nosacījumi-un-ierobežojumi">Nosacījumi un ierobežojumi</h2>
+<p>Jābūt instalētiem ELVA risinājumiem <strong>Latvijas Algas</strong> un <strong>Latvijas Personāls</strong> <a href="https://elva-d365-bc.github.io/payroll/lv-LV/">Latvian Payroll</a>.</p>
+<p>Šis risinājums nedarbojas, ja:</p>
+<ul>
+<li>vērtība tiek aprēķināta no vairākiem laukiem;</li>
+<li>vērtība jālasa no citas tabulas, kas nav definēta kā Avota ieraksts;</li>
+<li>nepieciešama nosacījuma loģika.</li>
+</ul>
 <hr>
 <h2 id="kā-atrast">Kā atrast</h2>
 <ol>
-<li>Nospiediet <strong>Tell Me</strong> (meklēšana, <kbd>Alt+Q</kbd>).</li>
-<li>Ierakstiet <strong><code>Pielāgotie dokumentu lauki</code></strong> vai <strong><code>Document Custom Fields</code></strong>.</li>
-<li>Atveriet lapu.</li>
+<li>Ierakstiet meklētājā <strong><code>Pielāgotie dokumentu lauki</code></strong> vai <strong><code>Document Custom Fields</code></strong> un atveriet lapu.
+<img src="images/PersDoc_001.png" alt="alt"></li>
 </ol>
 <hr>
 <h2 id="lietošanas-scenāriji">Lietošanas scenāriji</h2>
@@ -182,8 +186,10 @@ Drukājamajos rīkojumos vajag mainīgo <strong><code>%POSITIONNAMEENG%</code></
 </tbody>
 </table>
 </li>
-<li><p>Atveriet dokumenta veidni un ievietojiet <strong><code>%POSITIONNAMEENG%</code></strong> vajadzīgajā vietā.</p>
-</li>
+</ol>
+<p><img src="images/PersDoc_002.png" alt="alt"></p>
+<ol start="4">
+<li>Atveriet dokumenta veidni un ievietojiet <strong><code>%POSITIONNAMEENG%</code></strong> vajadzīgajā vietā.</li>
 </ol>
 <p><strong>Rezultāts:</strong> Kad tiek drukāts personāla rīkojums, sistēma aizstāj
 <strong><code>%POSITIONNAMEENG%</code></strong> ar angļu amata nosaukumu no darbinieka aktīvā amata kartītes.</p>

@@ -429,6 +429,28 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "articles/payroll/images/PersDoc_001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/payroll/images/PersDoc_001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/payroll/images/PersDoc_002.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/payroll/images/PersDoc_002.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "articles/payroll/overview.md",
       "output": {
@@ -446,7 +468,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/payroll/personnel_custom_document_fields.html",
-          "hash": "pnq0crw32O+IFiqN++SfXzc1uPoATjuR7vPiqkwCAso="
+          "hash": "IB5MfS53YWuV0nLfBxIUol/+T1wZtAgVzstzCPR53PY="
         }
       },
       "is_incremental": false,
