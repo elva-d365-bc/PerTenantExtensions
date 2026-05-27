@@ -86,7 +86,7 @@
 <hr>
 <h2 id="what-is-">What is Personnel Custom Document Fields?</h2>
 <p>In printed HR documents (orders, employment contracts, internal documents),
-<strong>variables</strong> or placeholders are used — e.g., <strong><code>%EMPLOYEENAME%</code></strong>, <strong><code>%POSITION%</code></strong>.
+<strong>variables</strong> or placeholders are used — e.g., <strong><code>EMPLOYEENAME</code></strong>, <strong><code>POSITION</code></strong>.
 The system automatically replaces them with the current employee data values.</p>
 <p>This solution allows you to independently create <strong>new variables</strong>, whose values come from
 fields on the employee, position, department, or employment contract card.</p>
@@ -101,7 +101,7 @@ fields on the employee, position, department, or employment contract card.</p>
 <h2 id="usage-scenarios">Usage Scenarios</h2>
 <h3 id="1-scenario--position-name-in-english">1. Scenario — Position Name in English</h3>
 <p><strong>Situation:</strong> The customer has added a field <strong><code>Description ENG</code></strong> (English name) to positions.
-The printed orders require the variable <strong><code>%POSITIONNAMEENG%</code></strong>.</p>
+The printed orders require the variable <strong><code>POSITIONNAMEENG</code></strong>.</p>
 <p><strong>Steps:</strong></p>
 <ol>
 <li><p>Open <strong>Document Custom Fields</strong>.</p>
@@ -144,15 +144,15 @@ The printed orders require the variable <strong><code>%POSITIONNAMEENG%</code></
 </tbody>
 </table>
 </li>
-<li><p>Open the document template and insert <strong><code>%POSITIONNAMEENG%</code></strong> in the desired location.</p>
+<li><p>Open the document template and insert <strong><code>POSITIONNAMEENG</code></strong> in the desired location.</p>
 </li>
 </ol>
 <p><strong>Result:</strong> When the personnel order is printed, the system replaces
-<strong><code>%POSITIONNAMEENG%</code></strong> with the English position name from the employee's active position card.</p>
+<strong><code>POSITIONNAMEENG</code></strong> with the English position name from the employee's active position card.</p>
 <hr>
 <h3 id="2-scenario--name-of-the-department-in-another-language">2. Scenario — Name of the Department in another language</h3>
 <p><strong>Situation:</strong> The customer has added a field <strong><code>Description ENG</code></strong> (English name) to departments.
-The labour contract requires the variable <strong><code>%DEPTNAMEENG%</code></strong>.</p>
+The labour contract requires the variable <strong><code>DEPTNAMEENG</code></strong>.</p>
 <p><strong>Steps:</strong></p>
 <ol>
 <li><p>Open <strong>Document Custom Fields</strong> → <strong>New</strong>.</p>
@@ -193,7 +193,7 @@ The labour contract requires the variable <strong><code>%DEPTNAMEENG%</code></st
 </tbody>
 </table>
 </li>
-<li><p>Insert <strong><code>%DEPTNAMEENG%</code></strong> in the template.</p>
+<li><p>Insert <strong><code>DEPTNAMEENG</code></strong> in the template.</p>
 </li>
 </ol>
 <p><strong>Result:</strong> When the labour contract is printed, the system looks up the employee's current position,
@@ -201,7 +201,7 @@ retrieves the department from it, and returns the value of the <strong><code>Des
 <hr>
 <h3 id="3-scenario--direct-labour-contract-field-value">3. Scenario — Direct Labour Contract Field Value</h3>
 <p><strong>Situation:</strong> The labour contract card has a nice field <strong><code>Contract Language Code</code></strong>.
-The template requires the variable <strong><code>%LCLANGCODE%</code></strong>.</p>
+The template requires the variable <strong><code>LCLANGCODE</code></strong>.</p>
 <p><strong>Steps:</strong></p>
 <ol>
 <li><p>Open <strong>Document Custom Fields</strong> → <strong>New</strong>.</p>
@@ -242,13 +242,13 @@ The template requires the variable <strong><code>%LCLANGCODE%</code></strong>.</
 </tbody>
 </table>
 </li>
-<li><p>Insert <strong><code>%LCLANGCODE%</code></strong> in the template.</p>
+<li><p>Insert <strong><code>LCLANGCODE</code></strong> in the template.</p>
 </li>
 </ol>
 <hr>
 <h3 id="4-scenario--employee-custom-field">4. Scenario — Employee Custom Field</h3>
 <p><strong>Situation:</strong> The employee card has a custom field <strong><code>Tax ID</code></strong>.
-The business card or internal notice requires the variable <strong><code>%TAXID%</code></strong>.</p>
+The business card or internal notice requires the variable <strong><code>TAXID</code></strong>.</p>
 <p><strong>Steps:</strong></p>
 <ol>
 <li><p>Open <strong>Document Custom Fields</strong> → <strong>New</strong>.</p>
@@ -292,7 +292,7 @@ The business card or internal notice requires the variable <strong><code>%TAXID%
 </ol>
 <hr>
 <h3 id="5-scenario--temporary-disabling-of-a-variable">5. Scenario — Temporary Disabling of a Variable</h3>
-<p><strong>Situation:</strong> The variable <strong><code>%POSITIONNAMEENG%</code></strong> is temporarily not needed (for example,
+<p><strong>Situation:</strong> The variable <strong><code>POSITIONNAMEENG</code></strong> is temporarily not needed (for example,
 while the data is not yet maintained), but you do not want to delete the setting.</p>
 <p><strong>Steps:</strong></p>
 <ol>
@@ -344,13 +344,13 @@ the <strong>Use Case Endings</strong> field and specify the <strong>Gender</stro
 </tr>
 </tbody>
 </table>
-<p>Example: <strong><code>%D_POSITIONNAMEENG%</code></strong> — position name in dative case.</p>
+<p>Example: <strong><code>D_POSITIONNAMEENG</code></strong> — position name in dative case.</p>
 <hr>
 <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
 <p><strong>Question:</strong> The field selection list in the <em>Source Field</em> column is empty.<br>
 <strong>Answer:</strong> First, save the row to register the <em>Source Record</em>.
 Lookup relies on the saved <em>Source Table Number</em>.</p>
-<p><strong>Question:</strong> The variable is printed as <strong><code>%POSITIONNAMEENG%</code></strong> (not replaced).<br>
+<p><strong>Question:</strong> The variable is printed as <strong><code>POSITIONNAMEENG</code></strong> (not replaced).<br>
 <strong>Answer:</strong> Check:</p>
 <ul>
 <li>The row exists and the <strong>Enabled</strong> column is checked.</li>
