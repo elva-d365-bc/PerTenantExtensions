@@ -83,7 +83,7 @@
 <p><strong>Mērķis:</strong> ļaut klientiem pašiem izveidot mainīgos, kas tiek izmantoti personāla dokumentu veidnēs.</p>
 <h2 id="kas-ir-">Kas ir Personnel Custom Document Fields?</h2>
 <p>Drukātajos personāla dokumentos (rīkojumos, darba līgumos, iekšējos dokumentos)
-tiek izmantoti <strong>mainīgie</strong> jeb aizstājēji — piem., <strong><code>%EMPLOYEENAME%</code></strong>, <strong><code>%POSITION%</code></strong>.
+tiek izmantoti <strong>mainīgie</strong> jeb aizstājēji — piem., <strong><code>EMPLOYEENAME</code></strong>, <strong><code>POSITION</code></strong>.
 Sistēma tos automātiski aizstāj ar aktuālo darbinieka datu vērtībām.</p>
 <p>Šis risinājums ļauj patstāvīgi izveidot <strong>jaunus mainīgos</strong>, kuru vērtības tiek iegūtas no
 laukiem uz uz šādām kartītēm:</p>
@@ -143,7 +143,7 @@ laukiem uz uz šādām kartītēm:</p>
 <h2 id="lietošanas-scenāriji">Lietošanas scenāriji</h2>
 <h3 id="1-scenārijs--amata-nosaukums-angliski">1. scenārijs — Amata nosaukums angliski</h3>
 <p><strong>Situācija:</strong> Klientam ir amatiem pievienots lauks <strong><code>Description ENG</code></strong> (angļu nosaukums).
-Drukājamajos rīkojumos vajag mainīgo <strong><code>%POSITIONNAMEENG%</code></strong>.</p>
+Drukājamajos rīkojumos vajag mainīgo <strong><code>POSITIONNAMEENG</code></strong>.</p>
 <p><strong>Soļi:</strong></p>
 <ol>
 <li><p>Atveriet <strong>Pielāgotie dokumentu lauki</strong>.</p>
@@ -189,14 +189,14 @@ Drukājamajos rīkojumos vajag mainīgo <strong><code>%POSITIONNAMEENG%</code></
 </ol>
 <p><img src="images/PersDoc_002.png" alt="alt"></p>
 <ol start="4">
-<li>Atveriet dokumenta veidni un ievietojiet <strong><code>%POSITIONNAMEENG%</code></strong> vajadzīgajā vietā.</li>
+<li>Atveriet dokumenta veidni un ievietojiet <strong><code>POSITIONNAMEENG</code></strong> vajadzīgajā vietā.</li>
 </ol>
 <p><strong>Rezultāts:</strong> Kad tiek drukāts personāla rīkojums, sistēma aizstāj
-<strong><code>%POSITIONNAMEENG%</code></strong> ar angļu amata nosaukumu no darbinieka aktīvā amata kartītes.</p>
+<strong><code>POSITIONNAMEENG</code></strong> ar angļu amata nosaukumu no darbinieka aktīvā amata kartītes.</p>
 <hr>
 <h3 id="2-scenārijs--struktūrvienības-nosaukums-citā-valodā">2. scenārijs — Struktūrvienības nosaukums citā valodā</h3>
 <p><strong>Situācija:</strong> Struktūrvienībām pievienots lauks <strong><code>Description ENG</code></strong> (angļu nosaukums).
-Darba līgumā vajag mainīgo <strong><code>%DEPTNAMEENG%</code></strong>.</p>
+Darba līgumā vajag mainīgo <strong><code>DEPTNAMEENG</code></strong>.</p>
 <p><strong>Soļi:</strong></p>
 <ol>
 <li><p>Atveriet <strong>Pielāgotie dokumentu lauki</strong> → <strong>Jauns</strong>.</p>
@@ -237,7 +237,7 @@ Darba līgumā vajag mainīgo <strong><code>%DEPTNAMEENG%</code></strong>.</p>
 </tbody>
 </table>
 </li>
-<li><p>Veidnē ievietojiet <strong><code>%DEPTNAMEENG%</code></strong>.</p>
+<li><p>Veidnē ievietojiet <strong><code>DEPTNAMEENG</code></strong>.</p>
 </li>
 </ol>
 <p><strong>Rezultāts:</strong> Drukājot darba līgumu, sistēma meklē darbinieka pašreizējo amatu,
@@ -245,7 +245,7 @@ no tā iegūst struktūrvienību un atgriež <strong><code>Description ENG</code
 <hr>
 <h3 id="3-scenārijs--tiešās-darba-līguma-lauka-vērtība">3. scenārijs — Tiešās darba līguma lauka vērtība</h3>
 <p><strong>Situācija:</strong> uz darba līguma kartītes ir jauns lauks <strong><code>Contract Language Code</code></strong>.
-Veidnē vajag mainīgo <strong><code>%LCLANGCODE%</code></strong>.</p>
+Veidnē vajag mainīgo <strong><code>LCLANGCODE</code></strong>.</p>
 <p><strong>Soļi:</strong></p>
 <ol>
 <li><p>Atveriet <strong>Pielāgotie dokumentu lauki</strong> → <strong>Jauns</strong>.</p>
@@ -286,13 +286,13 @@ Veidnē vajag mainīgo <strong><code>%LCLANGCODE%</code></strong>.</p>
 </tbody>
 </table>
 </li>
-<li><p>Veidnē ievietojiet <strong><code>%LCLANGCODE%</code></strong>.</p>
+<li><p>Veidnē ievietojiet <strong><code>LCLANGCODE</code></strong>.</p>
 </li>
 </ol>
 <hr>
 <h3 id="4-scenārijs--darbinieka-papildlauks">4. scenārijs — Darbinieka papildlauks</h3>
 <p><strong>Situācija:</strong> darbinieka kartītei pievienots lauks <strong><code>Tax ID</code></strong> (nodokļu maksātāja ID).
-Vizītkartē vai iekšējā paziņojumā vajag <strong><code>%TAXID%</code></strong>.</p>
+Vizītkartē vai iekšējā paziņojumā vajag <strong><code>TAXID</code></strong>.</p>
 <p><strong>Soļi:</strong></p>
 <ol>
 <li><p>Atveriet <strong>Pielāgotie dokumentu lauki</strong> → <strong>Jauns</strong>.</p>
@@ -337,7 +337,7 @@ Vizītkartē vai iekšējā paziņojumā vajag <strong><code>%TAXID%</code></str
 <hr>
 <h3 id="5-scenārijs--rīkojuma-rindas-lauks">5. scenārijs — Rīkojuma rindas lauks</h3>
 <p><strong>Situācija:</strong> Uz rīkojuma rindas ir lauks <strong><code>Notes</code></strong> (piezīmes), ko vajag drukāt
-rīkojuma dokumentā kā <strong><code>%ORDERLINENOTES%</code></strong>.</p>
+rīkojuma dokumentā kā <strong><code>ORDERLINENOTES</code></strong>.</p>
 <p><strong>Soļi:</strong></p>
 <ol>
 <li><p>Atveriet <strong>Pielāgotie dokumentu lauki</strong> → <strong>Jauns</strong>.</p>
@@ -391,7 +391,7 @@ līguma konteksta.</p>
 <hr>
 <h3 id="6-scenārijs--darbinieka-amata-ieraksta-lauks">6. scenārijs — Darbinieka amata ieraksta lauks</h3>
 <p><strong>Situācija:</strong> Uz <strong><code>Employee Position</code></strong> ieraksta ir datuma lauks <strong><code>Start Date</code></strong>.
-Vajag mainīgo <strong><code>%EMPLPOSSTART%</code></strong>.</p>
+Vajag mainīgo <strong><code>EMPLPOSSTART</code></strong>.</p>
 <p><strong>Soļi:</strong></p>
 <ol>
 <li><p>Atveriet <strong>Pielāgotie dokumentu lauki</strong> → <strong>Jauns</strong>.</p>
@@ -437,7 +437,7 @@ Vajag mainīgo <strong><code>%EMPLPOSSTART%</code></strong>.</p>
 nosaka saistīto <strong><code>Employee Position</code></strong> ierakstu un atgriež <strong><code>Start Date</code></strong> vērtību.</p>
 <hr>
 <h3 id="7-scenārijs--mainīgā-īslaicīga-atspējošana">7. scenārijs — Mainīgā īslaicīga atspējošana</h3>
-<p><strong>Situācija:</strong> Mainīgais <strong><code>%POSITIONNAMEENG%</code></strong> uz laiku nav nepieciešams (piemēram,
+<p><strong>Situācija:</strong> Mainīgais <strong><code>POSITIONNAMEENG</code></strong> uz laiku nav nepieciešams (piemēram,
 kamēr dati vēl netiek uzturēti), bet nevēlaties dzēst iestatījumu.</p>
 <p><strong>Soļi:</strong></p>
 <ol>
@@ -489,14 +489,14 @@ lauku <strong>Izmantot locījumi</strong> un norādiet <strong>Dzimumu</strong>.
 </tr>
 </tbody>
 </table>
-<p>Piemērs: <strong><code>%D_POSITIONNAMEENG%</code></strong> — amata nosaukums datīvā.</p>
+<p>Piemērs: <strong><code>D_POSITIONNAMEENG</code></strong> — amata nosaukums datīvā.</p>
 <hr>
 <h2 id="biežāk-uzdotie-jautājumi">Biežāk uzdotie jautājumi</h2>
 <p><strong>Jautājums:</strong> Avota lauka uzmeklēšana nedarbojas vai neuzrāda laukus.<br>
 <strong>Atbilde:</strong> Pārliecinieties, ka lauks <strong>Avota ieraksts</strong> ir izvēlēts <em>pirms</em>
 uzmeklēšanas — sistēma filtrē laukus pēc saglabātā avota tabulas numura.
 Ja tabula vēl nav saglabāta (jauna rinda), vispirms saglabājiet ierakstu.</p>
-<p><strong>Jautājums:</strong> Mainīgais tiek drukāts kā <strong><code>%POSITIONNAMEENG%</code></strong> (neaizvietots).<br>
+<p><strong>Jautājums:</strong> Mainīgais tiek drukāts kā <strong><code>POSITIONNAMEENG</code></strong> (neaizvietots).<br>
 <strong>Atbilde:</strong> Pārbaudiet:</p>
 <ul>
 <li>Rinda pastāv un kolonna <strong>Iespējots</strong> ir atzīmēta.</li>
