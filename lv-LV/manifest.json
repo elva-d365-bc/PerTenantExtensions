@@ -249,15 +249,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "articles/billing/workflows.md",
       "output": {
         ".html": {
           "relative_path": "articles/billing/workflows.html",
-          "hash": "j8dmW+CFQsD+Uzzg9sVTCkAtSBCuEUYiKjqeoDowT04="
+          "hash": "+HytTWVExGUGR+46a5NWlTtgWpX8UnDgAwlRneUA43w="
         }
       },
       "is_incremental": false,
@@ -337,10 +334,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/payment_message/images/pm_001.png",
+      "source_relative_path": "articles/payment_message/images/pm_01.png",
       "output": {
         "resource": {
-          "relative_path": "articles/payment_message/images/pm_001.png"
+          "relative_path": "articles/payment_message/images/pm_01.png"
         }
       },
       "is_incremental": false,
@@ -348,10 +345,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/payment_message/images/pm_002.png",
+      "source_relative_path": "articles/payment_message/images/pm_02.png",
       "output": {
         "resource": {
-          "relative_path": "articles/payment_message/images/pm_002.png"
+          "relative_path": "articles/payment_message/images/pm_02.png"
         }
       },
       "is_incremental": false,
@@ -359,10 +356,54 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/payment_message/images/pm_003.png",
+      "source_relative_path": "articles/payment_message/images/pm_03.png",
       "output": {
         "resource": {
-          "relative_path": "articles/payment_message/images/pm_003.png"
+          "relative_path": "articles/payment_message/images/pm_03.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/payment_message/images/pm_04.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/payment_message/images/pm_04.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/payment_message/images/pm_05.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/payment_message/images/pm_05.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/payment_message/images/pm_06.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/payment_message/images/pm_06.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/payment_message/images/pm_07.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/payment_message/images/pm_07.png"
         }
       },
       "is_incremental": false,
@@ -386,7 +427,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/payment_message/payment_message.html",
-          "hash": "wG6NbQ6lhSrntztthTmyoZ3niZb9td6atsvgQR3uYYU="
+          "hash": "ACc0AXlxVIsLCoBGXYY0bVMkLG4n/p2HG4GeolHkNBw="
         }
       },
       "is_incremental": false,

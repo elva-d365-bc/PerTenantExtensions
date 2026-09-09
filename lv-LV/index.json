@@ -92,7 +92,7 @@
   "articles/payment_message/payment_message.html": {
     "href": "articles/payment_message/payment_message.html",
     "title": "Kā atrast | Per Tenant Extensions",
-    "keywords": "Kā atrast Funkcija Izveidot maksājuma ziņojumu pieejama lapā Maksājumu žurnāls zem Sagatavot un zem Saistītās – Maksājumi . Noskaņojumi Nekādi papildus noskaņojumi nav nepieciešami. Kā lietot Jāsagatavo maksājumu ziņojumi un jāpalaiž funkcija Izveidot maksājuma ziņojumu ."
+    "keywords": "Kā atrast Funkcija Izveidot maksājuma ziņojumu pieejama lapā Maksājumu žurnāls zem Sagatavot Iestatījumi Iepirkumu un maksājumu uzstādījumos sadaļā Maksājumu ziņojums var nodefinēt Maksājuma ziņojuma prefiksa veidu: Standarts - pirms dokumenta numura tiek pievienots \"Rēķ.\" vai \"Inv.\" atkarībā no lietotāja interfeisa valodas. Pielāgots - lietotājs var norādīt savu tekstu Nav - prefikss netiek pievienots Kā lietot Jāsagatavo maksājumu ziņojumi un jāpalaiž funkcija Izveidot maksājuma ziņojumu LV ."
   },
   "articles/payment_message/usage_scenarios.html": {
     "href": "articles/payment_message/usage_scenarios.html",
