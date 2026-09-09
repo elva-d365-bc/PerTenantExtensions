@@ -247,15 +247,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "articles/billing/workflows.md",
       "output": {
         ".html": {
           "relative_path": "articles/billing/workflows.html",
-          "hash": "4PcMT4eBizkm5f+c6AmMp3vdi4ns1P8DDzmhgqRyPkw="
+          "hash": "Tr3yoQA7GtAfrNZOVr6NLzo4VuwvB+UiQb85tbLOxEs="
         }
       },
       "is_incremental": false,
