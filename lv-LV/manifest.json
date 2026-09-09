@@ -203,7 +203,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/billing/structure.html",
-          "hash": "hTz9u5O/uhtc0W+GdgpGSXm5CJwQMj6Rlq4XLeEm3xE="
+          "hash": "IDXazP1fsQvTv0yvThs4OfDxw6XGJcMwrq7ibnu8L+M="
         }
       },
       "is_incremental": false,
@@ -249,12 +249,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "articles/billing/workflows.md",
       "output": {
         ".html": {
           "relative_path": "articles/billing/workflows.html",
-          "hash": "+HytTWVExGUGR+46a5NWlTtgWpX8UnDgAwlRneUA43w="
+          "hash": "vslf7eLSTkP9Tf4MqYYE/REAf9Jev6A/yaAR7/SlOFo="
         }
       },
       "is_incremental": false,
@@ -427,7 +430,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/payment_message/payment_message.html",
-          "hash": "ACc0AXlxVIsLCoBGXYY0bVMkLG4n/p2HG4GeolHkNBw="
+          "hash": "0k0lUEtFdGqSx4mDK3AVdMXv+gzEYVyf+ZB3KhvpREg="
         }
       },
       "is_incremental": false,
