@@ -459,11 +459,102 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/payroll/business_trip.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/payroll/business_trip.html",
+          "hash": "zp2QQNuRVpMcdiEVujzF9XU2qbq6BppNxWcVWOvkH/E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/payroll/employee_card.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/payroll/employee_card.html",
+          "hash": "Uf/+BiE3aP9AqrbJpzlpl0S3bnZ88b7mkCtOWirEFLk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/payroll/employee_work_permit.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/payroll/employee_work_permit.html",
+          "hash": "Mntha8DToRuwnnlWnvRW3y2ivOJfsJGC9MM6WNxKLBo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/payroll/faq.md",
       "output": {
         ".html": {
           "relative_path": "articles/payroll/faq.html",
           "hash": "bnTMxijApVfNkP+K/H6i+Cy3FcTiwYjcwIKo8eD56gk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/payroll/images/PaySlipEmplCard001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/payroll/images/PaySlipEmplCard001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/payroll/images/PaySlipEmplCard002.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/payroll/images/PaySlipEmplCard002.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/payroll/images/PaySlipSetup001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/payroll/images/PaySlipSetup001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/payroll/images/PaySlipSetup002.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/payroll/images/PaySlipSetup002.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/payroll/images/PaySlipSetup003.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/payroll/images/PaySlipSetup003.png"
         }
       },
       "is_incremental": false,
@@ -505,6 +596,30 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/payroll/pay_slip_protect.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/payroll/pay_slip_protect.html",
+          "hash": "HlpXXPH4beVrQl0pD2ksSyh9r0WmHcdtRjkI8NNOvso="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/payroll/pay_slip_vacation_days.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/payroll/pay_slip_vacation_days.html",
+          "hash": "m+tXeNURCOce2MUKU3VrlWRojj9HWDc6QnoyHxUu6eM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/payroll/personnel_custom_document_fields.md",
       "output": {
         ".html": {
@@ -516,12 +631,24 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "articles/payroll/pfpis_residence.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/payroll/pfpis_residence.html",
+          "hash": "Tlbv+RhEHDwplywdlk+1/CGeM2K5ZWxiT5Kgq0tWWBE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "articles/payroll/toc.md",
       "output": {
         ".html": {
           "relative_path": "articles/payroll/toc.html",
-          "hash": "ocEbyj/VX2fjMltpJv9x/riOYASskGDWr11xpC9BxvE="
+          "hash": "8PKrmUMKUlMBd+j6To/CCOrvIMQTfK0N1Tk3g7Uioi4="
         }
       },
       "is_incremental": false,
@@ -898,7 +1025,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 35,
+          "total_file_count": 41,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

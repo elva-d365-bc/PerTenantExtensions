@@ -1,0 +1,254 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Apskats | Per Tenant Extensions </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Apskats | Per Tenant Extensions ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../.././images/elva_logo.jpg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h2 id="apskats">Apskats</h2>
+
+<p>Business Trip ir ELVA risinājums, kas paredzēts komandējuma dienas naudas automātiskai aprēķināšanai un nodošanai algu aprēķinam Dynamics 365 Business Central.</p>
+<p>Risinājums papildina personāla rīkojumu un algu funkcionalitāti. Komandējuma dienas nauda tiek aprēķināta pēc komandējuma valsts, kalendāro dienu skaita un prombūtnes iemeslam piesaistītās algas komponentes.</p>
+<h3 id="ko-nodrošina-">Ko nodrošina Business Trip?</h3>
+<p>Risinājums:</p>
+<ul>
+<li>ļauj katrai valstij vai reģionam norādīt komandējuma dienas naudas likmi;</li>
+<li>ļauj prombūtnes iemeslam piesaistīt komandējuma dienas naudas algas komponenti;</li>
+<li>personāla rīkojumā automātiski aprēķina komandējuma dienas naudas summu;</li>
+<li>izveido algas komponentes rindu rīkojuma darbiniekam;</li>
+<li>grāmatojot personāla rīkojumu, nodod komandējuma dienas naudu algu komponentu reģistram;</li>
+<li>saglabā komandējuma valsti darbinieka prombūtnes ierakstā;</li>
+<li>atceļot iegrāmatotu personāla rīkojumu, atceļ arī saistīto algas komponentes reģistra ierakstu.</li>
+</ul>
+<h3 id="aprēķina-princips">Aprēķina princips</h3>
+<p>Komandējuma dienas nauda tiek aprēķināta pēc formulas:</p>
+<p><code>Kalendāro dienu skaits × valsts komandējuma dienas naudas likme</code></p>
+<p>Piemērs: ja komandējums ilgst 4 kalendārās dienas un izvēlētās valsts dienas naudas likme ir 50 EUR, aprēķinātā summa ir 200 EUR.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Risinājums aprēķina komandējuma dienas naudu pēc norādītā kalendāro dienu skaita. Tas pats par sevi neveic likmes korekciju atkarībā no bezmaksas ēdināšanas, komandējuma ilguma, izbraukšanas vai atgriešanās laika un citiem uzņēmuma vai normatīvo aktu nosacījumiem.</p>
+</div>
+<h2 id="priekšnosacījumi">Priekšnosacījumi</h2>
+<p>Lai izmantotu risinājumu:</p>
+<ul>
+<li>jābūt instalētam ELVA risinājumam <strong>Latvijas Algas</strong>;</li>
+<li>jābūt instalētam ELVA risinājumam <strong>Personāla vadība</strong>;</li>
+<li>jābūt izveidotai algas komponentei komandējuma dienas naudas uzskaitei;</li>
+<li>jābūt izveidotam komandējumiem izmantojamam prombūtnes iemeslam;</li>
+<li>valstīm, uz kurām darbinieki tiek nosūtīti komandējumā, jānorāda dienas naudas likmes.</li>
+</ul>
+<h2 id="iestatīšana">Iestatīšana</h2>
+<h3 id="1-izveidojiet-algas-komponenti">1. Izveidojiet algas komponenti</h3>
+<p>Izveidojiet vai izvēlieties algas komponenti, kuru izmantos komandējuma dienas naudas nodošanai algu aprēķinam.</p>
+<p>Algas komponentes uzstādījumiem jāatbilst uzņēmuma algu aprēķina un grāmatošanas kārtībai. Business Trip izmanto norādīto komponentes kodu un aprēķināto summu, bet nemaina algas komponentes nodokļu un grāmatošanas uzstādījumus.</p>
+<h3 id="2-norādiet-algas-komponenti-prombūtnes-iemeslam">2. Norādiet algas komponenti prombūtnes iemeslam</h3>
+<ol>
+<li>Meklētājā ievadiet <strong>Prombūtnes iemesli</strong>.</li>
+<li>Atveriet komandējumiem izmantotā prombūtnes iemesla kartīti.</li>
+<li>Sadaļā <strong>Algas</strong> laukā <strong>Komand. dienu naudas algu komp. kods</strong> izvēlieties iepriekš sagatavoto algas komponenti.</li>
+</ol>
+<div class="IMPORTANT">
+<h5>Important</h5>
+<p>Ja prombūtnes iemeslam algas komponentes kods nav norādīts, komandējuma dienas nauda netiek aprēķināta un algas komponentes rinda netiek izveidota.</p>
+</div>
+<h3 id="3-norādiet-komandējuma-dienas-naudas-likmes">3. Norādiet komandējuma dienas naudas likmes</h3>
+<ol>
+<li>Meklētājā ievadiet <strong>Valstis/reģioni</strong>.</li>
+<li>Atrodiet nepieciešamo valsti vai reģionu.</li>
+<li>Laukā <strong>Komandējuma dienas nauda</strong> ievadiet vienas kalendārās dienas likmi.</li>
+<li>Atkārtojiet darbību visām komandējumiem izmantotajām valstīm.</li>
+</ol>
+<div class="IMPORTANT">
+<h5>Important</h5>
+<p>Likme tiek glabāta kā summa bez atsevišķa valūtas koda. Ievadiet to tajā valūtā, kurā uzņēmuma algu risinājumā jāaprēķina algas komponente.</p>
+</div>
+<p>Ja izvēlētajai valstij dienas naudas likme ir <code>0</code>, ievadot komandējuma vietu personāla rīkojumā, lietotājs saņem brīdinājumu. Rīkojuma ievadi tas automātiski neaptur.</p>
+<h2 id="komandējuma-rīkojuma-izveide">Komandējuma rīkojuma izveide</h2>
+<ol>
+<li>Izveidojiet jaunu personāla rīkojumu.</li>
+<li>Rīkojuma rindā izvēlieties notikuma tipu <strong>Prombūtne</strong>.</li>
+<li>Norādiet darbinieku.</li>
+<li>Laukā <strong>Prombūtnes kods</strong> izvēlieties komandējumiem sagatavoto prombūtnes iemeslu.</li>
+<li>Norādiet komandējuma sākuma un beigu datumu.</li>
+<li>Pārbaudiet aprēķināto kalendāro dienu skaitu.</li>
+<li>Laukā <strong>Komandējuma vieta</strong> izvēlieties valsti vai reģionu.</li>
+<li>Ja nepieciešams, norādiet dimensijas.</li>
+</ol>
+<p>Kad ir aizpildīts prombūtnes kods, komandējuma vieta un kalendāro dienu skaits, sistēma izveido rīkojuma algas komponentes rindu ar:</p>
+<ul>
+<li>rīkojuma darbinieku;</li>
+<li>komandējuma dienas naudas algas komponentes kodu;</li>
+<li>slodzi <code>1</code>;</li>
+<li>komandējuma sākuma un beigu datumu;</li>
+<li>rīkojuma rindas dimensijām;</li>
+<li>aprēķināto komandējuma dienas naudas summu.</li>
+</ul>
+<h3 id="automātiska-pārrēķināšana">Automātiska pārrēķināšana</h3>
+<p>Algas komponentes rinda tiek izveidota vai pārrēķināta, ja maināt:</p>
+<ul>
+<li>prombūtnes kodu;</li>
+<li>kalendāro dienu skaitu;</li>
+<li>komandējuma vietu.</li>
+</ul>
+<p>Pirms jaunās rindas izveides sistēma dzēš iepriekšējās ar attiecīgo rīkojuma rindu saistītās algas komponentes rindas.</p>
+<div class="CAUTION">
+<h5>Caution</h5>
+<p>Ja rīkojuma algas komponentes rindai manuāli veiktas izmaiņas, prombūtnes koda, kalendāro dienu skaita vai komandējuma vietas maiņa tās var pārrakstīt, jo rinda tiek izveidota no jauna.</p>
+</div>
+<h2 id="personāla-rīkojuma-grāmatošana">Personāla rīkojuma grāmatošana</h2>
+<p>Grāmatojot rīkojumu, sistēma:</p>
+<ol>
+<li>pārbauda, vai par attiecīgo periodu jau nav veikts algu aprēķins, kas nepieļauj izmaiņas;</li>
+<li>izveido darbinieka prombūtnes ierakstu;</li>
+<li>saglabā prombūtnes ierakstā komandējuma valsts vai reģiona kodu;</li>
+<li>izveido komandējuma dienas naudas algas komponentes reģistra ierakstu.</li>
+</ol>
+<p>Ja rīkojuma periods tiek sadalīts vairākos darbinieka prombūtnes ierakstos, kopējā komandējuma dienas naudas summa tiek sadalīta proporcionāli katra prombūtnes ieraksta kalendāro dienu skaitam.</p>
+<p>Piemērs: ja 4 dienu komandējuma kopējā dienas nauda ir 200 EUR un grāmatošanas rezultātā periods tiek sadalīts 3 un 1 dienā, reģistrā tiek izveidotas summas 150 EUR un 50 EUR.</p>
+<h2 id="iegrāmatota-rīkojuma-atcelšana">Iegrāmatota rīkojuma atcelšana</h2>
+<p>Atceļot iegrāmatotu personāla rīkojumu, sistēma atceļ arī ar rīkojuma rindu saistīto algas komponentes reģistra ierakstu.</p>
+<p>Pirms atcelšanas pārliecinieties, ka attiecīgā perioda algu aprēķina statuss pieļauj izmaiņas.</p>
+<h2 id="lietošanas-scenārijs">Lietošanas scenārijs</h2>
+<h3 id="komandējuma-dienas-naudas-aprēķins">Komandējuma dienas naudas aprēķins</h3>
+<p><strong>Situācija:</strong> darbinieks dodas četru dienu komandējumā uz valsti, kuras dienas naudas likme ir 50 EUR.</p>
+<p><strong>Iestatījumi:</strong></p>
+<ul>
+<li>valstij laukā <strong>Komandējuma dienas nauda</strong> norādīti 50 EUR;</li>
+<li>komandējuma prombūtnes iemeslam norādīta dienas naudas algas komponente.</li>
+</ul>
+<p><strong>Darbības:</strong></p>
+<ol>
+<li>Personāla rīkojuma rindā norādiet darbinieku un komandējuma prombūtnes kodu.</li>
+<li>Ievadiet komandējuma periodu ar 4 kalendārajām dienām.</li>
+<li>Izvēlieties komandējuma valsti.</li>
+<li>Pārbaudiet izveidoto algas komponentes rindu un summu 200 EUR.</li>
+<li>Iegrāmatojiet personāla rīkojumu.</li>
+</ol>
+<p><strong>Rezultāts:</strong> darbinieka prombūtnes ierakstā ir saglabāta komandējuma valsts, un algu komponentu reģistrā ir nodota komandējuma dienas naudas summa 200 EUR.</p>
+<h2 id="biežāk-uzdotie-jautājumi">Biežāk uzdotie jautājumi</h2>
+<p><strong>Jautājums:</strong> Kāpēc komandējuma dienas naudas rinda netika izveidota?<br>
+<strong>Atbilde:</strong> Pārbaudiet, vai rīkojuma rindas notikuma tips ir <strong>Prombūtne</strong>, ir izvēlēts derīgs prombūtnes kods, norādīta komandējuma vieta, kalendāro dienu skaits nav <code>0</code>, prombūtnes iemeslam ir norādīts algas komponentes kods un valstij ir norādīta dienas naudas likme.</p>
+<p><strong>Jautājums:</strong> Kāpēc, izvēloties valsti, parādās paziņojums, ka summa ir 0?<br>
+<strong>Atbilde:</strong> Izvēlētajai valstij vai reģionam laukā <strong>Komandējuma dienas nauda</strong> nav norādīta likme. Atveriet sarakstu <strong>Valstis/reģioni</strong> un aizpildiet likmi.</p>
+<p><strong>Jautājums:</strong> Kāpēc pēc rīkojuma lauku maiņas pazuda manuāli koriģētā algas komponentes summa?<br>
+<strong>Atbilde:</strong> Mainot prombūtnes kodu, kalendāro dienu skaitu vai komandējuma vietu, risinājums dzēš iepriekšējo saistīto algas komponentes rindu un aprēķina to no jauna.</p>
+<p><strong>Jautājums:</strong> Kāpēc summa algas komponentu reģistrā sadalīta vairākās daļās?<br>
+<strong>Atbilde:</strong> Ja grāmatošanas laikā komandējuma periods tiek sadalīts vairākos prombūtnes ierakstos, summa tiek sadalīta proporcionāli katra ieraksta kalendāro dienu skaitam.</p>
+<p><strong>Jautājums:</strong> Vai risinājums pats nosaka normatīvajos aktos noteikto dienas naudas likmi?<br>
+<strong>Atbilde:</strong> Nē. Likmes lietotājs uztur sarakstā <strong>Valstis/reģioni</strong>. Uzņēmums pats atbild par likmju aktualitāti un piemērošanas nosacījumiem.</p>
+<p><strong>Jautājums:</strong> Vai dažādām valstīm var norādīt atšķirīgas likmes?<br>
+<strong>Atbilde:</strong> Jā. Lauks <strong>Komandējuma dienas nauda</strong> tiek aizpildīts katrai valstij vai reģionam atsevišķi.</p>
+<p><strong>Jautājums:</strong> Vai vienam prombūtnes iemeslam var izmantot vairākas dienas naudas algas komponentes?<br>
+<strong>Atbilde:</strong> Nē. Vienam prombūtnes iemeslam var norādīt vienu komandējuma dienas naudas algas komponentes kodu. Ja nepieciešami atšķirīgi algu uzskaites principi, izveidojiet atsevišķus prombūtnes iemeslus.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/elva-bc-projects/Per-Tenant-Extensions/_git/Per-Tenant-Extensions-Help?path=lv-LV/articles/payroll/business_trip.md&amp;version=GBmaster&amp;line=1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © ELVA BALTIC
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

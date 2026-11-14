@@ -1,0 +1,302 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Apskats | Per Tenant Extensions </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Apskats | Per Tenant Extensions ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../.././images/elva_logo.jpg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h2 id="apskats">Apskats</h2>
+
+<p>Pay Slip Protect ir ELVA risinājums, kas integrēts ar Dynamics 365 Business Central.</p>
+<p><strong>Mērķis:</strong> aizsargāt darbiniekam e-pastā nosūtīto algas lapiņas PDF failu ar paroli un samazināt algas datu noplūdes risku, ja pielikums nonāk pie neatļautas personas.</p>
+<h3 id="kas-ir-">Kas ir Pay Slip Protect?</h3>
+<p>Nosūtot algas lapiņu no Dynamics 365 Business Central, risinājums:</p>
+<ul>
+<li>aizsargā vienam darbiniekam sagatavoto algas lapiņas PDF failu ar paroli;</li>
+<li>nosūta aizsargāto PDF algas lapiņas saņēmējiem;</li>
+<li>pēc veiksmīgas algas lapiņas nosūtīšanas nosūta paroli atsevišķā e-pastā;</li>
+<li>atkarībā no iestatījumiem katrai nosūtīšanai izveido jaunu paroli vai izmanto periodisku darbinieka paroli;</li>
+<li>ļauj paroles e-pastu nosūtīt algas lapiņas saņēmējiem vai uz darbinieka privāto e-pastu.</li>
+</ul>
+<div class="IMPORTANT">
+<h5>Important</h5>
+<p>Ar individuālu paroli tiek aizsargāta algas lapiņa, kas sagatavota vienam darbiniekam. Vairāku darbinieku algas lapiņas, kas manuāli apvienotas vienā PDF failā, netiek aizsargātas.</p>
+</div>
+<h3 id="nosacījumi-un-ierobežojumi">Nosacījumi un ierobežojumi</h3>
+<ul>
+<li>Jābūt instalētam ELVA risinājumam <strong>Latvijas Algas</strong>.</li>
+<li>Dynamics 365 Business Central vidē jābūt iestatītam e-pasta kontam algas lapiņu un paroļu nosūtīšanai.</li>
+<li>Periodiskās paroles tiek glabātas šifrētā <strong>Isolated Storage</strong> krātuvē.</li>
+<li>Politikā <strong>Periodiska katram darbiniekam</strong> pirms lietošanas jāaktivizē lietojumprogrammas datu šifrēšana.</li>
+<li>Risinājums nenodrošina paroles nosūtīšanu ar SMS vai citu ārēju kanālu.</li>
+<li>Risinājums neaizsargā jau iepriekš izveidotus PDF failus.</li>
+</ul>
+<h2 id="iestatīšana">Iestatīšana</h2>
+<h3 id="kā-atrast-iestatījumus">Kā atrast iestatījumus</h3>
+<ul>
+<li>Meklētājā ievadiet <strong>Algu uzstādījumi</strong> un atveriet lapu.</li>
+<li>Atrodiet grupu <strong>Algas lapiņas aizsardzība</strong>.</li>
+</ul>
+<p><a href="images/PaySlipSetup001.png" target="_blank" title="Algas lapiņas aizsardzības iestatījumi"><img src="images/PaySlipSetup001.png" alt="Algas lapiņas aizsardzības iestatījumi"></a></p>
+<h3 id="paroles-politikas-izvēle">Paroles politikas izvēle</h3>
+<p>Laukā <strong>Algas lapiņas paroles politika</strong> izvēlieties vienu no iespējām:</p>
+<table>
+<tr><th>Vērtība</th><th>Apraksts</th></tr>
+<tr><td><strong>Atspējota</strong></td><td>Algas lapiņu PDF faili netiek aizsargāti, un paroles e-pasts netiek nosūtīts.</td></tr>
+<tr><td><strong>Jauna katram e-pastam</strong></td><td>Katras algas lapiņas nosūtīšanai tiek ģenerēta jauna parole. Paroles e-pasts tiek nosūtīts pēc veiksmīgas PDF e-pasta nosūtīšanas.</td></tr>
+<tr><td><strong>Periodiska katram darbiniekam</strong></td><td>Katram darbiniekam tiek izmantota droši saglabāta parole. Jauna parole tiek izveidota, ja paroles vēl nav vai ir beidzies tās atjaunošanas periods.</td></tr>
+</table>
+<p><a href="images/PaySlipSetup002.png" target="_blank" title="Algas lapiņas paroles politika un e-pasta veidnes"><img src="images/PaySlipSetup002.png" alt="Algas lapiņas paroles politika un e-pasta veidnes"></a></p>
+<h3 id="periodiskās-paroles-priekšnosacījums--datu-šifrēšana">Periodiskās paroles priekšnosacījums — datu šifrēšana</h3>
+<p>Politikā <strong>Periodiska katram darbiniekam</strong> parole tiek saglabāta šifrētā <strong>Isolated Storage</strong> krātuvē. Tādēļ vidē jābūt aktivizētai Dynamics 365 Business Central lietojumprogrammas datu šifrēšanai.</p>
+<h4 id="-online-saas">Dynamics 365 Business Central Online (SaaS)</h4>
+<p>Online vidē šifrēšanas infrastruktūru pārvalda Microsoft. Parasti papildu servera mapju vai pakalpojuma konta failu tiesību konfigurēšana nav nepieciešama. Atveriet lapu <strong>Datu šifrēšanas pārvaldība</strong> un pārbaudiet, vai šifrēšana ir iespējota.</p>
+<h4 id="-on-premises">Dynamics 365 Business Central On-premises</h4>
+<p>On-premises vidē uzņēmums pats pārvalda lietojumprogrammas šifrēšanas atslēgu.</p>
+<ol>
+<li>Meklētājā ievadiet <strong>Datu šifrēšanas pārvaldība</strong> vai <strong>Data Encryption Management</strong>.</li>
+<li>Atveriet lapu un izvēlieties <strong>Iespējot šifrēšanu</strong>.</li>
+<li>Izpildiet ekrānā redzamos norādījumus.</li>
+<li>Eksportējiet šifrēšanas atslēgas rezerves kopiju, aizsargājiet to ar paroli un glabājiet atslēgas failu un paroli drošā vietā.</li>
+<li>Ja videi ir vairākas servera instances, izmantojiet vienu kopīgu atslēgu un importējiet to pārējās instancēs.</li>
+</ol>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Atsevišķa pastāvīga mape uz servera šī risinājuma darbībai nav jāveido. Failu sistēmas tiesības var būt nepieciešamas tikai tad, ja konkrētajā on-premises instalācijā atslēgas ģenerēšanas, importa vai eksporta laikā Dynamics 365 Business Central servera pakalpojuma konts nevar piekļūt izmantotajai pagaidu vai atslēgas faila atrašanās vietai. Tā ir vides administrēšanas problēma, nevis Pay Slip Protect ikdienas prasība.</p>
+</div>
+<p>Ja šifrēšana nav aktivizēta, periodiskās paroles ģenerēšana vai manuāla iestatīšana var beigties ar kļūdu, ka darbībai nepieciešama šifrēšanas atslēga.</p>
+<h3 id="vispārīgie-iestatījumi">Vispārīgie iestatījumi</h3>
+<p>Ja paroles politika nav <strong>Atspējota</strong>, aizpildiet laukus:</p>
+<table>
+<tr><th>Lauks</th><th>Apraksts</th></tr>
+<tr><td><strong>Ģenerētās paroles garums</strong></td><td>Automātiski ģenerētās paroles garums un minimālais manuāli ievadītās paroles garums. Atļauts no 16 līdz 50 rakstzīmēm; noklusējums ir 20.</td></tr>
+<tr><td><strong>Noklusētā paroles piegāde</strong></td><td>Nosaka, vai paroles pēc noklusējuma sūta algas lapiņas saņēmējiem vai uz darbinieka privāto e-pastu.</td></tr>
+<tr><td><strong>Paroles atjaunošanas periods</strong></td><td>Pieejams periodiskajai politikai. Norāda paroles derīguma periodu, piemēram, <code>&lt;1M&gt;</code> vienam mēnesim.</td></tr>
+</table>
+<p>Izvēloties politiku <strong>Periodiska katram darbiniekam</strong>, tukšam paroles atjaunošanas periodam automātiski tiek piešķirta vērtība <code>&lt;1M&gt;</code>.</p>
+<p><a href="images/PaySlipSetup003.png" target="_blank" title="Periodiskās paroles iestatījumi"><img src="images/PaySlipSetup003.png" alt="Periodiskās paroles iestatījumi"></a></p>
+<h3 id="paroles-piegādes-veids">Paroles piegādes veids</h3>
+<p>Laukā <strong>Noklusētā paroles piegāde</strong> izvēlieties:</p>
+<ul>
+<li><strong>Algas lapiņas saņēmēji</strong> — paroles e-pasts tiek nosūtīts tiem pašiem saņēmējiem, kuri saņem algas lapiņu;</li>
+<li><strong>Darbinieka privātais e-pasts</strong> — paroles e-pasts tiek nosūtīts uz darbinieka kartītes standarta laukā <strong>E-pasts</strong> norādīto adresi.</li>
+</ul>
+<p>Darbinieka kartītē uzņēmuma noklusējumu var mainīt konkrētam darbiniekam.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Ja izvēlēta nosūtīšana uz privāto e-pastu, bet darbinieka kartītē lauks <strong>E-pasts</strong> nav aizpildīts, parole tiek nosūtīta algas lapiņas saņēmējiem. Algas lapiņas nosūtīšana netiek apturēta.</p>
+</div>
+<h2 id="e-pasta-veidnes">E-pasta veidnes</h2>
+<p>Algu uzstādījumos var konfigurēt atsevišķu tēmu un tekstu algas lapiņas e-pastam un paroles e-pastam. Abiem e-pastiem var norādīt, vai teksts ir HTML formātā.</p>
+<h3 id="aizvietotāji">Aizvietotāji</h3>
+<table>
+<tr><th>Aizvietotājs</th><th>Vērtība</th></tr>
+<tr><td><code>%1</code></td><td>Darbinieka pilnais vārds</td></tr>
+<tr><td><code>%2</code></td><td>Algas lapiņas gads</td></tr>
+<tr><td><code>%3</code></td><td>Algas lapiņas mēnesis ciparos, piemēram, 11</td></tr>
+<tr><td><code>%4</code></td><td>Parole; izmantojama paroles e-pasta veidnē</td></tr>
+<tr><td><code>%5</code></td><td>Algas lapiņas mēneša nosaukums vārdos</td></tr>
+</table>
+<p>Piemērs algas lapiņas e-pasta tēmai: <code>Algas lapiņa par %5, %2</code><br>
+Piemērs paroles e-pasta tekstam: <code>Labdien, %1! Jūsu %5 %2 algas lapiņas parole ir: %4</code></p>
+<div class="IMPORTANT">
+<h5>Important</h5>
+<p>Aizvietotājs <code>%5</code> izmanto tā Dynamics 365 Business Central lietotāja vai sesijas valodu, kas nosūta algas lapiņu, nevis darbinieka individuālo valodu.</p>
+</div>
+<p>Lapas <strong>Algu uzstādījumi</strong> FactBox sadaļā <strong>E-pasta veidnes priekšskatījums</strong> ir redzams abu e-pastu piemērs un pieejamo aizvietotāju skaidrojums. Priekšskatījums tiek atjaunināts, rediģējot veidnes.</p>
+<h2 id="darbinieka-iestatījumi">Darbinieka iestatījumi</h2>
+<h3 id="kā-atrast">Kā atrast</h3>
+<ul>
+<li>Atveriet nepieciešamā darbinieka kartīti.</li>
+<li>Atrodiet grupu <strong>Algas lapiņas aizsardzība</strong>.</li>
+</ul>
+<p>Grupa ir redzama, ja Algu uzstādījumos paroles politika nav <strong>Atspējota</strong>.</p>
+<p><a href="images/PaySlipEmplCard001.png" target="_blank" title="Algas lapiņas aizsardzība darbinieka kartītē"><img src="images/PaySlipEmplCard001.png" alt="Algas lapiņas aizsardzība darbinieka kartītē"></a></p>
+<table>
+<tr><th>Lauks</th><th>Apraksts</th></tr>
+<tr><td><strong>Paroles piegāde</strong></td><td>Ļauj izmantot uzņēmuma noklusējumu vai izvēlēties algas lapiņas saņēmējus vai privāto e-pastu. Tukša vērtība nozīmē, ka izmanto Algu uzstādījumu noklusējumu.</td></tr>
+<tr><td><strong>Nosūtīts algas lapiņas saņēmējiem (trūkst privātā e-pasta)</strong></td><td>Norāda, ka bija paredzēta piegāde uz privāto e-pastu, bet adrese nebija norādīta un parole nosūtīta algas lapiņas saņēmējiem.</td></tr>
+<tr><td><strong>Algas lapiņas parole iestatīta</strong></td><td>Norāda, ka darbiniekam ir droši saglabāta periodiskā parole.</td></tr>
+<tr><td><strong>Gaida paroles paziņojumu</strong></td><td>Norāda, ka periodiskā parole ir izveidota vai mainīta, bet vēl nav nosūtīta.</td></tr>
+<tr><td><strong>Algas lapiņas parole mainīta</strong></td><td>Parāda periodiskās paroles pēdējās izveides vai maiņas datumu un laiku.</td></tr>
+</table>
+<h2 id="periodiskās-paroles-pārvaldība">Periodiskās paroles pārvaldība</h2>
+<p>Ja izvēlēta politika <strong>Periodiska katram darbiniekam</strong>, darbinieka kartītē ir pieejamas darbības:</p>
+<ul>
+<li><strong>Ģenerēt algas lapiņas paroli</strong> — izveido drošu paroli, glabā to šifrēti un atzīmē nosūtīšanai kopā ar nākamo algas lapiņu;</li>
+<li><strong>Iestatīt algas lapiņas paroli</strong> — ļauj divreiz ievadīt darbiniekam zināmu paroli;</li>
+<li><strong>Notīrīt algas lapiņas paroli</strong> — dzēš periodisko paroli un paroles statusu. Nākamajā nosūtīšanā sistēma izveido jaunu paroli.</li>
+</ul>
+<p><a href="images/PaySlipEmplCard002.png" target="_blank" title="Periodiskās paroles pārvaldības darbības"><img src="images/PaySlipEmplCard002.png" alt="Periodiskās paroles pārvaldības darbības"></a></p>
+<p>Manuālajai parolei:</p>
+<ul>
+<li>jāsasniedz Algu uzstādījumos norādītais minimālais garums;</li>
+<li>jāsatur lielais burts, mazais burts, cipars un speciālā rakstzīme;</li>
+<li>abos dialoga laukos jābūt ievadītai vienādai vērtībai.</li>
+</ul>
+<h2 id="lietošanas-scenāriji">Lietošanas scenāriji</h2>
+<h3 id="1-scenārijs--jauna-parole-katrai-algas-lapiņai">1. scenārijs — Jauna parole katrai algas lapiņai</h3>
+<p><strong>Situācija:</strong> katrai nosūtīšanai nepieciešama unikāla parole.</p>
+<p><strong>Soļi:</strong></p>
+<ul>
+<li>Algu uzstādījumos izvēlieties <strong>Jauna katram e-pastam</strong>.</li>
+<li>Norādiet paroles garumu un aizpildiet e-pasta veidnes.</li>
+<li>Nosūtiet darbiniekam algas lapiņu.</li>
+</ul>
+<p><strong>Rezultāts:</strong> darbinieks saņem e-pastu ar aizsargātu PDF un atsevišķu e-pastu ar paroli. Atkārtotā nosūtīšanā tiek izveidota cita parole.</p>
+<h3 id="2-scenārijs--periodiska-parole-darbiniekam">2. scenārijs — Periodiska parole darbiniekam</h3>
+<p><strong>Situācija:</strong> darbiniekam noteiktu periodu jāizmanto viena parole.</p>
+<p><strong>Soļi:</strong></p>
+<ul>
+<li>Pārliecinieties, ka vidē ir aktivizēta datu šifrēšana.</li>
+<li>Algu uzstādījumos izvēlieties <strong>Periodiska katram darbiniekam</strong>.</li>
+<li>Norādiet paroles garumu un atjaunošanas periodu, piemēram, <code>&lt;1M&gt;</code>.</li>
+<li>Nosūtiet darbiniekam algas lapiņu.</li>
+</ul>
+<p><strong>Rezultāts:</strong> ja paroles nav, sistēma to izveido un nosūta. Turpmāk izmanto to pašu paroli līdz perioda beigām. Paroles e-pasts atkārtoti netiek sūtīts, kamēr parole nav mainīta.</p>
+<h3 id="3-scenārijs--parole-uz-darbinieka-privāto-e-pastu">3. scenārijs — Parole uz darbinieka privāto e-pastu</h3>
+<ul>
+<li>Darbinieka kartītē aizpildiet standarta lauku <strong>E-pasts</strong>.</li>
+<li>Laukā <strong>Paroles piegāde</strong> izvēlieties <strong>Darbinieka privātais e-pasts</strong>.</li>
+<li>Nosūtiet algas lapiņu.</li>
+</ul>
+<p><strong>Rezultāts:</strong> PDF saņem algas lapiņas saņēmēji, bet paroles e-pasts tiek nosūtīts uz darbinieka privāto e-pastu.</p>
+<h3 id="4-scenārijs--privātais-e-pasts-nav-norādīts">4. scenārijs — Privātais e-pasts nav norādīts</h3>
+<p>Ja paredzēta piegāde uz privāto e-pastu, bet adrese nav norādīta, parole tiek nosūtīta algas lapiņas saņēmējiem. Darbinieka kartītē tiek atzīmēts lauks <strong>Nosūtīts algas lapiņas saņēmējiem (trūkst privātā e-pasta)</strong>. Pēc adreses aizpildīšanas un nākamās sekmīgās nosūtīšanas atzīme tiek noņemta automātiski.</p>
+<h3 id="5-scenārijs--manuāli-iestatīta-parole">5. scenārijs — Manuāli iestatīta parole</h3>
+<ul>
+<li>Pārliecinieties, ka izvēlēta politika <strong>Periodiska katram darbiniekam</strong>.</li>
+<li>Darbinieka kartītē izvēlieties <strong>Iestatīt algas lapiņas paroli</strong>.</li>
+<li>Divreiz ievadiet prasībām atbilstošu paroli.</li>
+<li>Nosūtiet algas lapiņu.</li>
+</ul>
+<p><strong>Rezultāts:</strong> PDF ir aizsargāts ar manuāli norādīto paroli. Pēc sekmīgas paroles e-pasta nosūtīšanas atzīme <strong>Gaida paroles paziņojumu</strong> tiek noņemta.</p>
+<h2 id="biežāk-uzdotie-jautājumi">Biežāk uzdotie jautājumi</h2>
+<p><strong>Jautājums:</strong> PDF fails nav aizsargāts ar paroli.<br>
+<strong>Atbilde:</strong> Pārbaudiet, vai paroles politika nav <strong>Atspējota</strong>, algas lapiņa tiek sūtīta vienam darbiniekam un tiek izmantota standarta algas lapiņas e-pasta nosūtīšanas plūsma.</p>
+<p><strong>Jautājums:</strong> Paroles e-pasts netika nosūtīts.<br>
+<strong>Atbilde:</strong> Paroles e-pasts tiek sūtīts tikai pēc veiksmīgas PDF e-pasta nosūtīšanas. Periodiskajā politikā tas tiek sūtīts tikai pēc paroles izveides vai maiņas. Pārbaudiet arī e-pasta konta iestatījumus un saņēmēja adresi.</p>
+<p><strong>Jautājums:</strong> Kāpēc periodiskajā režīmā katru reizi nesaņemu paroles e-pastu?<br>
+<strong>Atbilde:</strong> Kamēr periodiskā parole ir derīga un nav mainīta, nākamajām algas lapiņām izmanto to pašu paroli un atkārtotu paziņojumu nesūta.</p>
+<p><strong>Jautājums:</strong> Kāpēc parole nosūtīta algas lapiņas saņēmējiem, nevis uz privāto e-pastu?<br>
+<strong>Atbilde:</strong> Pārbaudiet darbinieka kartītes laukus <strong>E-pasts</strong> un <strong>Paroles piegāde</strong>. Ja privātā adrese nav aizpildīta, sistēma izmanto algas lapiņas saņēmējus un atzīmē atkāpšanās statusu.</p>
+<p><strong>Jautājums:</strong> Manuāli ievadīto paroli nevar saglabāt.<br>
+<strong>Atbilde:</strong> Abām ievadītajām parolēm jāsakrīt. Parolei jāsasniedz minimālais garums un jāsatur lielais burts, mazais burts, cipars un speciālā rakstzīme.</p>
+<p><strong>Jautājums:</strong> Parādās kļūda, ka nepieciešama šifrēšanas atslēga.<br>
+<strong>Atbilde:</strong> Aktivizējiet lietojumprogrammas datu šifrēšanu lapā <strong>Datu šifrēšanas pārvaldība</strong>. On-premises vidē šifrēšanas atslēgas rezerves kopija un tās parole jāglabā drošā vietā.</p>
+<p><strong>Jautājums:</strong> Paroles e-pastu nevar nosūtīt uz ārēju adresi.<br>
+<strong>Atbilde:</strong> Pārbaudiet Microsoft 365 vai Exchange Online e-pasta savienojuma konfigurāciju. Kļūda <code>5.7.54 Unable to relay recipient in non-accepted domain</code> norāda, ka savienojumam nav atļauts sūtīt uz attiecīgo ārējo domēnu.</p>
+<p><strong>Jautājums:</strong> Vai paroli var apskatīt darbinieka kartītē?<br>
+<strong>Atbilde:</strong> Nē. Periodiskā parole tiek glabāta šifrētā Isolated Storage krātuvē. Ja tā ir pazaudēta, ģenerējiet vai iestatiet jaunu paroli.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/elva-bc-projects/Per-Tenant-Extensions/_git/Per-Tenant-Extensions-Help?path=lv-LV/articles/payroll/pay_slip_protect.md&amp;version=GBmaster&amp;line=1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © ELVA BALTIC
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
