@@ -529,6 +529,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "articles/payroll/images/PaySlipSetup000.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/payroll/images/PaySlipSetup000.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "articles/payroll/images/PaySlipSetup001.png",
       "output": {
         "resource": {
@@ -600,7 +611,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/payroll/pay_slip_protect.html",
-          "hash": "HlpXXPH4beVrQl0pD2ksSyh9r0WmHcdtRjkI8NNOvso="
+          "hash": "lqiwn8iNCudED/FtiwJ+RLq6lphdxCrK4TXKxJ0FHYM="
         }
       },
       "is_incremental": false,
