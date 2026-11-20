@@ -606,12 +606,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "articles/payroll/pay_slip_protect.md",
       "output": {
         ".html": {
           "relative_path": "articles/payroll/pay_slip_protect.html",
-          "hash": "g3C4ltX1gTKxMDAo/IL7CXgPV/yInry82ZDfVHShDwQ="
+          "hash": "BbrnUxbuVCrtvbJ56D79yCTOi1962vHiNGoNR0cwL+I="
         }
       },
       "is_incremental": false,
